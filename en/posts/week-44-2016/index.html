@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html class="page page_en" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Week 44, 2016</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <link  rel="stylesheet" href="/desktop.bundles/index/index.min.css" />
+    <script>
+    (function(d, s, l, r) {
+    if (typeof(s) !== 'undefined' && l.getItem('varya.me.fonts')) {
+        r = [
+            '<style>',
+            l.getItem('varya.me.fonts'),
+            '</style>'
+        ];
+        document.write(r.join(''));
+    }
+
+    })(document, Storage, localStorage);
+  </script>
+  <meta content='TODO: Description
+' property="og:description"/><meta content="Week 44, 2016" property="og:title"/><meta content="http://varya.me/en/posts/week-44-2016/" property="og:url"/><meta property="og:site_name" content="var ya;"/><meta property="og:type" content="article"/><meta property="og:locale" content="en_US"/> <meta property="article:author" content="https://www.facebook.com/toivonens"/>
+</head>
+<body class="page page__body">
+    <header class="header">
+        <div class="header__left candies i-bem"
+            data-bem='{ "candies" : { "size" : { "max" : 28, "min" : 12 }, "reverse" : true } }'></div>
+        <div class="header__center">
+            <logo class="logo"><span class="logo__dots">···</span><b class="var">var</b>·<b class="ya">ya</b>;<b class="cursor"></b></logo>
+        </div>
+        <div class="header__right candies i-bem"
+            data-bem='{ "candies" : { "size" : { "max" : 28, "min" : 12 } } }'></div>
+    </header>
+    <div class="layout">
+        <section class="main">
+            <ul class="languages">
+            
+                <li class="languages__lang">
+                    
+                        en
+                    
+                </li>
+                
+                <li class="languages__lang">
+                    
+                    <a href="/ru/">
+                        ru
+                    </a>
+                    
+                </li>
+                
+            </ul>
+            <div class="article" role="main">
+    <div class="article__body box__body">
+        <h1 class="article__header">
+            Week 44, 2016
+        </h1>
+    </div>
+    <div class="article__text box__island">
+        <script type="text/javascript" src="//yandex.st/share/share.js"
+        charset="utf-8"></script>
+        <div class="share yashare-auto-init" data-yashareL10n="{{ lang }}"
+            data-yashareQuickServices="twitter,facebook,gplus" data-yashareTheme="counter"
+        ></div>
+        <span class="article__details author vcard">
+            Published on
+            8th November 2016
+        </span>
+        <p>First thing first, I&#39;m staring weekly posts about findings that are somehow related to work. This is a mature but not yet
+implemented idea. Although, a friend of mine <a href="https://iamstarkov.com/">Vladimir Starkov sometimes practises the same</a>.</p>
+<p>In this issue there are tips on organizing Google Calendar, nice project management addition for GitHub, Styleguide
+solutions for React projects and a couple of good reads.</p>
+<excerpt/>
+
+
+<h2 id="week-numbers-in-google-calendar">Week numbers in Google calendar</h2>
+<p>In Finland, the week numbers are widely used. People easily make agreements on let&#39;s say &quot;the beginning on week 45&quot;. For
+this purpose and also for the actual weekly reports, I have subscribed for a special Google calendar
+which provides a small week number at the top right corner or every monday.</p>
+<p><img src="/posts/week-44-2016/CalendarWeekNumbers3.png" alt=""></p>
+<p>Here are the instructions:
+<a href="http://www.daimto.com/how-to-add-week-numbers-to-your-google-calendar/">http://www.daimto.com/how-to-add-week-numbers-to-your-google-calendar/</a>.</p>
+<h2 id="zenhub-a-github-issue-tracker">ZenHub — a GitHub issue tracker</h2>
+<p><a href="https://www.zenhub.com/">ZenHub</a> is an add-on, which makes different boards with columns on top of GitHub issues.</p>
+<p><img src="/posts/week-44-2016/zenhub-task-board.jpg" alt=""></p>
+<p>It looks like a competitor of embedded <a href="https://github.com/blog/2256-a-whole-new-github-universe-announcing-new-tools-forums-and-features">GitHub
+Projects</a> but with
+more features.</p>
+<h2 id="react-storybook-and-react-styleguidist">React Storybook and React Styleguidist</h2>
+<p>In the project I have started on Monday, we faced the need to document React components. There were two candidates
+among the tools to use — <a href="https://getstorybook.io/">React Storybook</a> and <a href="https://github.com/sapegin/react-styleguidist">React
+Styleguidist</a>. Both with their pros and cons.</p>
+<p>By now, we ended up with Styleguidist. Anyway, this is not a mature solution, and we can probably think back.</p>
+<p>The Storybook was super easy to install. However, it requires more typing for every story and does not read the props out
+of the documenting comments.</p>
+<p>The Styleguidist was a tricky thing to run. Everything goes smoothly at simple projects but this was not our case. There
+were some difficulties with the pages wrapped into <code>react-hot-loader</code> container. I solved it by introducing proper file
+structure. We should have it anyway. Now, there is a dedicated folder for the components and we taught the Styleguidist
+to work with it.</p>
+<p>As a piece of advice to friends, I can give the following: try to reuse your normal webpack config and not to write another one
+in the <code>styleguide.config.js</code> file. It will save you some time when changing the building process. This is our version:</p>
+<pre class="highlight"><code class="hljs lua">const siteWebpack = <span class="hljs-built_in">require</span>(<span class="hljs-string">"./webpack.config.js"</span>);
+
+<span class="hljs-built_in">module</span>.exports = {
+  title: <span class="hljs-string">'My Great Style Guide'</span>,
+  components: <span class="hljs-string">'./src/components/**/*.jsx'</span>,
+  updateWebpackConfig(webpackConfig) {
+    siteWebpack.<span class="hljs-built_in">module</span>.loaders.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(loader)</span></span> {
+      webpackConfig.<span class="hljs-built_in">module</span>.loaders.push(loader);
+    });
+    webpackConfig.postcss = siteWebpack.postcss;
+
+    <span class="hljs-keyword">return</span> webpackConfig;
+  },
+};
+</code></pre><h2 id="how-to-write-a-git-commit-message">How to Write a Git Commit Message</h2>
+<p>The article <a href="http://chris.beams.io/posts/git-commit/">How to Write a Git Commit Message</a> by Chris Beams has already
+turned 2 years but still actual. I have read it previously and try to follow. But I do not recollect me shring the link
+to it. So, here it is.</p>
+<h2 id="4-different-kinds-of-react-component-style">4 different kinds of React component style</h2>
+<p>Setting up a new project I have scanned a lot of recent articles about React. One of them is <a href="https://www.peterbe.com/plog/4-different-kinds-of-react-component-styles">4 different kinds of React
+component style</a>. I had doubts if to put it in
+this blog post or not because it did not tell me much new. On the other hand, it&#39;s not a long read and finely summarizes
+different kinds of React components.</p>
+
+    </div>
+    <div class="comments">
+        <div class="comments__box box__body">
+            <h4 class="comments__header">
+                Comments
+            </h4>
+        </div>
+        <div class="comments__body box__island">
+            
+              
+                  <div id="disqus_thread"></div>
+<script>
+	(function(){
+		window.disqus_shortname = 'varya';
+		window.disqus_developer = '1';
+		window.disqus_url = 'http://varya.me//en/posts/week-44-2016';
+		window.disqus_identifier = 'posts-week-44-2016-index-en';
+		window.disqus_title = 'Week 44, 2016';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+              
+            
+        </div>
+    </div>
+    <div class="related">
+        <div class="related__body box__body">
+            <h4 class="related__header">
+                By the way
+            </h4>
+        </div>
+        <div class="related__text box__island">
+                <a href="https://github.com/varya/varya.github.com/issues/new?title=Feedback for Week 44, 2016">
+                Create a GitHub issue for me</a> if you've spotted a typo or a mistake, or wish to add something on.
+                Or you can
+                <a href="https://github.com/varya/varya.github.com/edit/develop/src/documents/posts/week-44-2016/index_en.html.md">edit this post yourself and make me a patch</a>.
+        </div>
+    </div>
+</div>
+        </section>
+        <nav class="sidebar">
+        <ul class="menu-vert">
+            <h3 class="menu-vert__title box__title">
+                On this site
+            </h3>
+            
+                <li class="menu-vert__item ">
+                    <a class="link" href="/en/posts">
+                        Tech Blog
+                    </a>
+                </li>
+            
+                <li class="menu-vert__item ">
+                    <a class="link" href="/en/content">
+                        Articles and talks
+                    </a>
+                </li>
+            
+                <li class="menu-vert__item ">
+                    <a class="link" href="/">
+                        About me
+                    </a>
+                </li>
+            
+                <li class="menu-vert__item ">
+                    <a class="link" href="/en/life">
+                        My life
+                    </a>
+                </li>
+            
+            </ul>
+            <div class="github i-bem box github_not-ready"
+                data-bem='{ "github" : { "user" : "varya" } }'>
+                <div class="github__header box__title">
+                  Last updated repos
+                </div>
+                <ul class="github__body"></ul>
+            </div>
+        </nav>
+        <aside class="prompting">
+            <ul class="social-ico menu-vert">
+                <li class="menu-vert__item">
+                    <ul class="social-ico__text menu-vert">
+                        <li class="menu-vert__item">
+                            <a class="link social-ico__rss-text" href="/en/feed.xml" title="New on Varya.me in English">en</a>
+                        </li>
+                        <li class="menu-vert__item">
+                            <a class="link social-ico__rss-text" href="/ru/feed.xml" title="Новые записи на Varya.me">ru</a>
+                        </li>
+                    </ul>
+                    <a class="link social-ico__ico social-ico__ico_type_rss" href="/feed.xml" title="New on Varya.me"></a>
+                </li>
+                <li class="menu-vert__item">
+                <a class="link social-ico__ico social-ico__ico_type_twitter"
+                    href="https://twitter.com/varya_en"
+                    title="@varya_en"
+                    target="_blank"></a>
+                </li>
+                <li class="menu-vert__item">
+                    <a class="link social-ico__ico social-ico__ico_type_github" href="https://github.com/varya" target="_blank"></a>
+                </li>
+                <li class="menu-vert__item">
+                    <a class="link social-ico__ico social-ico__ico_type_facebook" href="http://www.facebook.com/varvara.stepanova.9" target="_blank"></a>
+                </li>
+                <li class="menu-vert__item">
+                    <a class="link social-ico__ico social-ico__ico_type_linkedin" href="http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b" target="_blank"></a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+    <div class="footer__outer">
+        <footer class="footer">
+            <div class="footer__left">
+            </div>
+            <div class="footer__center">
+                <a class="link  link_text  link_wrapper" href="http://varya.me/">
+                    © 2016
+                    <span class="link__inner">Varya Stepanova</span>.
+                </a>
+                <a class="link  link_wrapper  link_twitter"
+                    href="https://twitter.com/varya_en"
+                    title="@varya_en">
+                    <img alt="Twitter" class="ico" src="http://favicon.yandex.net/favicon/twitter.com" title="Twitter"/>
+                    <span class="link__inner">Follow me on twitter</span>!
+                </a>
+            </div>
+            <div class="footer__right">
+            </div>
+        </footer>
+    </div>
+    <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter20478625 = new Ya.Metrika({id:20478625, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/20478625" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+    <script src="http://yandex.st/jquery/1.7.2/jquery.min.js"></script>
+    <script src="/desktop.bundles/index/index.min.js" async defer></script>
+</body>
+</html>

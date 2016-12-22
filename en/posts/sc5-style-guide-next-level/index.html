@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html class="page page_en" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Living SC5 Styleguide, the next level</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <link  rel="stylesheet" href="/desktop.bundles/index/index.min.css" />
+    <script>
+    (function(d, s, l, r) {
+    if (typeof(s) !== 'undefined' && l.getItem('varya.me.fonts')) {
+        r = [
+            '<style>',
+            l.getItem('varya.me.fonts'),
+            '</style>'
+        ];
+        document.write(r.join(''));
+    }
+
+    })(document, Storage, localStorage);
+  </script>
+  <meta content='Living documentaion for CSS, JavaScript and templates of your components with SC5 Style Guide. In this post I share my experience from the recent large project.
+' property="og:description"/><meta content="http://varya.me/posts/sc5-style-guide-next-level/thumb.png" property="og:image"/><meta content="Living SC5 Styleguide, the next level" property="og:title"/><meta content="http://varya.me/en/posts/sc5-style-guide-next-level/" property="og:url"/><meta property="og:site_name" content="var ya;"/><meta property="og:type" content="article"/><meta property="og:locale" content="en_US"/> <meta property="article:author" content="https://www.facebook.com/toivonens"/>
+</head>
+<body class="page page__body">
+    <header class="header">
+        <div class="header__left candies i-bem"
+            data-bem='{ "candies" : { "size" : { "max" : 28, "min" : 12 }, "reverse" : true } }'></div>
+        <div class="header__center">
+            <logo class="logo"><span class="logo__dots">···</span><b class="var">var</b>·<b class="ya">ya</b>;<b class="cursor"></b></logo>
+        </div>
+        <div class="header__right candies i-bem"
+            data-bem='{ "candies" : { "size" : { "max" : 28, "min" : 12 } } }'></div>
+    </header>
+    <div class="layout">
+        <section class="main">
+            <ul class="languages">
+            
+                <li class="languages__lang">
+                    
+                        en
+                    
+                </li>
+                
+                <li class="languages__lang">
+                    
+                    <a href="/ru/">
+                        ru
+                    </a>
+                    
+                </li>
+                
+            </ul>
+            <div class="article" role="main">
+    <div class="article__body box__body">
+        <h1 class="article__header">
+            Living SC5 Styleguide, the next level
+        </h1>
+    </div>
+    <div class="article__text box__island">
+        <script type="text/javascript" src="//yandex.st/share/share.js"
+        charset="utf-8"></script>
+        <div class="share yashare-auto-init" data-yashareL10n="{{ lang }}"
+            data-yashareQuickServices="twitter,facebook,gplus" data-yashareTheme="counter"
+        ></div>
+        <span class="article__details author vcard">
+            Published on
+            23rd May 2016
+        </span>
+        <p>When it comes to the large web applications, we often operate with complex components. Such components are not just CSS
+styles for the pieces of an interface but also their JavaScript interactions and templates. As documentation, the style
+guide should reflect them all. In other words, the components on the style guide&#39;s pages should be the same living as in
+production.</p>
+<excerpt/>
+
+<p>At my recent project, we have been using <a href="http://styleguide.sc5.io/">SC5 Style Guide</a> in its simplest way - documenting
+the view of the components. For that, we provided the needed HTML in the KSS code and so has received the rendered
+component library.</p>
+<p>However, in the production code, these components appeared at the pages as a result of some templating transformations.
+Also, the project is massive and fast-developed, and the changes to the templates happened all the time. As a result,
+the style guide was always out of date.</p>
+<p>Moreover, much functionality could not be illustrated with plain HTML.
+To be rendered correctly and interact with a user, it also needs its JavaScript code.</p>
+<p>At this project, I have solved the problem using advanced configuration of SC5 Style Guide. Below you can find the
+tricks and explanation.</p>
+<h2 id="living-javascript-components">Living JavaScript components</h2>
+<p>Usually, a piece of an interface (often called &#39;a component&#39;) is a combination of HTML, CSS, and JavaScript. With the
+basic features if SC5 Style Guide you can easily document HTML and CSS. However, applying JavaScript to the components
+requires an additional configuration.</p>
+<p>In SC5 Styleguide, you can provide additional tags into the <code>&lt;head&gt;</code> section of the generated style guide&#39;s page. They
+can be <code>&lt;script&gt;</code> tags linking the JavaScript you need.</p>
+<p>Assuming this, you can bundle the necessary JavaScript into one file, and link it to the style guide&#39;s pages, like this:</p>
+<pre class="highlight"><code class="hljs r">gulp.task(<span class="hljs-string">"styleguide:generate"</span>, <span class="hljs-keyword">function</span>() {
+
+  <span class="hljs-keyword">return</span> gulp.src([<span class="hljs-string">"path/to/css/**/*.sass"</span>])
+    .pipe(styleguide.generate({
+      title: <span class="hljs-string">"My Styleguide"</span>,
+      <span class="hljs-keyword">...</span>
+      extraHead: [
+        <span class="hljs-string">'&lt;script src="/js/all-components.js"&gt;&lt;/script&gt;'</span>,
+        <span class="hljs-keyword">...</span>
+      ]
+    <span class="hljs-keyword">...</span>
+</code></pre><p>Another option for you to use in the configuration is <code>disableEncapsulation: true</code>. By default, the tool wraps every
+component into a Shadow DOM container. It makes the components encapsulated and protects from unwanted impact of global CSS.
+Also, the Shadow DOM wrapper prevents global JavaScript to access the components. Disabling this function, you can give
+the JavaScript all the access, the same way as it works on a usual page.</p>
+<p>In most cases, JavaScript for the components requires initialization. On the style guide&#39;s pages a <code>styleguide:onRendered</code>
+event emits when a component is rendered. You can listen for this event and initialize the components in the event&#39;s
+handler function.</p>
+<p>For example, if using jQuery:</p>
+<pre class="highlight"><code class="hljs javascript">$(<span class="hljs-built_in">window</span>).on(<span class="hljs-string">'styleguide:onRendered'</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(e)</span> </span>{
+  <span class="hljs-comment">// e.originalEvent.detail.elements[0] - component's container</span>
+  initComponent(e.originalEvent.detail.elements[<span class="hljs-number">0</span>])
+});
+</code></pre><h2 id="additional-processors">Additional processors</h2>
+<p>The SC5 Style Guide parses the KSS documentation in your CSS (SASS, LESS) code, collects information about all the
+components and produces a JSON file with it. The documentation pages you can see are the Angular pages built
+on the information in this JSON.</p>
+<p>Generating the style guide, you can inject additional processors into transforming data for this JSON file. The
+custom processing functions can re-organize and modify this data. You can use this trick to provide a more clever
+generator, run templates and parametrized JavaScript components.</p>
+<p>Examine the generated <code>styleguide.json</code> file to see how the data is organized by default. You are going to find out that
+every component is represented by an object similar to the following:</p>
+<pre class="highlight"><code class="hljs less">{
+  <span class="hljs-attribute">header</span>: <span class="hljs-string">"Sub navigation tabs"</span>,
+  <span class="hljs-attribute">description</span>: <span class="hljs-string">"&lt;p class="</span>sg<span class="hljs-string">"&gt;Navigation item&lt;/p&gt; "</span>,
+  <span class="hljs-attribute">modifiers</span>: [ ],
+  <span class="hljs-attribute">deprecated</span>: false,
+  <span class="hljs-attribute">experimental</span>: false,
+  <span class="hljs-attribute">reference</span>: <span class="hljs-string">"4.15.1"</span>,
+  <span class="hljs-attribute">markup</span>: <span class="hljs-string">"&lt;ul class="</span>sub-navigation-tabs<span class="hljs-string">"&gt;...&lt;ul&gt;"</span>,
+  <span class="hljs-attribute">css</span>: <span class="hljs-string">".sub-navigation-tabs { /* some css */ }"</span>,
+  <span class="hljs-attribute">syntax</span>: <span class="hljs-string">"less"</span>,
+  <span class="hljs-attribute">file</span>: <span class="hljs-string">"tabs.less"</span>,
+  <span class="hljs-attribute">parentReference</span>: <span class="hljs-string">"4.15"</span>,
+  <span class="hljs-attribute">wrapper</span>: <span class="hljs-string">"&lt;sg-wrapper-content/&gt;"</span>,
+  <span class="hljs-attribute">renderMarkup</span>: <span class="hljs-string">"&lt;ul class="</span>sub-navigation-tabs<span class="hljs-string">"&gt;...&lt;ul&gt;"</span>,
+  <span class="hljs-attribute">variables</span>: [
+    <span class="hljs-string">"colorMain"</span>,
+    <span class="hljs-string">"bgColorSecond"</span>,
+    <span class="hljs-string">"textColor"</span>,
+    <span class="hljs-string">"textColorHover"</span>
+  ],
+  <span class="hljs-attribute">fileHash</span>: <span class="hljs-string">"d00311f793d66a9e9dee9939dedd9fd9"</span>
+}
+</code></pre><p>To modify this data, provide additional processing function as <code>styleguideProcessors</code> option. For example,</p>
+<pre class="highlight"><code class="hljs r">gulp.task(<span class="hljs-string">"styleguide:generate"</span>, <span class="hljs-keyword">function</span>() {
+
+  <span class="hljs-keyword">return</span> gulp.src([<span class="hljs-string">"path/to/css/**/*.sass"</span>])
+    .pipe(styleguide.generate({
+      title: <span class="hljs-string">"My Styleguide"</span>,
+      <span class="hljs-keyword">...</span>
+      styleguideProcessors: {
+        <span class="hljs-number">30</span>: processTemplates
+      }
+    <span class="hljs-keyword">...</span>
+</code></pre><p>As a value of this option, you can list the processing functions. The given indexes matter for the order in which these
+functions are applied to the data.</p>
+<p>Check out <a href="https://github.com/SC5/sc5-styleguide#build-options">the documentation for options</a>.</p>
+<p>In my projects, I used additional processors to operate custom KSS parameters and modify data.</p>
+<h2 id="custom-kss-data">Custom KSS data</h2>
+<p>In the section descriptions, you can provide additional KSS parameters with the names prefixed with <code>sg-</code>. For example,
+you can provide a path to a template which produces the markup for the component:</p>
+<pre class="highlight"><code class="hljs nimrod">// <span class="hljs-type">Button</span>
+//
+// markup:
+// { title: <span class="hljs-string">"Move on"</span>, <span class="hljs-keyword">type</span>=<span class="hljs-string">"submit"</span> }
+//
+// sg-<span class="hljs-keyword">template</span>:
+// src/components/button/button.ejs
+//
+// <span class="hljs-type">Styleguide</span> <span class="hljs-number">1</span>.<span class="hljs-number">2</span>.<span class="hljs-number">3</span>
+</code></pre><p>In here the markup works as an input value for the given template. You can teach Style Guide to apply the template to
+the declared object and put the result as a markup to render. To do it you need a custom processing function mentioned
+above.</p>
+<pre class="highlight"><code class="hljs nimrod"><span class="hljs-keyword">var</span> processTemplates = (styleguide) =&gt; {
+
+  styleguide.sections.forEach((section) =&gt; {
+
+    <span class="hljs-keyword">if</span> (section['sg-<span class="hljs-keyword">template</span>']) {
+      <span class="hljs-keyword">var</span> templatePath = section['sg-<span class="hljs-keyword">template</span>'].trim()
+      templatePath = path.join(process.cwd(), templatePath)
+
+      <span class="hljs-keyword">var</span> templateStr = fs.readFileSync(templatePath, 'utf8')
+      <span class="hljs-keyword">var</span> inputData = eval('(' + section.markup + ')')
+
+      section.renderMarkup = ejs.render(templateStr, insertData)
+    }
+
+  }
+
+}
+</code></pre><h2 id="templates-on-fly">Templates on fly</h2>
+<p>In the single-page applications, templates work on the client side. In this case, it is better to process them
+in the style guide too. In other words, you should include the templates into the JavaScript bundle and initialize
+the components on containers.</p>
+<p>Combining this approach to the custom processors, you can store the code example for every compoentn in the <code>markup</code>
+KSS field.</p>
+<p>For example,</p>
+<pre class="highlight"><code class="hljs r">// Tabs
+//
+// markup:
+// var Tabs = <span class="hljs-keyword">require</span>(<span class="hljs-string">'src/components/tab.js'</span>)
+// Tabs.init($container, { items: [<span class="hljs-keyword">...</span>] })
+//
+// sg-js-component:
+// &lt;div class=<span class="hljs-string">"sg-tabs-container"</span>&gt;&lt;/div&gt;
+//
+// Styleguide <span class="hljs-number">1.2</span><span class="hljs-number">.3</span>
+</code></pre><p>With a custom processor, you can put the container&#39;s code as a markup to render:</p>
+<pre class="highlight"><code class="hljs php"><span class="hljs-keyword">var</span> processorForJsComponents = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(styleguide)</span> </span>{
+
+  styleguide.sections.<span class="hljs-keyword">forEach</span>((section) =&gt; {
+    <span class="hljs-keyword">if</span> (section[<span class="hljs-string">'sg-js-component'</span>]) {
+      section.renderMarkup = section.wrapper.replace(
+        <span class="hljs-string">'&lt;sg-wrapper-content/&gt;'</span>, section[<span class="hljs-string">'sg-js-component'</span>]
+      );
+    }
+  }
+
+}
+</code></pre><h2 id="adjustable-initialization-for-javascript">Adjustable initialization for JavaScript</h2>
+<p>Usually, different components need to be initialized in differently. Also, they may require some fake data. You can
+run various Javascript functions on separate component containers to get this result.</p>
+<pre class="highlight"><code class="hljs coffeescript"><span class="hljs-reserved">var</span> TabsInit = <span class="hljs-built_in">require</span>(<span class="hljs-string">'src/components/tabs/tabs.init.js'</span>)
+
+<span class="hljs-reserved">var</span> knownComponents = {
+  <span class="hljs-string">'.sg-tabs-container'</span>: TabsInit
+}
+
+$(<span class="hljs-built_in">window</span>).<span class="hljs-literal">on</span>(<span class="hljs-string">'styleguide:onRendered'</span>, <span class="hljs-reserved">function</span>(e) {
+
+  knownComponents.forEach(<span class="hljs-function"><span class="hljs-params">(componentInit, componentSelector)</span> =&gt;</span> {
+    <span class="hljs-reserved">var</span> containingComponents = $(e.originalEvent.detail.elements[<span class="hljs-number">0</span>]).find(componentSelector)
+    <span class="hljs-keyword">if</span> (containingComponents.length &gt; <span class="hljs-number">0</span>) {
+      componentInit(containingComponents)
+    }
+  })
+
+})
+</code></pre><p>This code runs a corresponding function for every selector in the <code>knownComponents</code> object. The matching DOM element(s)
+passed into the initializing function as a parameter.</p>
+<pre class="highlight"><code class="hljs php"><span class="hljs-comment">// src/components/tabs/tabs.sg-init.js</span>
+
+<span class="hljs-keyword">var</span> Tabs = <span class="hljs-keyword">require</span>(<span class="hljs-string">'./tabs.js'</span>)
+
+<span class="hljs-keyword">var</span> fakeData = [
+  { title: <span class="hljs-string">'Tab1'</span>, url: <span class="hljs-string">'/index.html'</span> },
+  { title: <span class="hljs-string">'Tab2'</span>, url: <span class="hljs-string">'/contacts'</span> }
+]
+
+module.exports = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(<span class="hljs-variable">$container</span>)</span> </span>{
+  <span class="hljs-comment">// Real calling for initing function depends on</span>
+  <span class="hljs-comment">// you component system interface</span>
+  Tabs.init(<span class="hljs-variable">$container</span>, { items: fakeData })
+}
+</code></pre><p>In this system, you can have several containers with the same CSS class but parametrized with any other information, e.g.
+data attributes:</p>
+<pre class="highlight"><code class="hljs r">// Tabs, another version
+//
+// markup:
+// var Tabs = <span class="hljs-keyword">require</span>(<span class="hljs-string">'src/components/tab.js'</span>)
+// Tabs.init($container, { another: true, items: [<span class="hljs-keyword">...</span>] })
+//
+// sg-js-component:
+// &lt;div class=<span class="hljs-string">"sg-tabs-container"</span> data-type=<span class="hljs-string">"another"</span>&gt;&lt;/div&gt;
+//
+// Styleguide <span class="hljs-number">1.2</span><span class="hljs-number">.4</span>
+</code></pre><pre class="highlight"><code class="hljs r"><span class="hljs-keyword">...</span>
+module.exports = <span class="hljs-keyword">function</span>($container) {
+  var type = $container.data(<span class="hljs-string">'type'</span>)
+
+  <span class="hljs-keyword">if</span> (type == <span class="hljs-string">'another'</span>) {
+    Tabs.init($container, { another: true,  items: fakeData })
+  } <span class="hljs-keyword">else</span> {
+    Tabs.init($container, { items: fakeData })
+  }
+}
+</code></pre><h2 id="file-structure">File structure</h2>
+<p>You may have noticed that I suggest storing everything related to the component under the same folder. This is also
+relevant to the style-guide-related files.</p>
+<p>For a user, a component is a consistent entity. They get it as a whole thing, no matter how many technologies
+are behind. For a developer, it is not that straightforward. We use CSS for styling, JavaScript for interactions and HTML
+for the view. The corresponding code is usually placed in a separate file for each technology. I find it quite
+distracting.</p>
+<p>However, the &#39;component folder&#39; approach smoothes this situation. Storing everything (including the documentation) in
+the same place improves developer&#39;s experience very much.</p>
+<pre class="highlight"><code class="hljs stylus">src/
+  components/
+    login/
+      login<span class="hljs-class">.ejs</span>
+      login<span class="hljs-class">.js</span>
+      login<span class="hljs-class">.sg-init</span><span class="hljs-class">.js</span>
+    tabs/
+      tabs<span class="hljs-class">.ejs</span>
+      tabs<span class="hljs-class">.js</span>
+      tabs<span class="hljs-class">.sass</span>
+      tabs<span class="hljs-class">.sg-init</span><span class="hljs-class">.js</span>
+</code></pre><h2 id="enjoy">Enjoy</h2>
+<p>After ajusting the SC5 Style Guide, as shown above, you will get the double living documentation. Remember about the
+watching mode to re-generate the style guide on the file changes. It works as a nice development playground.</p>
+<p>Also, last but not least, I would like to thank the community which made these things possible. I used the SC5 Style Guide
+features by other developers and so feel very grateful. You may see their names <a href="https://github.com/SC5/sc5-styleguide/releases">at the releases&#39;
+page</a>. If you want yours to appear here, please
+<a href="https://github.com/SC5/sc5-styleguide">contribute</a>.</p>
+
+    </div>
+    <div class="comments">
+        <div class="comments__box box__body">
+            <h4 class="comments__header">
+                Comments
+            </h4>
+        </div>
+        <div class="comments__body box__island">
+            
+              
+                  <div id="disqus_thread"></div>
+<script>
+	(function(){
+		window.disqus_shortname = 'varya';
+		window.disqus_developer = '1';
+		window.disqus_url = 'http://varya.me//en/posts/sc5-style-guide-next-level';
+		window.disqus_identifier = 'posts-sc5-style-guide-next-level-index-en';
+		window.disqus_title = 'Living SC5 Styleguide, the next level';
+		if ( window.DISQUS ) {
+			return DISQUS.reset({
+				reload: true,
+				config: function () {
+					this.page.identifier = window.disqus_identifier;
+					this.page.url = window.disqus_url;
+					this.page.title = window.disqus_title;
+				}
+			});
+		}
+		else {
+		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		}
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+              
+            
+        </div>
+    </div>
+    <div class="related">
+        <div class="related__body box__body">
+            <h4 class="related__header">
+                By the way
+            </h4>
+        </div>
+        <div class="related__text box__island">
+                <a href="https://github.com/varya/varya.github.com/issues/new?title=Feedback for Living SC5 Styleguide, the next level">
+                Create a GitHub issue for me</a> if you've spotted a typo or a mistake, or wish to add something on.
+                Or you can
+                <a href="https://github.com/varya/varya.github.com/edit/develop/src/documents/posts/sc5-style-guide-next-level/index_en.html.md">edit this post yourself and make me a patch</a>.
+        </div>
+    </div>
+</div>
+        </section>
+        <nav class="sidebar">
+        <ul class="menu-vert">
+            <h3 class="menu-vert__title box__title">
+                On this site
+            </h3>
+            
+                <li class="menu-vert__item ">
+                    <a class="link" href="/en/posts">
+                        Tech Blog
+                    </a>
+                </li>
+            
+                <li class="menu-vert__item ">
+                    <a class="link" href="/en/content">
+                        Articles and talks
+                    </a>
+                </li>
+            
+                <li class="menu-vert__item ">
+                    <a class="link" href="/">
+                        About me
+                    </a>
+                </li>
+            
+                <li class="menu-vert__item ">
+                    <a class="link" href="/en/life">
+                        My life
+                    </a>
+                </li>
+            
+            </ul>
+            <div class="github i-bem box github_not-ready"
+                data-bem='{ "github" : { "user" : "varya" } }'>
+                <div class="github__header box__title">
+                  Last updated repos
+                </div>
+                <ul class="github__body"></ul>
+            </div>
+        </nav>
+        <aside class="prompting">
+            <ul class="social-ico menu-vert">
+                <li class="menu-vert__item">
+                    <ul class="social-ico__text menu-vert">
+                        <li class="menu-vert__item">
+                            <a class="link social-ico__rss-text" href="/en/feed.xml" title="New on Varya.me in English">en</a>
+                        </li>
+                        <li class="menu-vert__item">
+                            <a class="link social-ico__rss-text" href="/ru/feed.xml" title="Новые записи на Varya.me">ru</a>
+                        </li>
+                    </ul>
+                    <a class="link social-ico__ico social-ico__ico_type_rss" href="/feed.xml" title="New on Varya.me"></a>
+                </li>
+                <li class="menu-vert__item">
+                <a class="link social-ico__ico social-ico__ico_type_twitter"
+                    href="https://twitter.com/varya_en"
+                    title="@varya_en"
+                    target="_blank"></a>
+                </li>
+                <li class="menu-vert__item">
+                    <a class="link social-ico__ico social-ico__ico_type_github" href="https://github.com/varya" target="_blank"></a>
+                </li>
+                <li class="menu-vert__item">
+                    <a class="link social-ico__ico social-ico__ico_type_facebook" href="http://www.facebook.com/varvara.stepanova.9" target="_blank"></a>
+                </li>
+                <li class="menu-vert__item">
+                    <a class="link social-ico__ico social-ico__ico_type_linkedin" href="http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b" target="_blank"></a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+    <div class="footer__outer">
+        <footer class="footer">
+            <div class="footer__left">
+            </div>
+            <div class="footer__center">
+                <a class="link  link_text  link_wrapper" href="http://varya.me/">
+                    © 2016
+                    <span class="link__inner">Varya Stepanova</span>.
+                </a>
+                <a class="link  link_wrapper  link_twitter"
+                    href="https://twitter.com/varya_en"
+                    title="@varya_en">
+                    <img alt="Twitter" class="ico" src="http://favicon.yandex.net/favicon/twitter.com" title="Twitter"/>
+                    <span class="link__inner">Follow me on twitter</span>!
+                </a>
+            </div>
+            <div class="footer__right">
+            </div>
+        </footer>
+    </div>
+    <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter20478625 = new Ya.Metrika({id:20478625, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/20478625" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+    <script src="http://yandex.st/jquery/1.7.2/jquery.min.js"></script>
+    <script src="/desktop.bundles/index/index.min.js" async defer></script>
+</body>
+</html>
