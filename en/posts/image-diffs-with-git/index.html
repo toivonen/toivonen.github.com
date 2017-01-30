@@ -1,89 +1,51 @@
-<!DOCTYPE html>
-<html class="page page_en" lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <title>Visual diffs for the images in a git repo</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-    <link  rel="stylesheet" href="/desktop.bundles/index/index.min.css" />
-    <script>
-    (function(d, s, l, r) {
-    if (typeof(s) !== 'undefined' && l.getItem('varya.me.fonts')) {
-        r = [
-            '<style>',
-            l.getItem('varya.me.fonts'),
-            '</style>'
-        ];
-        document.write(r.join(''));
-    }
+<!doctype html>
+<html class='no-js' lang=en>
+    <head>
+        <title>Visual diffs for the images in a git repo</title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
+        <script src="/assets/loader-e1b09cefff6a6bc21cd0.js"></script>
+<link rel="stylesheet" href="/assets/page-e1b09cefff6a6bc21cd0.css"/>
+<script src="/assets/head-e1b09cefff6a6bc21cd0.js"></script>
+        <meta content="Visual diffs for the images in a git repo" property="og:title"/>
+        <meta content="{{desc}}" property="og:description"/>
+        <meta content="/en/posts/image-diffs-with-git/" property="og:url"/>
+        <meta content="/posts/image-diffs-with-git/thumb.png" property="og:image"/>
+        <meta property="og:locale" content="en_US"/>
+        <meta property="og:site_name" content="var ya;"/>
+        <meta property="og:type" content="article"/>
+        <meta property="article:author" content="https://www.facebook.com/toivonens"/>
+        <script>
+            (function(d, s, l, r) {
+            if (typeof(s) !== 'undefined' && l.getItem('varya.me.fonts')) {
+                r = [
+                    '<style>',
+                    l.getItem('varya.me.fonts'),
+                    '</style>'
+                ];
+                document.write(r.join(''));
+            }
 
-    })(document, Storage, localStorage);
-  </script>
-  <meta content='The modified images in git repositories can have a decent visual representation of file changes. For that, you simply run `git diff` command. However, to get this output, you have to do a little configuration. This article shows how.
-' property="og:description"/><meta content="http://varya.me/posts/image-diffs-with-git/thumb.png" property="og:image"/><meta content="Visual diffs for the images in a git repo" property="og:title"/><meta content="http://varya.me/en/posts/image-diffs-with-git/" property="og:url"/><meta property="og:site_name" content="var ya;"/><meta property="og:type" content="article"/><meta property="og:locale" content="en_US"/> <meta property="article:author" content="https://www.facebook.com/toivonens"/>
-</head>
-<body class="page page__body">
-    <header class="header">
-        <div class="header__left candies i-bem"
-            data-bem='{ "candies" : { "size" : { "max" : 28, "min" : 12 }, "reverse" : true } }'></div>
-        <div class="header__center">
-            <logo class="logo"><span class="logo__dots">···</span><b class="var">var</b>·<b class="ya">ya</b>;<b class="cursor"></b></logo>
-        </div>
-        <div class="header__right candies i-bem"
-            data-bem='{ "candies" : { "size" : { "max" : 28, "min" : 12 } } }'></div>
-    </header>
-    <div class="layout">
-        <section class="main">
-            <ul class="languages">
-            
-                <li class="languages__lang">
-                    
-                        en
-                    
-                </li>
-                
-                <li class="languages__lang">
-                    
-                    <a href="/ru/">
-                        ru
-                    </a>
-                    
-                </li>
-                
-            </ul>
-            <div class="article" role="main">
-    <div class="article__body box__body">
-        <h1 class="article__header">
-            Visual diffs for the images in a git repo
-        </h1>
-    </div>
-    <div class="article__text box__island">
-        <script type="text/javascript" src="//yandex.st/share/share.js"
-        charset="utf-8"></script>
-        <div class="share yashare-auto-init" data-yashareL10n="{{ lang }}"
-            data-yashareQuickServices="twitter,facebook,gplus" data-yashareTheme="counter"
-        ></div>
-        <span class="article__details author vcard">
-            Published on
-            18th March 2016
-        </span>
-        <p>My first task for new projects is to create a git repository. Whether it is a new app, or conference slides, or even an
+            })(document, Storage, localStorage);
+        </script>
+    </head>
+    <body class="page">
+        <div id='contents'><div><header class="style__header___7cFNF"><div class="style__left___1nLlV" id="Header-Left"></div><div class="style__center___265v6"><logo class="style__logo___2yXgh">⋅⋅⋅<b class="style__var___11qBW">var</b>⋅<b class="style__ya___8D8Xm">ya</b>;<b class="style__cursor___2aaLd"></b></logo></div><div class="style__right___1RRr2" id="Header-Right"></div></header><div class="style__layout___2Ynks"><section class="style__main___1PTuI"><ul class="style__switcher___2YMLp"><li class="style__lang___kggY_">en</li><li class="style__lang___kggY_"><a href="/ru/" class="style__link___1ZFL2">ru</a></li></ul><div class="style__article___2FW-a" role="main"><div class="style__body___XvMI0"><h1 class="style__header___ADINy">Visual diffs for the images in a git repo</h1></div><div class="style__text___1aEP8"><div class="style__share___2UNWm"><script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script><span class="yashare-auto-init" data-yashareQuickServices="twitter,facebook,gplus" data-yashareL10n="en" data-yashareTheme="counter"></span></div><span class="style__details___ZaSIa author vcard">Published on 3/18/2016</span><div><p>My first task for new projects is to create a git repository. Whether it is a new app, or conference slides, or even an
 article, I prefer to keep everything in Git. It is an excellent tool, and, personally, I enjoy its command line
 interface.</p>
 <p>However, there is always room for improvement. Recently I found an idea how to make my git visualize the changes that
-I&#39;ve done to the images in a repository.</p>
+I've done to the images in a repository.</p>
 <excerpt/>
-
-<pre class="highlight"><code class="hljs sh">Varyas-MBP £ ~/path/to/project ⤳ master*
+<pre><code class="language-sh">Varyas-MBP £ ~/path/to/project ⤳ master*
   › git status
 On branch master
-Changes not staged <span class="hljs-keyword">for</span> commit:
-  (use <span class="hljs-string">"git add &lt;file&gt;..."</span> to update what will be committed)
-  (use <span class="hljs-string">"git checkout -- &lt;file&gt;..."</span> to discard changes <span class="hljs-keyword">in</span> working directory)
+Changes not staged for commit:
+  (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+  (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)
 
     modified:   desktop.blocks/social-ico/social-ico__rss.png
     modified:   desktop.blocks/social-ico/social-ico__twitter.png
 
-no changes added to commit (use <span class="hljs-string">"git add"</span> and/or <span class="hljs-string">"git commit -a"</span>)
+no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)
 Varyas-MBP £ ~/path/to/project ⤳ master*
 </code></pre>
 <p>I can run <code>git diff</code> over each of the modified images to see the following:</p>
@@ -95,176 +57,63 @@ easily spot if some particular details were shifted, some colors were changed, o
 with another one.</p>
 <p>You can configure git to do the same. First, install ImageMagick to provide a visual comparison. Note that for the
 latest versions of OS X you need to install a package with a support of X11. To install with <code>brew</code>, do the following:</p>
-<pre class="highlight"><code class="hljs sql">  › brew <span class="hljs-operator"><span class="hljs-keyword">install</span> imagemagick <span class="hljs-comment">--with-x11</span>
-</span></code></pre><p>Then, create a script to compare two given images. Run <code>cat ~/bin/git-imgdiff</code>, and paste inside:</p>
-<pre class="highlight"><code class="hljs bash"><span class="hljs-shebang">#!/bin/sh</span>
-compare <span class="hljs-variable">$2</span> <span class="hljs-variable">$1</span> png:- | montage -geometry +<span class="hljs-number">4</span>+<span class="hljs-number">4</span> <span class="hljs-variable">$2</span> - <span class="hljs-variable">$1</span> png:- | display -title <span class="hljs-string">"<span class="hljs-variable">$1</span>"</span> -
-</code></pre><p>Now, test the script. It should do the comparison of two processed images:</p>
-<pre class="highlight"><code class="hljs stylus">  › ~/bin/git-imgdiff img1<span class="hljs-class">.png</span> img2<span class="hljs-class">.png</span>
-</code></pre><p>At this step, you need to show git how to use compariing script. For that, define the image files their extensions
+<pre><code>  › brew install imagemagick --with-x11
+</code></pre>
+<p>Then, create a script to compare two given images. Run <code>cat ~/bin/git-imgdiff</code>, and paste inside:</p>
+<pre><code>#!/bin/sh
+compare $2 $1 png:- | montage -geometry +4+4 $2 - $1 png:- | display -title &quot;$1&quot; -
+</code></pre>
+<p>Now, test the script. It should do the comparison of two processed images:</p>
+<pre><code>  › ~/bin/git-imgdiff img1.png img2.png
+</code></pre>
+<p>At this step, you need to show git how to use compariing script. For that, define the image files their extensions
 in a special file. Run <code>cat ~/.gitattributes</code> and paste the following:</p>
-<pre class="highlight"><code class="hljs stylus">*<span class="hljs-class">.gif</span> diff=image
-*<span class="hljs-class">.jpg</span> diff=image
-*<span class="hljs-class">.png</span> diff=image
-</code></pre><p>Provide git with this configuration by:</p>
-<pre class="highlight"><code class="hljs stylus">  › git config --global core<span class="hljs-class">.attributesfile</span> <span class="hljs-string">'~/.gitattributes'</span>
-</code></pre><p>The last step is to instruct git to use your script when <code>diff</code> command is applied to the matching files:</p>
-<pre class="highlight"><code class="hljs stylus">  › git config --global diff<span class="hljs-class">.image</span><span class="hljs-class">.command</span> <span class="hljs-string">'~/bin/git-imgdiff'</span>
-</code></pre><p>That&#39;s it. Now, running a <code>git diff</code> over your images you will get a human-friendly output. Enjoy!</p>
-<h3 id="references">References</h3>
+<pre><code>*.gif diff=image
+*.jpg diff=image
+*.png diff=image
+</code></pre>
+<p>Provide git with this configuration by:</p>
+<pre><code>  › git config --global core.attributesfile '~/.gitattributes'
+</code></pre>
+<p>The last step is to instruct git to use your script when <code>diff</code> command is applied to the matching files:</p>
+<pre><code>  › git config --global diff.image.command '~/bin/git-imgdiff'
+</code></pre>
+<p>That's it. Now, running a <code>git diff</code> over your images you will get a human-friendly output. Enjoy!</p>
+<h3>References</h3>
 <ul>
-<li>[1] <a href="http://www.akikoskinen.info/image-diffs-with-git/">http://www.akikoskinen.info/image-diffs-with-git/</a></li>
-<li>[2] <a href="http://paulmestemaker.com/imagemagick-display-mac-os-x/">http://paulmestemaker.com/imagemagick-display-mac-os-x/</a></li>
+<li>[1] http://www.akikoskinen.info/image-diffs-with-git/</li>
+<li>[2] http://paulmestemaker.com/imagemagick-display-mac-os-x/</li>
 </ul>
+</div></div></div><div class="style__comments___3emEu"><div class="style__body___2Pjpr"><h4 class="style__header___8JJlc">Comments</h4></div><div class="style__island___6Bc3W"><div><div id="disqus_thread"></div><script>
+    (function(){
+        window.disqus_shortname = 'varya';
+        window.disqus_developer = '1';
+        window.disqus_url = 'http://varya.me//en/posts/image-diffs-with-git';
+        window.disqus_identifier = 'posts-image-diffs-with-git-index-en';
+        window.disqus_title = 'Visual diffs for the images in a git repo';
+        if ( window.DISQUS ) {
+            return DISQUS.reset({
+                reload: true,
+                config: function () {
+                    this.page.identifier = window.disqus_identifier;
+                    this.page.url = window.disqus_url;
+                    this.page.title = window.disqus_title;
+                }
+            });
+        }
+        else {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }
+    })();
+</script></div></div></div><div class="style__related___3zKIm"><div class="style__body___2uz87"><h4 class="style__header___1WzCe">By the way</h4></div><div class="style__island___1W8YU"><a href="https://github.com/varya/varya.github.com/issues/new?title=Feedback for Visual diffs for the images in a git repo">Create a GitHub issue for me</a> if you&#x27;ve spotted a typo or a mistake, or wish to add something on. Or you can <a href="https://github.com/varya/varya.github.com/edit/develop/content/posts/image-diffs-with-git/index_en.md">edit this post yourself and make me a patch</a>.</div></div></section><nav class="style__sidebar___2nkwz"><ul class="style__menu___-uZzl"><h3 class="style__title___3mAfQ">On this site</h3><li class="style__item___2LuN-"><a href="/en/posts/" class="style__link___1ZFL2">Tech Blog</a></li><li class="style__item___2LuN-"><a href="/en/content/" class="style__link___1ZFL2">Articles and talks</a></li><li class="style__item___2LuN-"><a href="/" class="style__link___1ZFL2">About me</a></li><li class="style__item___2LuN-"><a href="/en/life/" class="style__link___1ZFL2">My life</a></li></ul><div id="GitHub"></div></nav><aside class="style__prompt___1WAf7"><ul class="style__socialIco___14rtL"><li class="style__item___24Oaa"><ul class="style__feeds___lx7IA"><li class="style__item___24Oaa"><a class="style__rssText___1S0Bk" href="/en/feed.xml" title="New on Varya.me in English">en</a></li><li class="style__item___24Oaa"><a class="style__rssText___1S0Bk" href="/ru/feed.xml" title="Новые записи на Varya.me">ru</a></li></ul><a class="style__rss___2lUOQ style__ico___1PWaR" href="/feed.xml" title="New on Varya.me"></a></li><li class="style__item___24Oaa"><a class="style__twitter___3GPQl style__ico___1PWaR" href="https://twitter.com/varya_en" title="@varya_en" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__github___2GmrH style__ico___1PWaR" href="https://github.com/varya" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__facebook___2SOVV style__ico___1PWaR" href="http://www.facebook.com/varvara.stepanova.9" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__linkedin___2NaTD style__ico___1PWaR" href="http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b" target="_blank"></a></li></ul></aside></div><div class="style__outer___1U8mi"><footer class="style__footer___2MbLi"><div class="style__left___2vtHv"></div><div class="style__center___1Ffk8"><a href="http://varya.me">© 2017Varya Stepanova</a> <a href="https://twitter.com/varya_en" title="@varya_en"><img alt="Twitter" src="http://favicon.yandex.net/favicon/twitter.com" title="Twitter"/> Follow me on Twitter!</a></div><div class="style__right___H7yIL"></div></footer></div></div></div>
 
-    </div>
-    <div class="comments">
-        <div class="comments__box box__body">
-            <h4 class="comments__header">
-                Comments
-            </h4>
-        </div>
-        <div class="comments__body box__island">
-            
-              
-                  <div id="disqus_thread"></div>
-<script>
-	(function(){
-		window.disqus_shortname = 'varya';
-		window.disqus_developer = '1';
-		window.disqus_url = 'http://varya.me//en/posts/image-diffs-with-git';
-		window.disqus_identifier = 'posts-image-diffs-with-git-index-en';
-		window.disqus_title = 'Visual diffs for the images in a git repo';
-		if ( window.DISQUS ) {
-			return DISQUS.reset({
-				reload: true,
-				config: function () {
-					this.page.identifier = window.disqus_identifier;
-					this.page.url = window.disqus_url;
-					this.page.title = window.disqus_title;
-				}
-			});
-		}
-		else {
-		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		}
-	})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-              
-            
-        </div>
-    </div>
-    <div class="related">
-        <div class="related__body box__body">
-            <h4 class="related__header">
-                By the way
-            </h4>
-        </div>
-        <div class="related__text box__island">
-                <a href="https://github.com/varya/varya.github.com/issues/new?title=Feedback for Visual diffs for the images in a git repo">
-                Create a GitHub issue for me</a> if you've spotted a typo or a mistake, or wish to add something on.
-                Or you can
-                <a href="https://github.com/varya/varya.github.com/edit/develop/src/documents/posts/image-diffs-with-git/index_en.html.md">edit this post yourself and make me a patch</a>.
-        </div>
-    </div>
-</div>
-        </section>
-        <nav class="sidebar">
-        <ul class="menu-vert">
-            <h3 class="menu-vert__title box__title">
-                On this site
-            </h3>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/en/posts">
-                        Tech Blog
-                    </a>
-                </li>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/en/content">
-                        Articles and talks
-                    </a>
-                </li>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/">
-                        About me
-                    </a>
-                </li>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/en/life">
-                        My life
-                    </a>
-                </li>
-            
-            </ul>
-            <div class="github i-bem box github_not-ready"
-                data-bem='{ "github" : { "user" : "varya" } }'>
-                <div class="github__header box__title">
-                  Last updated repos
-                </div>
-                <ul class="github__body"></ul>
-            </div>
-        </nav>
-        <aside class="prompting">
-            <ul class="social-ico menu-vert">
-                <li class="menu-vert__item">
-                    <ul class="social-ico__text menu-vert">
-                        <li class="menu-vert__item">
-                            <a class="link social-ico__rss-text" href="/en/feed.xml" title="New on Varya.me in English">en</a>
-                        </li>
-                        <li class="menu-vert__item">
-                            <a class="link social-ico__rss-text" href="/ru/feed.xml" title="Новые записи на Varya.me">ru</a>
-                        </li>
-                    </ul>
-                    <a class="link social-ico__ico social-ico__ico_type_rss" href="/feed.xml" title="New on Varya.me"></a>
-                </li>
-                <li class="menu-vert__item">
-                <a class="link social-ico__ico social-ico__ico_type_twitter"
-                    href="https://twitter.com/varya_en"
-                    title="@varya_en"
-                    target="_blank"></a>
-                </li>
-                <li class="menu-vert__item">
-                    <a class="link social-ico__ico social-ico__ico_type_github" href="https://github.com/varya" target="_blank"></a>
-                </li>
-                <li class="menu-vert__item">
-                    <a class="link social-ico__ico social-ico__ico_type_facebook" href="http://www.facebook.com/varvara.stepanova.9" target="_blank"></a>
-                </li>
-                <li class="menu-vert__item">
-                    <a class="link social-ico__ico social-ico__ico_type_linkedin" href="http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b" target="_blank"></a>
-                </li>
-            </ul>
-        </aside>
-    </div>
-    <div class="footer__outer">
-        <footer class="footer">
-            <div class="footer__left">
-            </div>
-            <div class="footer__center">
-                <a class="link  link_text  link_wrapper" href="http://varya.me/">
-                    © 2016
-                    <span class="link__inner">Varya Stepanova</span>.
-                </a>
-                <a class="link  link_wrapper  link_twitter"
-                    href="https://twitter.com/varya_en"
-                    title="@varya_en">
-                    <img alt="Twitter" class="ico" src="http://favicon.yandex.net/favicon/twitter.com" title="Twitter"/>
-                    <span class="link__inner">Follow me on twitter</span>!
-                </a>
-            </div>
-            <div class="footer__right">
-            </div>
-        </footer>
-    </div>
-    <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter20478625 = new Ya.Metrika({id:20478625, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/20478625" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
-    <script src="http://yandex.st/jquery/1.7.2/jquery.min.js"></script>
-    <script src="/desktop.bundles/index/index.min.js" async defer></script>
-</body>
+        <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter20478625 = new Ya.Metrika({id:20478625, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/20478625" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+        <script src="/assets/page-e1b09cefff6a6bc21cd0.js"></script>
+<script src="/assets/post-e1b09cefff6a6bc21cd0.js"></script>
+<script src="/assets/index-e1b09cefff6a6bc21cd0.js"></script>
+<script src="http://localhost:35729/livereload.js"></script>
+    </body>
 </html>
+

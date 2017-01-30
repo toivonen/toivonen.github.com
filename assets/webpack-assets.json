@@ -1,0 +1,24 @@
+{
+  "page": {
+    "js": "/assets/page-e1b09cefff6a6bc21cd0.js",
+    "css": "/assets/page-e1b09cefff6a6bc21cd0.css"
+  },
+  "styles": {
+    "js": "/assets/styles-e1b09cefff6a6bc21cd0.js",
+    "css": "/assets/page-e1b09cefff6a6bc21cd0.css"
+  },
+  "head": {
+    "js": "/assets/head-e1b09cefff6a6bc21cd0.js"
+  },
+  "post": {
+    "js": "/assets/post-e1b09cefff6a6bc21cd0.js",
+    "css": "/assets/page-e1b09cefff6a6bc21cd0.css"
+  },
+  "index": {
+    "js": "/assets/index-e1b09cefff6a6bc21cd0.js",
+    "css": "/assets/page-e1b09cefff6a6bc21cd0.css"
+  },
+  "loader": {
+    "js": "/assets/loader-e1b09cefff6a6bc21cd0.js"
+  }
+}

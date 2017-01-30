@@ -1,78 +1,40 @@
-<!DOCTYPE html>
-<html class="page page_en" lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <title>Simple React Angular project</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-    <link  rel="stylesheet" href="/desktop.bundles/index/index.min.css" />
-    <script>
-    (function(d, s, l, r) {
-    if (typeof(s) !== 'undefined' && l.getItem('varya.me.fonts')) {
-        r = [
-            '<style>',
-            l.getItem('varya.me.fonts'),
-            '</style>'
-        ];
-        document.write(r.join(''));
-    }
+<!doctype html>
+<html class='no-js' lang=en>
+    <head>
+        <title>Simple React Angular project</title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
+        <script src="/assets/loader-e1b09cefff6a6bc21cd0.js"></script>
+<link rel="stylesheet" href="/assets/page-e1b09cefff6a6bc21cd0.css"/>
+<script src="/assets/head-e1b09cefff6a6bc21cd0.js"></script>
+        <meta content="Simple React Angular project" property="og:title"/>
+        <meta content="{{desc}}" property="og:description"/>
+        <meta content="/en/posts/react-angular-project/" property="og:url"/>
+        <meta content="/posts/react-angular-project/thumb.png" property="og:image"/>
+        <meta property="og:locale" content="en_US"/>
+        <meta property="og:site_name" content="var ya;"/>
+        <meta property="og:type" content="article"/>
+        <meta property="article:author" content="https://www.facebook.com/toivonens"/>
+        <script>
+            (function(d, s, l, r) {
+            if (typeof(s) !== 'undefined' && l.getItem('varya.me.fonts')) {
+                r = [
+                    '<style>',
+                    l.getItem('varya.me.fonts'),
+                    '</style>'
+                ];
+                document.write(r.join(''));
+            }
 
-    })(document, Storage, localStorage);
-  </script>
-  <meta content='The detailed explanation of React+Angular starting project. Optimal bridge to React, ES2015 and webpack for the developers with Angular background.
-' property="og:description"/><meta content="http://varya.me/posts/react-angular-project/thumb.png" property="og:image"/><meta content="Simple React Angular project" property="og:title"/><meta content="http://varya.me/en/posts/react-angular-project/" property="og:url"/><meta property="og:site_name" content="var ya;"/><meta property="og:type" content="article"/><meta property="og:locale" content="en_US"/> <meta property="article:author" content="https://www.facebook.com/toivonens"/>
-</head>
-<body class="page page__body">
-    <header class="header">
-        <div class="header__left candies i-bem"
-            data-bem='{ "candies" : { "size" : { "max" : 28, "min" : 12 }, "reverse" : true } }'></div>
-        <div class="header__center">
-            <logo class="logo"><span class="logo__dots">···</span><b class="var">var</b>·<b class="ya">ya</b>;<b class="cursor"></b></logo>
-        </div>
-        <div class="header__right candies i-bem"
-            data-bem='{ "candies" : { "size" : { "max" : 28, "min" : 12 } } }'></div>
-    </header>
-    <div class="layout">
-        <section class="main">
-            <ul class="languages">
-            
-                <li class="languages__lang">
-                    
-                        en
-                    
-                </li>
-                
-                <li class="languages__lang">
-                    
-                    <a href="/ru/">
-                        ru
-                    </a>
-                    
-                </li>
-                
-            </ul>
-            <div class="article" role="main">
-    <div class="article__body box__body">
-        <h1 class="article__header">
-            Simple React Angular project
-        </h1>
-    </div>
-    <div class="article__text box__island">
-        <script type="text/javascript" src="//yandex.st/share/share.js"
-        charset="utf-8"></script>
-        <div class="share yashare-auto-init" data-yashareL10n="{{ lang }}"
-            data-yashareQuickServices="twitter,facebook,gplus" data-yashareTheme="counter"
-        ></div>
-        <span class="article__details author vcard">
-            Published on
-            19th May 2016
-        </span>
-        <p>Earlier this year, I participated in a development of a single page application. With the team, we started this
+            })(document, Storage, localStorage);
+        </script>
+    </head>
+    <body class="page">
+        <div id='contents'><div><header class="style__header___7cFNF"><div class="style__left___1nLlV" id="Header-Left"></div><div class="style__center___265v6"><logo class="style__logo___2yXgh">⋅⋅⋅<b class="style__var___11qBW">var</b>⋅<b class="style__ya___8D8Xm">ya</b>;<b class="style__cursor___2aaLd"></b></logo></div><div class="style__right___1RRr2" id="Header-Right"></div></header><div class="style__layout___2Ynks"><section class="style__main___1PTuI"><ul class="style__switcher___2YMLp"><li class="style__lang___kggY_">en</li><li class="style__lang___kggY_"><a href="/ru/" class="style__link___1ZFL2">ru</a></li></ul><div class="style__article___2FW-a" role="main"><div class="style__body___XvMI0"><h1 class="style__header___ADINy">Simple React Angular project</h1></div><div class="style__text___1aEP8"><div class="style__share___2UNWm"><script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script><span class="yashare-auto-init" data-yashareQuickServices="twitter,facebook,gplus" data-yashareL10n="en" data-yashareTheme="counter"></span></div><span class="style__details___ZaSIa author vcard">Published on 5/19/2016</span><div><p>Earlier this year, I participated in a development of a single page application. With the team, we started this
 project from scratch. This situation was the most suitable to practice the new technologies.</p>
-<p>The stack I&#39;ve tried was React + ES2015 + postcss + webpack. However, keeping in mind that most of the
+<p>The stack I've tried was React + ES2015 + postcss + webpack. However, keeping in mind that most of the
 team (who were supposed to maintain the project later) are mainly experienced in Angular, I was looking for some
 sort of combination of these frameworks.</p>
 <excerpt/>
-
 <p>Finally, I made a project with React used for the view and Angular governing the data layer. I
 believe that such project is ideal for the a bridge role. Often happens that the development team has a
 strict deadline. There is no time to invent new rocket science approaches. However, we can introduce them gradually.</p>
@@ -82,29 +44,31 @@ into a React-only project in the next iterations.</p>
 <a href="https://github.com/varya/angular-react-stub">varya/angular-react-stub</a>.</p>
 <p>A new project may be forked/copied from it. After installation of the required npm packages, the development starts with
 running</p>
-<pre class="highlight"><code class="hljs coffeescript"><span class="hljs-built_in">npm</span> start
-</code></pre><p>It starts a local server that builds of html, js and css files related to the project. The magic
+<pre><code>npm start
+</code></pre>
+<p>It starts a local server that builds of html, js and css files related to the project. The magic
 happens with <code>webpack</code>. Let me explain it below.</p>
-<p>For now, let&#39;s concentrate on the file structure.</p>
+<p>For now, let's concentrate on the file structure.</p>
 <p>A human produced code of the project is placed in the <code>src</code> folder.</p>
-<pre class="highlight"><code class="hljs stylus">src/
+<pre><code>src/
 
   _helpers/
 
   modules/
     menu/
-      <span class="hljs-tag">menu</span><span class="hljs-class">.component</span><span class="hljs-class">.js</span>
-      <span class="hljs-tag">menu</span><span class="hljs-class">.css</span>
+      menu.component.js
+      menu.css
 
   pages/
     contact/
-      contact<span class="hljs-class">.ctrl</span><span class="hljs-class">.js</span>
-      contact<span class="hljs-class">.html</span>
+      contact.ctrl.js
+      contact.html
 
-  index<span class="hljs-class">.html</span>
-  index<span class="hljs-class">.js</span>
-</code></pre><p>The <a href="https://github.com/varya/angular-react-stub/blob/3870766a28adb61fc2f1fc86fbfbe538c00da1f9/src/index.js">index.js</a> file
-is &#39;entering point&#39; of the building process. Here, the webpack finds out what the modules required for the
+  index.html
+  index.js
+</code></pre>
+<p>The <a href="https://github.com/varya/angular-react-stub/blob/3870766a28adb61fc2f1fc86fbfbe538c00da1f9/src/index.js">index.js</a> file
+is 'entering point' of the building process. Here, the webpack finds out what the modules required for the
 app are.</p>
 <p>In this file, I create an Angular application and define the rules for routing. Roughly, each routing path corresponds
 to its page. It takes a page template (an <code>html</code> file) and a page controller (a <code>js</code> module), and make them work
@@ -120,7 +84,7 @@ heavy code. Anyway, you can see how the <code>$scope</code> is filled in
 you can see how it is passed down to the only used Angular directive, <code>react-component</code>. This directive is a bridge
 between Angular-cooked data and React-operated view. In the directive you declare what React component to render and
 pass the properties to it. After that, the React component operates independently from the Angular.</p>
-<h2 id="modules">Modules</h2>
+<h2>Modules</h2>
 <p>There is a special <code>modules</code> folder at the same level as <code>pages</code>. It contains all the React modules used in the
 application. The modules can be complex and include other modules. However, the file structure is flat. Each component
 is represented by a folder with its JavaScript file and any other related content inside. Often, it is CSS, however
@@ -128,8 +92,9 @@ the pictures and other required stuff may be in the same folder.</p>
 <p>You can check out a typical component code in the file
 <a href="https://github.com/varya/angular-react-stub/blob/3870766a28adb61fc2f1fc86fbfbe538c00da1f9/src/modules/menu/menu.component.js">modules/menu/menu.component.js</a>.</p>
 <p>Note that the required CSS is imported in the JavaScript as</p>
-<pre class="highlight"><code class="hljs gradle"><span class="hljs-keyword">import</span> styles <span class="hljs-keyword">from</span> <span class="hljs-string">'./menu.css'</span>;
-</code></pre><p>This is one of the webpack&#39;s features which makes developing with it so awesome. A component declares the CSS it uses.
+<pre><code>import styles from './menu.css';
+</code></pre>
+<p>This is one of the webpack's features which makes developing with it so awesome. A component declares the CSS it uses.
 Then, the bundled CSS is built according to these declarations. In refactoring, the process will
 automatically exclude out-of-date CSS if its module is no longer in use.</p>
 <p><a href="https://github.com/varya/angular-react-stub/blob/3870766a28adb61fc2f1fc86fbfbe538c00da1f9/webpack.config.js">webpack.config.js</a>
@@ -140,155 +105,36 @@ into plain JavaScript. <code>*.html</code> files are inserted as raw strings. Th
 makes possible to enjoy most of the usual pre-processing features.</p>
 <p>This covers pretty much all about the basic structure. A real project can use external libraries and modules as
 well as have more complex building process. But here is its starting point: <a href="https://github.com/varya/angular-react-stub/">varya/angular-react-stub</a>.</p>
+</div></div></div><div class="style__comments___3emEu"><div class="style__body___2Pjpr"><h4 class="style__header___8JJlc">Comments</h4></div><div class="style__island___6Bc3W"><div><div id="disqus_thread"></div><script>
+    (function(){
+        window.disqus_shortname = 'varya';
+        window.disqus_developer = '1';
+        window.disqus_url = 'http://varya.me//en/posts/react-angular-project';
+        window.disqus_identifier = 'posts-react-angular-project-index-en';
+        window.disqus_title = 'Simple React Angular project';
+        if ( window.DISQUS ) {
+            return DISQUS.reset({
+                reload: true,
+                config: function () {
+                    this.page.identifier = window.disqus_identifier;
+                    this.page.url = window.disqus_url;
+                    this.page.title = window.disqus_title;
+                }
+            });
+        }
+        else {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }
+    })();
+</script></div></div></div><div class="style__related___3zKIm"><div class="style__body___2uz87"><h4 class="style__header___1WzCe">By the way</h4></div><div class="style__island___1W8YU"><a href="https://github.com/varya/varya.github.com/issues/new?title=Feedback for Simple React Angular project">Create a GitHub issue for me</a> if you&#x27;ve spotted a typo or a mistake, or wish to add something on. Or you can <a href="https://github.com/varya/varya.github.com/edit/develop/content/posts/react-angular-project/index_en.md">edit this post yourself and make me a patch</a>.</div></div></section><nav class="style__sidebar___2nkwz"><ul class="style__menu___-uZzl"><h3 class="style__title___3mAfQ">On this site</h3><li class="style__item___2LuN-"><a href="/en/posts/" class="style__link___1ZFL2">Tech Blog</a></li><li class="style__item___2LuN-"><a href="/en/content/" class="style__link___1ZFL2">Articles and talks</a></li><li class="style__item___2LuN-"><a href="/" class="style__link___1ZFL2">About me</a></li><li class="style__item___2LuN-"><a href="/en/life/" class="style__link___1ZFL2">My life</a></li></ul><div id="GitHub"></div></nav><aside class="style__prompt___1WAf7"><ul class="style__socialIco___14rtL"><li class="style__item___24Oaa"><ul class="style__feeds___lx7IA"><li class="style__item___24Oaa"><a class="style__rssText___1S0Bk" href="/en/feed.xml" title="New on Varya.me in English">en</a></li><li class="style__item___24Oaa"><a class="style__rssText___1S0Bk" href="/ru/feed.xml" title="Новые записи на Varya.me">ru</a></li></ul><a class="style__rss___2lUOQ style__ico___1PWaR" href="/feed.xml" title="New on Varya.me"></a></li><li class="style__item___24Oaa"><a class="style__twitter___3GPQl style__ico___1PWaR" href="https://twitter.com/varya_en" title="@varya_en" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__github___2GmrH style__ico___1PWaR" href="https://github.com/varya" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__facebook___2SOVV style__ico___1PWaR" href="http://www.facebook.com/varvara.stepanova.9" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__linkedin___2NaTD style__ico___1PWaR" href="http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b" target="_blank"></a></li></ul></aside></div><div class="style__outer___1U8mi"><footer class="style__footer___2MbLi"><div class="style__left___2vtHv"></div><div class="style__center___1Ffk8"><a href="http://varya.me">© 2017Varya Stepanova</a> <a href="https://twitter.com/varya_en" title="@varya_en"><img alt="Twitter" src="http://favicon.yandex.net/favicon/twitter.com" title="Twitter"/> Follow me on Twitter!</a></div><div class="style__right___H7yIL"></div></footer></div></div></div>
 
-    </div>
-    <div class="comments">
-        <div class="comments__box box__body">
-            <h4 class="comments__header">
-                Comments
-            </h4>
-        </div>
-        <div class="comments__body box__island">
-            
-              
-                  <div id="disqus_thread"></div>
-<script>
-	(function(){
-		window.disqus_shortname = 'varya';
-		window.disqus_developer = '1';
-		window.disqus_url = 'http://varya.me//en/posts/react-angular-project';
-		window.disqus_identifier = 'posts-react-angular-project-index-en';
-		window.disqus_title = 'Simple React Angular project';
-		if ( window.DISQUS ) {
-			return DISQUS.reset({
-				reload: true,
-				config: function () {
-					this.page.identifier = window.disqus_identifier;
-					this.page.url = window.disqus_url;
-					this.page.title = window.disqus_title;
-				}
-			});
-		}
-		else {
-		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		}
-	})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-              
-            
-        </div>
-    </div>
-    <div class="related">
-        <div class="related__body box__body">
-            <h4 class="related__header">
-                By the way
-            </h4>
-        </div>
-        <div class="related__text box__island">
-                <a href="https://github.com/varya/varya.github.com/issues/new?title=Feedback for Simple React Angular project">
-                Create a GitHub issue for me</a> if you've spotted a typo or a mistake, or wish to add something on.
-                Or you can
-                <a href="https://github.com/varya/varya.github.com/edit/develop/src/documents/posts/react-angular-project/index_en.html.md">edit this post yourself and make me a patch</a>.
-        </div>
-    </div>
-</div>
-        </section>
-        <nav class="sidebar">
-        <ul class="menu-vert">
-            <h3 class="menu-vert__title box__title">
-                On this site
-            </h3>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/en/posts">
-                        Tech Blog
-                    </a>
-                </li>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/en/content">
-                        Articles and talks
-                    </a>
-                </li>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/">
-                        About me
-                    </a>
-                </li>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/en/life">
-                        My life
-                    </a>
-                </li>
-            
-            </ul>
-            <div class="github i-bem box github_not-ready"
-                data-bem='{ "github" : { "user" : "varya" } }'>
-                <div class="github__header box__title">
-                  Last updated repos
-                </div>
-                <ul class="github__body"></ul>
-            </div>
-        </nav>
-        <aside class="prompting">
-            <ul class="social-ico menu-vert">
-                <li class="menu-vert__item">
-                    <ul class="social-ico__text menu-vert">
-                        <li class="menu-vert__item">
-                            <a class="link social-ico__rss-text" href="/en/feed.xml" title="New on Varya.me in English">en</a>
-                        </li>
-                        <li class="menu-vert__item">
-                            <a class="link social-ico__rss-text" href="/ru/feed.xml" title="Новые записи на Varya.me">ru</a>
-                        </li>
-                    </ul>
-                    <a class="link social-ico__ico social-ico__ico_type_rss" href="/feed.xml" title="New on Varya.me"></a>
-                </li>
-                <li class="menu-vert__item">
-                <a class="link social-ico__ico social-ico__ico_type_twitter"
-                    href="https://twitter.com/varya_en"
-                    title="@varya_en"
-                    target="_blank"></a>
-                </li>
-                <li class="menu-vert__item">
-                    <a class="link social-ico__ico social-ico__ico_type_github" href="https://github.com/varya" target="_blank"></a>
-                </li>
-                <li class="menu-vert__item">
-                    <a class="link social-ico__ico social-ico__ico_type_facebook" href="http://www.facebook.com/varvara.stepanova.9" target="_blank"></a>
-                </li>
-                <li class="menu-vert__item">
-                    <a class="link social-ico__ico social-ico__ico_type_linkedin" href="http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b" target="_blank"></a>
-                </li>
-            </ul>
-        </aside>
-    </div>
-    <div class="footer__outer">
-        <footer class="footer">
-            <div class="footer__left">
-            </div>
-            <div class="footer__center">
-                <a class="link  link_text  link_wrapper" href="http://varya.me/">
-                    © 2016
-                    <span class="link__inner">Varya Stepanova</span>.
-                </a>
-                <a class="link  link_wrapper  link_twitter"
-                    href="https://twitter.com/varya_en"
-                    title="@varya_en">
-                    <img alt="Twitter" class="ico" src="http://favicon.yandex.net/favicon/twitter.com" title="Twitter"/>
-                    <span class="link__inner">Follow me on twitter</span>!
-                </a>
-            </div>
-            <div class="footer__right">
-            </div>
-        </footer>
-    </div>
-    <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter20478625 = new Ya.Metrika({id:20478625, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/20478625" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
-    <script src="http://yandex.st/jquery/1.7.2/jquery.min.js"></script>
-    <script src="/desktop.bundles/index/index.min.js" async defer></script>
-</body>
+        <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter20478625 = new Ya.Metrika({id:20478625, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/20478625" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+        <script src="/assets/page-e1b09cefff6a6bc21cd0.js"></script>
+<script src="/assets/post-e1b09cefff6a6bc21cd0.js"></script>
+<script src="/assets/index-e1b09cefff6a6bc21cd0.js"></script>
+<script src="http://localhost:35729/livereload.js"></script>
+    </body>
 </html>
+

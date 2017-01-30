@@ -1,72 +1,35 @@
-<!DOCTYPE html>
-<html class="page page_en" lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <title>Dealing atomically with icon fonts</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-    <link  rel="stylesheet" href="/desktop.bundles/index/index.min.css" />
-    <script>
-    (function(d, s, l, r) {
-    if (typeof(s) !== 'undefined' && l.getItem('varya.me.fonts')) {
-        r = [
-            '<style>',
-            l.getItem('varya.me.fonts'),
-            '</style>'
-        ];
-        document.write(r.join(''));
-    }
+<!doctype html>
+<html class='no-js' lang=en>
+    <head>
+        <title>Dealing atomically with icon fonts</title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
+        <script src="/assets/loader-e1b09cefff6a6bc21cd0.js"></script>
+<link rel="stylesheet" href="/assets/page-e1b09cefff6a6bc21cd0.css"/>
+<script src="/assets/head-e1b09cefff6a6bc21cd0.js"></script>
+        <meta content="Dealing atomically with icon fonts" property="og:title"/>
+        <meta content="{{desc}}" property="og:description"/>
+        <meta content="/en/posts/dealing-atomically-with-icon-fonts/" property="og:url"/>
+        <meta content="/posts/dealing-atomically-with-icon-fonts/thumb.png" property="og:image"/>
+        <meta property="og:locale" content="en_US"/>
+        <meta property="og:site_name" content="var ya;"/>
+        <meta property="og:type" content="article"/>
+        <meta property="article:author" content="https://www.facebook.com/toivonens"/>
+        <script>
+            (function(d, s, l, r) {
+            if (typeof(s) !== 'undefined' && l.getItem('varya.me.fonts')) {
+                r = [
+                    '<style>',
+                    l.getItem('varya.me.fonts'),
+                    '</style>'
+                ];
+                document.write(r.join(''));
+            }
 
-    })(document, Storage, localStorage);
-  </script>
-  <meta content='Fixing the "using UI library" workflow with building icon fonts from atomic SVG icons. The library has its own flow, and obviously the new things can only appear in new versions. However the library customers sometimes cannot wait even an hour. With the atomic builds you can easily provide library customer with the freedom to modify everything. Even icon fonts.
-' property="og:description"/><meta content="http://varya.me/posts/dealing-atomically-with-icon-fonts/thumb.png" property="og:image"/><meta content="Dealing atomically with icon fonts" property="og:title"/><meta content="http://varya.me/en/posts/dealing-atomically-with-icon-fonts/" property="og:url"/><meta property="og:site_name" content="var ya;"/><meta property="og:type" content="article"/><meta property="og:locale" content="en_US"/> <meta property="article:author" content="https://www.facebook.com/toivonens"/>
-</head>
-<body class="page page__body">
-    <header class="header">
-        <div class="header__left candies i-bem"
-            data-bem='{ "candies" : { "size" : { "max" : 28, "min" : 12 }, "reverse" : true } }'></div>
-        <div class="header__center">
-            <logo class="logo"><span class="logo__dots">···</span><b class="var">var</b>·<b class="ya">ya</b>;<b class="cursor"></b></logo>
-        </div>
-        <div class="header__right candies i-bem"
-            data-bem='{ "candies" : { "size" : { "max" : 28, "min" : 12 } } }'></div>
-    </header>
-    <div class="layout">
-        <section class="main">
-            <ul class="languages">
-            
-                <li class="languages__lang">
-                    
-                        en
-                    
-                </li>
-                
-                <li class="languages__lang">
-                    
-                    <a href="/ru/">
-                        ru
-                    </a>
-                    
-                </li>
-                
-            </ul>
-            <div class="article" role="main">
-    <div class="article__body box__body">
-        <h1 class="article__header">
-            Dealing atomically with icon fonts
-        </h1>
-    </div>
-    <div class="article__text box__island">
-        <script type="text/javascript" src="//yandex.st/share/share.js"
-        charset="utf-8"></script>
-        <div class="share yashare-auto-init" data-yashareL10n="{{ lang }}"
-            data-yashareQuickServices="twitter,facebook,gplus" data-yashareTheme="counter"
-        ></div>
-        <span class="article__details author vcard">
-            Published on
-            10th November 2015
-        </span>
-        <p>My recent huge project was developing a library of CSS and JavaScript components for sharing this code across a lot of
+            })(document, Storage, localStorage);
+        </script>
+    </head>
+    <body class="page">
+        <div id='contents'><div><header class="style__header___7cFNF"><div class="style__left___1nLlV" id="Header-Left"></div><div class="style__center___265v6"><logo class="style__logo___2yXgh">⋅⋅⋅<b class="style__var___11qBW">var</b>⋅<b class="style__ya___8D8Xm">ya</b>;<b class="style__cursor___2aaLd"></b></logo></div><div class="style__right___1RRr2" id="Header-Right"></div></header><div class="style__layout___2Ynks"><section class="style__main___1PTuI"><ul class="style__switcher___2YMLp"><li class="style__lang___kggY_">en</li><li class="style__lang___kggY_"><a href="/ru/" class="style__link___1ZFL2">ru</a></li></ul><div class="style__article___2FW-a" role="main"><div class="style__body___XvMI0"><h1 class="style__header___ADINy">Dealing atomically with icon fonts</h1></div><div class="style__text___1aEP8"><div class="style__share___2UNWm"><script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script><span class="yashare-auto-init" data-yashareQuickServices="twitter,facebook,gplus" data-yashareL10n="en" data-yashareTheme="counter"></span></div><span class="style__details___ZaSIa author vcard">Published on 11/10/2015</span><div><p>My recent huge project was developing a library of CSS and JavaScript components for sharing this code across a lot of
 web services and mobile apps. In most cases such work brings up question about how to avoid blocking the processes.</p>
 <p>The library has its own flow, and obviously the new things can only appear in new versions. Although I made my best to
 provide fast releases, and so the library has them 2-3 times a week, it is still understandable that the library
@@ -74,32 +37,32 @@ customers sometimes cannot wait even an hour.</p>
 <p>I belive that one of the must-haves of UI library is the freedom which it should give to its customers. You can easily
 provide this if practice atomic approach everythere. For example, for the icon fonts.</p>
 <excerpt/>
-
-<h3 id="solid-piece">Solid piece</h3>
+<h3>Solid piece</h3>
 <p>Soon or not SVG will conquer the world. But now we still have icon fonts in some projects. The same story was with that
 library.</p>
 <p>However the icon font perfectly suited for the displaying icons onto the web pages, it was integration and flow which
 created the problem. All the icons fit into one font file (well, in 4 different formats):</p>
-<pre class="highlight"><code class="hljs stylus">src/
+<pre><code>src/
   fonts/
-    iconfont<span class="hljs-class">.eot</span>
-    iconfont<span class="hljs-class">.svg</span>
-    iconfont<span class="hljs-class">.ttf</span>
-    iconfont<span class="hljs-class">.woff</span>
-</code></pre><p>Also the library provided CSS to make the icon-symbol matching:</p>
-<pre class="highlight"><code class="hljs scss"><span class="hljs-class">.icon</span> {
-  <span class="hljs-attribute">font-family</span><span class="hljs-value">: <span class="hljs-variable">$global-font-icon</span>;</span>
-  &amp;<span class="hljs-pseudo">:before</span> {
-    <span class="hljs-comment">/* Some common icon stuff */</span>
+    iconfont.eot
+    iconfont.svg
+    iconfont.ttf
+    iconfont.woff
+</code></pre>
+<p>Also the library provided CSS to make the icon-symbol matching:</p>
+<pre><code class="language-scss">.icon {
+  font-family: $global-font-icon;
+  &amp;:before {
+    /* Some common icon stuff */
   }
   &amp;--support {
-    &amp;<span class="hljs-pseudo">:before</span> {
-      <span class="hljs-attribute">content</span><span class="hljs-value">: <span class="hljs-string">"a"</span>;</span>
+    &amp;:before {
+      content: &quot;a&quot;;
     }
   }
   &amp;--chat {
-    &amp;<span class="hljs-pseudo">:before</span> {
-      <span class="hljs-attribute">content</span><span class="hljs-value">: <span class="hljs-string">"b"</span>;</span>
+    &amp;:before {
+      content: &quot;b&quot;;
     }
   }
   ...
@@ -109,65 +72,67 @@ created the problem. All the icons fit into one font file (well, in 4 different 
 and wait for the package to update. As usual, the fastest way to get something happened is to do this yourself. So, it
 possible to contribute and even release yourself. But still any further change would need you to go through the
 development process.</p>
-<h3 id="atomic-and-buildable">Atomic and buildable</h3>
+<h3>Atomic and buildable</h3>
 <p>Often you need to divide into smaller pieces in order to make things more mantainable. The same goes with icons. In the
 library we changed it so that the source is now a set of SVG files:</p>
-<pre class="highlight"><code class="hljs stylus">src/
+<pre><code>src/
   icons/
-    <span class="hljs-number">1000</span>-support<span class="hljs-class">.svg</span>
-    <span class="hljs-number">1010</span>-chat<span class="hljs-class">.svg</span>
-    <span class="hljs-number">1020</span>-users<span class="hljs-class">.svg</span>
-</code></pre><p>The file names are important, these words are used to generate the CSS classes, which are the API for the customer.
+    1000-support.svg
+    1010-chat.svg
+    1020-users.svg
+</code></pre>
+<p>The file names are important, these words are used to generate the CSS classes, which are the API for the customer.
 Numbers are for the right order. If building the icon system from very beginning, they are not needed. But in the
 library case I wanted backward compatibility.</p>
 <p>Then, these icons are built into the same icon fonts with <code>gulp-iconfont</code> plugin:</p>
-<pre class="highlight"><code class="hljs javascript"><span class="hljs-keyword">var</span> gulp = <span class="hljs-built_in">require</span>(<span class="hljs-string">"gulp"</span>);
-<span class="hljs-keyword">var</span> iconfont = <span class="hljs-built_in">require</span>(<span class="hljs-string">"gulp-iconfont"</span>);
-<span class="hljs-keyword">var</span> consolidate = <span class="hljs-built_in">require</span>(<span class="hljs-string">"gulp-consolidate"</span>);
+<pre><code class="language-js">var gulp = require(&quot;gulp&quot;);
+var iconfont = require(&quot;gulp-iconfont&quot;);
+var consolidate = require(&quot;gulp-consolidate&quot;);
 
-<span class="hljs-keyword">var</span> sourcePath = <span class="hljs-string">"src/"</span>;
+var sourcePath = &quot;src/&quot;;
 
-gulp.task(<span class="hljs-string">"build:icons"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
-    <span class="hljs-keyword">return</span> gulp.src([sourcePath + <span class="hljs-string">"/icons/*.svg"</span>])
+gulp.task(&quot;build:icons&quot;, function() {
+    return gulp.src([sourcePath + &quot;/icons/*.svg&quot;])
       .pipe(iconfont({
-        fontName: <span class="hljs-string">"myicons"</span>,
-        formats: [<span class="hljs-string">"ttf"</span>, <span class="hljs-string">"eot"</span>, <span class="hljs-string">"woff"</span>, <span class="hljs-string">"svg"</span>],
-        centerHorizontally: <span class="hljs-literal">true</span>,
-        fixedWidth: <span class="hljs-literal">true</span>
+        fontName: &quot;myicons&quot;,
+        formats: [&quot;ttf&quot;, &quot;eot&quot;, &quot;woff&quot;, &quot;svg&quot;],
+        centerHorizontally: true,
+        fixedWidth: true
       }))
-      .on(<span class="hljs-string">"glyphs"</span>, (glyphs) =&gt; {
+      .on(&quot;glyphs&quot;, (glyphs) =&gt; {
 
         glyphs.forEach((icon) =&gt; {
-          icon.name = icon.name.replace(<span class="hljs-regexp">/^\d+\-/g</span>, <span class="hljs-string">""</span>);
+          icon.name = icon.name.replace(/^\d+\-/g, &quot;&quot;);
         });
 
-        gulp.src(sourcePath + <span class="hljs-string">"/icons/util/*.scss"</span>) <span class="hljs-comment">// Template</span>
-            .pipe(consolidate(<span class="hljs-string">"lodash"</span>, {
+        gulp.src(sourcePath + &quot;/icons/util/*.scss&quot;) // Template
+            .pipe(consolidate(&quot;lodash&quot;, {
                 glyphs: glyphs,
-                fontName: <span class="hljs-string">"myiconfont"</span>,
-                fontPath: <span class="hljs-string">"../fonts/"</span>
+                fontName: &quot;myiconfont&quot;,
+                fontPath: &quot;../fonts/&quot;
             }))
-            .pipe(gulp.dest(sourcePath + <span class="hljs-string">"/scss/"</span>));
+            .pipe(gulp.dest(sourcePath + &quot;/scss/&quot;));
       })
-      .pipe(gulp.dest(sourcePath + <span class="hljs-string">"/fonts/"</span>));
+      .pipe(gulp.dest(sourcePath + &quot;/fonts/&quot;));
 });
 </code></pre>
 <p>Besides the icon files this task needs the templates to produce the CSS (or SCSS, as in this case) which makes the
 symbol-class matching. I found it logical to store it together with the icon files:</p>
-<pre class="highlight"><code class="hljs stylus">src/
+<pre><code>src/
   icons/
     utils/
-      iconfont__icons<span class="hljs-class">.scss</span>
-      iconfont__variables<span class="hljs-class">.scss</span>
-</code></pre><p>It&#39;s possible to manage with one template only, but for even more flexibility I have two. The main one makes the
+      iconfont__icons.scss
+      iconfont__variables.scss
+</code></pre>
+<p>It's possible to manage with one template only, but for even more flexibility I have two. The main one makes the
 classes:</p>
-<pre class="highlight"><code class="hljs undefined">@font-face {
+<pre><code class="language-css">@font-face {
   font-family: $global-font-icon;
-  src:url("&lt;%= fontPath %&gt;&lt;%= fontName %&gt;..eot");
-  src:url("&lt;%= fontPath %&gt;&lt;%= fontName %&gt;.?#iefix") format("embedded-opentype"),
-    url("&lt;%= fontPath %&gt;&lt;%= fontName %&gt;.woff") format("woff"),
-    url("&lt;%= fontPath %&gt;&lt;%= fontName %&gt;.ttf") format("truetype"),
-    url("&lt;%= fontPath %&gt;&lt;%= fontName %&gt;.#&lt;%= fontName %&gt;") format("svg");
+  src:url(&quot;&lt;%= fontPath %&gt;&lt;%= fontName %&gt;..eot&quot;);
+  src:url(&quot;&lt;%= fontPath %&gt;&lt;%= fontName %&gt;.?#iefix&quot;) format(&quot;embedded-opentype&quot;),
+    url(&quot;&lt;%= fontPath %&gt;&lt;%= fontName %&gt;.woff&quot;) format(&quot;woff&quot;),
+    url(&quot;&lt;%= fontPath %&gt;&lt;%= fontName %&gt;.ttf&quot;) format(&quot;truetype&quot;),
+    url(&quot;&lt;%= fontPath %&gt;&lt;%= fontName %&gt;.#&lt;%= fontName %&gt;&quot;) format(&quot;svg&quot;);
   font-weight: normal;
   font-style: normal;
 }
@@ -188,63 +153,65 @@ classes:</p>
 }
 </code></pre>
 <p>And another one makes the varibles:</p>
-<pre class="highlight"><code class="hljs undefined">&lt;% _.each(glyphs, function(glyph) { %&gt;
-$icon-&lt;%= glyph.name %&gt;: "\&lt;%= glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase() %&gt;" !default;
+<pre><code class="language-css">&lt;% _.each(glyphs, function(glyph) { %&gt;
+$icon-&lt;%= glyph.name %&gt;: &quot;\&lt;%= glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase() %&gt;&quot; !default;
 &lt;% }); %&gt;
 </code></pre>
 <p>Running the task produces the fonts and 2 generic SCSS files:</p>
-<pre class="highlight"><code class="hljs stylus">src/
-  <span class="hljs-attribute">font</span>/
-    iconfont<span class="hljs-class">.eot</span>
-    iconfont<span class="hljs-class">.svg</span>
-    iconfont<span class="hljs-class">.ttf</span>
-    iconfont<span class="hljs-class">.woff</span>
+<pre><code>src/
+  font/
+    iconfont.eot
+    iconfont.svg
+    iconfont.ttf
+    iconfont.woff
   scss/
-    icons<span class="hljs-class">.scss</span> <span class="hljs-comment">// Not generic</span>
-    iconfont__icons<span class="hljs-class">.scss</span>
-    iconfont__variables<span class="hljs-class">.scss</span>
-</code></pre><p>In the <code>icons.scss</code>, which is normal SCSS file, the result is requested:</p>
-<pre class="highlight"><code class="hljs undefined">// Icons
+    icons.scss // Not generic
+    iconfont__icons.scss
+    iconfont__variables.scss
+</code></pre>
+<p>In the <code>icons.scss</code>, which is normal SCSS file, the result is requested:</p>
+<pre><code class="language-css">// Icons
 //
 // Lists all the icons that are used in the services.
 //
 // Styleguide 5
 
-@import "iconfont__variables.scss";
-@import "iconfont__icons.scss";
+@import &quot;iconfont__variables.scss&quot;;
+@import &quot;iconfont__icons.scss&quot;;
 </code></pre>
-<h3 id="extend-on-fly">Extend on fly</h3>
-<p>The variables may be redefined on the customer&#39;s side. This makes is a fast way to change the icon, if the replacement
+<h3>Extend on fly</h3>
+<p>The variables may be redefined on the customer's side. This makes is a fast way to change the icon, if the replacement
 already sit in the font bundle.</p>
 <p>If not, it is almost zero amout of work to implement this build-from-atoms process on the customer side.</p>
-<p>The customer has all the library code, let&#39;s say in <code>bower_components</code>, and can have its own folder of icons:</p>
-<pre class="highlight"><code class="hljs stylus">bower_components/
+<p>The customer has all the library code, let's say in <code>bower_components</code>, and can have its own folder of icons:</p>
+<pre><code>bower_components/
   ui-library/
     dist/
       icons/
       scss/
 src/
   icons/
-    <span class="hljs-number">2000</span>-rabbit<span class="hljs-class">.svg</span>
-    <span class="hljs-number">2010</span>-gift<span class="hljs-class">.svg</span>
-</code></pre><p>When building the font they need to use both their set of icons and the library icons:</p>
-<pre class="highlight"><code class="hljs javascript">
-<span class="hljs-keyword">var</span> sourcePath = <span class="hljs-string">"src/"</span>;
+    2000-rabbit.svg
+    2010-gift.svg
+</code></pre>
+<p>When building the font they need to use both their set of icons and the library icons:</p>
+<pre><code class="language-js">
+var sourcePath = &quot;src/&quot;;
 
-gulp.task(<span class="hljs-string">"build:icons"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
-    <span class="hljs-keyword">return</span> gulp.src([sourcePath + <span class="hljs-string">"/icons/*.svg"</span>, <span class="hljs-string">"bower_components/ui-library/dist/icons/*.svg"</span>])
+gulp.task(&quot;build:icons&quot;, function() {
+    return gulp.src([sourcePath + &quot;/icons/*.svg&quot;, &quot;bower_components/ui-library/dist/icons/*.svg&quot;])
       .pipe(iconfont({
-        <span class="hljs-comment">/* The same as above */</span>
+        /* The same as above */
       }))
-      .on(<span class="hljs-string">"glyphs"</span>, (glyphs) =&gt; {
+      .on(&quot;glyphs&quot;, (glyphs) =&gt; {
 
-        gulp.src(<span class="hljs-string">"bower_components/ui-library/dist/icons/util/*.scss"</span>)
-            .pipe(consolidate(<span class="hljs-string">"lodash"</span>, {
-                <span class="hljs-comment">/* The same as above */</span>
+        gulp.src(&quot;bower_components/ui-library/dist/icons/util/*.scss&quot;)
+            .pipe(consolidate(&quot;lodash&quot;, {
+                /* The same as above */
             }))
-            .pipe(gulp.dest(sourcePath + <span class="hljs-string">"/scss/"</span>));
+            .pipe(gulp.dest(sourcePath + &quot;/scss/&quot;));
       })
-      .pipe(gulp.dest(sourcePath + <span class="hljs-string">"/fonts/"</span>));
+      .pipe(gulp.dest(sourcePath + &quot;/fonts/&quot;));
 });
 </code></pre>
 <p>It is not even needed to implement template for the output SCSS, it comes in the library dist.</p>
@@ -259,155 +226,36 @@ conflict.</p>
 <p>And the last but not least nice thing: all the icons are now in the library as SVG files. Hopefully later we come up
 with using next century technologies and not the icons fonts. When this sweet moment comes, half of the work will have
 been done :-)</p>
+</div></div></div><div class="style__comments___3emEu"><div class="style__body___2Pjpr"><h4 class="style__header___8JJlc">Comments</h4></div><div class="style__island___6Bc3W"><div><div id="disqus_thread"></div><script>
+    (function(){
+        window.disqus_shortname = 'varya';
+        window.disqus_developer = '1';
+        window.disqus_url = 'http://varya.me//en/posts/dealing-atomically-with-icon-fonts';
+        window.disqus_identifier = 'posts-dealing-atomically-with-icon-fonts-index-en';
+        window.disqus_title = 'Dealing atomically with icon fonts';
+        if ( window.DISQUS ) {
+            return DISQUS.reset({
+                reload: true,
+                config: function () {
+                    this.page.identifier = window.disqus_identifier;
+                    this.page.url = window.disqus_url;
+                    this.page.title = window.disqus_title;
+                }
+            });
+        }
+        else {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }
+    })();
+</script></div></div></div><div class="style__related___3zKIm"><div class="style__body___2uz87"><h4 class="style__header___1WzCe">By the way</h4></div><div class="style__island___1W8YU"><a href="https://github.com/varya/varya.github.com/issues/new?title=Feedback for Dealing atomically with icon fonts">Create a GitHub issue for me</a> if you&#x27;ve spotted a typo or a mistake, or wish to add something on. Or you can <a href="https://github.com/varya/varya.github.com/edit/develop/content/posts/dealing-atomically-with-icon-fonts/index_en.md">edit this post yourself and make me a patch</a>.</div></div></section><nav class="style__sidebar___2nkwz"><ul class="style__menu___-uZzl"><h3 class="style__title___3mAfQ">On this site</h3><li class="style__item___2LuN-"><a href="/en/posts/" class="style__link___1ZFL2">Tech Blog</a></li><li class="style__item___2LuN-"><a href="/en/content/" class="style__link___1ZFL2">Articles and talks</a></li><li class="style__item___2LuN-"><a href="/" class="style__link___1ZFL2">About me</a></li><li class="style__item___2LuN-"><a href="/en/life/" class="style__link___1ZFL2">My life</a></li></ul><div id="GitHub"></div></nav><aside class="style__prompt___1WAf7"><ul class="style__socialIco___14rtL"><li class="style__item___24Oaa"><ul class="style__feeds___lx7IA"><li class="style__item___24Oaa"><a class="style__rssText___1S0Bk" href="/en/feed.xml" title="New on Varya.me in English">en</a></li><li class="style__item___24Oaa"><a class="style__rssText___1S0Bk" href="/ru/feed.xml" title="Новые записи на Varya.me">ru</a></li></ul><a class="style__rss___2lUOQ style__ico___1PWaR" href="/feed.xml" title="New on Varya.me"></a></li><li class="style__item___24Oaa"><a class="style__twitter___3GPQl style__ico___1PWaR" href="https://twitter.com/varya_en" title="@varya_en" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__github___2GmrH style__ico___1PWaR" href="https://github.com/varya" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__facebook___2SOVV style__ico___1PWaR" href="http://www.facebook.com/varvara.stepanova.9" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__linkedin___2NaTD style__ico___1PWaR" href="http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b" target="_blank"></a></li></ul></aside></div><div class="style__outer___1U8mi"><footer class="style__footer___2MbLi"><div class="style__left___2vtHv"></div><div class="style__center___1Ffk8"><a href="http://varya.me">© 2017Varya Stepanova</a> <a href="https://twitter.com/varya_en" title="@varya_en"><img alt="Twitter" src="http://favicon.yandex.net/favicon/twitter.com" title="Twitter"/> Follow me on Twitter!</a></div><div class="style__right___H7yIL"></div></footer></div></div></div>
 
-    </div>
-    <div class="comments">
-        <div class="comments__box box__body">
-            <h4 class="comments__header">
-                Comments
-            </h4>
-        </div>
-        <div class="comments__body box__island">
-            
-              
-                  <div id="disqus_thread"></div>
-<script>
-	(function(){
-		window.disqus_shortname = 'varya';
-		window.disqus_developer = '1';
-		window.disqus_url = 'http://varya.me//en/posts/dealing-atomically-with-icon-fonts';
-		window.disqus_identifier = 'posts-dealing-atomically-with-icon-fonts-index-en';
-		window.disqus_title = 'Dealing atomically with icon fonts';
-		if ( window.DISQUS ) {
-			return DISQUS.reset({
-				reload: true,
-				config: function () {
-					this.page.identifier = window.disqus_identifier;
-					this.page.url = window.disqus_url;
-					this.page.title = window.disqus_title;
-				}
-			});
-		}
-		else {
-		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		}
-	})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-              
-            
-        </div>
-    </div>
-    <div class="related">
-        <div class="related__body box__body">
-            <h4 class="related__header">
-                By the way
-            </h4>
-        </div>
-        <div class="related__text box__island">
-                <a href="https://github.com/varya/varya.github.com/issues/new?title=Feedback for Dealing atomically with icon fonts">
-                Create a GitHub issue for me</a> if you've spotted a typo or a mistake, or wish to add something on.
-                Or you can
-                <a href="https://github.com/varya/varya.github.com/edit/develop/src/documents/posts/dealing-atomically-with-icon-fonts/index_en.html.md">edit this post yourself and make me a patch</a>.
-        </div>
-    </div>
-</div>
-        </section>
-        <nav class="sidebar">
-        <ul class="menu-vert">
-            <h3 class="menu-vert__title box__title">
-                On this site
-            </h3>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/en/posts">
-                        Tech Blog
-                    </a>
-                </li>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/en/content">
-                        Articles and talks
-                    </a>
-                </li>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/">
-                        About me
-                    </a>
-                </li>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/en/life">
-                        My life
-                    </a>
-                </li>
-            
-            </ul>
-            <div class="github i-bem box github_not-ready"
-                data-bem='{ "github" : { "user" : "varya" } }'>
-                <div class="github__header box__title">
-                  Last updated repos
-                </div>
-                <ul class="github__body"></ul>
-            </div>
-        </nav>
-        <aside class="prompting">
-            <ul class="social-ico menu-vert">
-                <li class="menu-vert__item">
-                    <ul class="social-ico__text menu-vert">
-                        <li class="menu-vert__item">
-                            <a class="link social-ico__rss-text" href="/en/feed.xml" title="New on Varya.me in English">en</a>
-                        </li>
-                        <li class="menu-vert__item">
-                            <a class="link social-ico__rss-text" href="/ru/feed.xml" title="Новые записи на Varya.me">ru</a>
-                        </li>
-                    </ul>
-                    <a class="link social-ico__ico social-ico__ico_type_rss" href="/feed.xml" title="New on Varya.me"></a>
-                </li>
-                <li class="menu-vert__item">
-                <a class="link social-ico__ico social-ico__ico_type_twitter"
-                    href="https://twitter.com/varya_en"
-                    title="@varya_en"
-                    target="_blank"></a>
-                </li>
-                <li class="menu-vert__item">
-                    <a class="link social-ico__ico social-ico__ico_type_github" href="https://github.com/varya" target="_blank"></a>
-                </li>
-                <li class="menu-vert__item">
-                    <a class="link social-ico__ico social-ico__ico_type_facebook" href="http://www.facebook.com/varvara.stepanova.9" target="_blank"></a>
-                </li>
-                <li class="menu-vert__item">
-                    <a class="link social-ico__ico social-ico__ico_type_linkedin" href="http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b" target="_blank"></a>
-                </li>
-            </ul>
-        </aside>
-    </div>
-    <div class="footer__outer">
-        <footer class="footer">
-            <div class="footer__left">
-            </div>
-            <div class="footer__center">
-                <a class="link  link_text  link_wrapper" href="http://varya.me/">
-                    © 2016
-                    <span class="link__inner">Varya Stepanova</span>.
-                </a>
-                <a class="link  link_wrapper  link_twitter"
-                    href="https://twitter.com/varya_en"
-                    title="@varya_en">
-                    <img alt="Twitter" class="ico" src="http://favicon.yandex.net/favicon/twitter.com" title="Twitter"/>
-                    <span class="link__inner">Follow me on twitter</span>!
-                </a>
-            </div>
-            <div class="footer__right">
-            </div>
-        </footer>
-    </div>
-    <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter20478625 = new Ya.Metrika({id:20478625, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/20478625" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
-    <script src="http://yandex.st/jquery/1.7.2/jquery.min.js"></script>
-    <script src="/desktop.bundles/index/index.min.js" async defer></script>
-</body>
+        <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter20478625 = new Ya.Metrika({id:20478625, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/20478625" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+        <script src="/assets/page-e1b09cefff6a6bc21cd0.js"></script>
+<script src="/assets/post-e1b09cefff6a6bc21cd0.js"></script>
+<script src="/assets/index-e1b09cefff6a6bc21cd0.js"></script>
+<script src="http://localhost:35729/livereload.js"></script>
+    </body>
 </html>
+

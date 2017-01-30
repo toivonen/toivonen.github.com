@@ -1,60 +1,35 @@
-<!DOCTYPE html>
-<html class="page page_ru" lang="ru">
-<head>
-    <meta charset="utf-8"/>
-    <title>Статьи и презентации</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-    <link  rel="stylesheet" href="/desktop.bundles/index/index.min.css" />
-    <script>
-    (function(d, s, l, r) {
-    if (typeof(s) !== 'undefined' && l.getItem('varya.me.fonts')) {
-        r = [
-            '<style>',
-            l.getItem('varya.me.fonts'),
-            '</style>'
-        ];
-        document.write(r.join(''));
-    }
+<!doctype html>
+<html class='no-js' lang=ru>
+    <head>
+        <title>Статьи и презентации</title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
+        <script src="/assets/loader-e1b09cefff6a6bc21cd0.js"></script>
+<link rel="stylesheet" href="/assets/page-e1b09cefff6a6bc21cd0.css"/>
+<script src="/assets/head-e1b09cefff6a6bc21cd0.js"></script>
+        <meta content="Статьи и презентации" property="og:title"/>
+        <meta content="{{desc}}" property="og:description"/>
+        <meta content="/ru/content/" property="og:url"/>
+        <meta content="{{thumb}}" property="og:image"/>
+        <meta property="og:locale" content="ru_RU"/>
+        <meta property="og:site_name" content="var ya;"/>
+        <meta property="og:type" content="{{documentType}}"/>
+        <meta property="article:author" content="https://www.facebook.com/toivonens"/>
+        <script>
+            (function(d, s, l, r) {
+            if (typeof(s) !== 'undefined' && l.getItem('varya.me.fonts')) {
+                r = [
+                    '<style>',
+                    l.getItem('varya.me.fonts'),
+                    '</style>'
+                ];
+                document.write(r.join(''));
+            }
 
-    })(document, Storage, localStorage);
-  </script>
-  <meta content="Статьи и презентации" property="og:title"/><meta content="http://varya.me/ru/content.html" property="og:url"/><meta property="og:site_name" content="var ya;"/><meta property="og:type" content="article"/><meta property="og:locale" content="ru_RU"/> <meta property="article:author" content="https://www.facebook.com/toivonens"/>
-</head>
-<body class="page page__body">
-    <header class="header">
-        <div class="header__left candies i-bem"
-            data-bem='{ "candies" : { "size" : { "max" : 28, "min" : 12 }, "reverse" : true } }'></div>
-        <div class="header__center">
-            <logo class="logo"><span class="logo__dots">···</span><b class="var">var</b>·<b class="ya">ya</b>;<b class="cursor"></b></logo>
-        </div>
-        <div class="header__right candies i-bem"
-            data-bem='{ "candies" : { "size" : { "max" : 28, "min" : 12 } } }'></div>
-    </header>
-    <div class="layout">
-        <section class="main">
-            <ul class="languages">
-            
-                <li class="languages__lang">
-                    
-                    <a href="/en/content">
-                        en
-                    </a>
-                    
-                </li>
-                
-                <li class="languages__lang">
-                    
-                        ru
-                    
-                </li>
-                
-            </ul>
-            <div class="article" role="main">
-    <div class="article__body box__body">
-        <h1 class="article__header">Статьи и презентации</h1>
-    </div>
-    <div class="article__text box__island">
-        <ul>
+            })(document, Storage, localStorage);
+        </script>
+    </head>
+    <body class="page">
+        <div id='contents'><div><header class="style__header___7cFNF"><div class="style__left___1nLlV" id="Header-Left"></div><div class="style__center___265v6"><logo class="style__logo___2yXgh">⋅⋅⋅<b class="style__var___11qBW">var</b>⋅<b class="style__ya___8D8Xm">ya</b>;<b class="style__cursor___2aaLd"></b></logo></div><div class="style__right___1RRr2" id="Header-Right"></div></header><div class="style__layout___2Ynks"><section class="style__main___1PTuI"><ul class="style__switcher___2YMLp"><li class="style__lang___kggY_"><a href="/en/content/" class="style__link___1ZFL2">en</a></li><li class="style__lang___kggY_">ru</li></ul><div class="style__article___2FW-a" role="main"><div class="style__body___XvMI0"><h1 class="style__header___ADINy">Статьи и презентации</h1></div><div class="style__text___1aEP8"><div><ul>
 <li><a href="http://varya.me/doing-nothing-for-visual-regression-2015/">Doing nothing for visual regression testing</a><br/>
 Метод регрессионного визуального тестирования, который можно внедрить с использованием плагина к SC5 StyleGuide,
 представлен на HelsinkiJs в октябре 2015.</li>
@@ -65,7 +40,8 @@
 <li><a href="https://youtu.be/bKI0amimw-k">Driving Style-Guide-Driven Development</a><br/>
 Презентация об опыте внедрения style-guide-driven development и о том как это вылилось в разработку специального
 инструмента — SC5 Style Guide Generator. Выступление состоялось на конфренциях EmpireJS 2015,
-Нью Йорк и ScotlandJS 2015, Эдинбург.<ul>
+Нью Йорк и ScotlandJS 2015, Эдинбург.
+<ul>
 <li><a href="https://youtu.be/bKI0amimw-k">Видео с EmpireJS, Нью Йорк</a></li>
 <li><a href="https://youtu.be/gWzYMJjtx-Y">Видео ScotlandJs, Эдинбург</a></li>
 <li><a href="http://varya.me/empirejs-2015/">Слайды</a></li>
@@ -100,8 +76,7 @@ BEM</a><br/>
 поддержки продукта.</li>
 <li><a href="http://bem.info/articles/start-with-project-stub/">Quick start with full BEM
 stack</a><br/>
-Пошаговый туториал о том как начать делать проект на БЭМ с использованием <code>bem
-tools</code>, шаблонов <code>BEMHTML</code> и декларативного JavaScript <code>i-bem.js</code>.<br/>
+Пошаговый туториал о том как начать делать проект на БЭМ с использованием <code>bem tools</code>, шаблонов <code>BEMHTML</code> и декларативного JavaScript <code>i-bem.js</code>.<br/>
 Есть вариант на русском языке на Хабрахабре: <a href="http://habrahabr.ru/post/162385/">Попробуй БЭМ на
 вкус!</a></li>
 <li><a href="https://vimeo.com/53219242">What you can borrow from Yandex frontend
@@ -136,102 +111,13 @@ Yandex</a></li>
 bem-bl</a><br/>
 Мастер-класс на YAC 2011.</li>
 </ul>
+</div></div></div></section><nav class="style__sidebar___2nkwz"><ul class="style__menu___-uZzl"><h3 class="style__title___3mAfQ">На этом сайте</h3><li class="style__item___2LuN-"><a href="/ru/posts/" class="style__link___1ZFL2">Тех блог</a></li><li class="style__item___2LuN-"><a href="/ru/content/" class="style__link___1ZFL2">Статьи и презентации</a></li><li class="style__item___2LuN-"><a href="/ru/" class="style__link___1ZFL2">Обо мне</a></li><li class="style__item___2LuN-"><a href="/ru/life/" class="style__link___1ZFL2">Про жизнь</a></li></ul><div id="GitHub"></div></nav><aside class="style__prompt___1WAf7"><ul class="style__socialIco___14rtL"><li class="style__item___24Oaa"><ul class="style__feeds___lx7IA"><li class="style__item___24Oaa"><a class="style__rssText___1S0Bk" href="/en/feed.xml" title="New on Varya.me in English">en</a></li><li class="style__item___24Oaa"><a class="style__rssText___1S0Bk" href="/ru/feed.xml" title="Новые записи на Varya.me">ru</a></li></ul><a class="style__rss___2lUOQ style__ico___1PWaR" href="/feed.xml" title="New on Varya.me"></a></li><li class="style__item___24Oaa"><a class="style__twitter___3GPQl style__ico___1PWaR" href="https://twitter.com/varya_en" title="@varya_en" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__github___2GmrH style__ico___1PWaR" href="https://github.com/varya" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__facebook___2SOVV style__ico___1PWaR" href="http://www.facebook.com/varvara.stepanova.9" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__linkedin___2NaTD style__ico___1PWaR" href="http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b" target="_blank"></a></li></ul></aside></div><div class="style__outer___1U8mi"><footer class="style__footer___2MbLi"><div class="style__left___2vtHv"></div><div class="style__center___1Ffk8"><a href="http://varya.me">© 2017Varya Stepanova</a> <a href="https://twitter.com/varya_en" title="@varya_en"><img alt="Twitter" src="http://favicon.yandex.net/favicon/twitter.com" title="Twitter"/> Follow me on Twitter!</a></div><div class="style__right___H7yIL"></div></footer></div></div></div>
 
-    <div>
-<div>
-        </section>
-        <nav class="sidebar">
-        <ul class="menu-vert">
-            <h3 class="menu-vert__title box__title">
-                На этом сайте
-            </h3>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/ru/posts">
-                        Тех блог
-                    </a>
-                </li>
-            
-                <li class="menu-vert__item menu-vert__item_active">
-                    <a class="link" href="/ru/content">
-                        Статьи и презентации
-                    </a>
-                </li>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/ru">
-                        Обо мне
-                    </a>
-                </li>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/ru/life">
-                        Про жизнь
-                    </a>
-                </li>
-            
-            </ul>
-            <div class="github i-bem box github_not-ready"
-                data-bem='{ "github" : { "user" : "varya" } }'>
-                <div class="github__header box__title">
-                  Репозитории
-                </div>
-                <ul class="github__body"></ul>
-            </div>
-        </nav>
-        <aside class="prompting">
-            <ul class="social-ico menu-vert">
-                <li class="menu-vert__item">
-                    <ul class="social-ico__text menu-vert">
-                        <li class="menu-vert__item">
-                            <a class="link social-ico__rss-text" href="/en/feed.xml" title="New on Varya.me in English">en</a>
-                        </li>
-                        <li class="menu-vert__item">
-                            <a class="link social-ico__rss-text" href="/ru/feed.xml" title="Новые записи на Varya.me">ru</a>
-                        </li>
-                    </ul>
-                    <a class="link social-ico__ico social-ico__ico_type_rss" href="/feed.xml" title="New on Varya.me"></a>
-                </li>
-                <li class="menu-vert__item">
-                <a class="link social-ico__ico social-ico__ico_type_twitter"
-                    href="https://twitter.com/toivonens"
-                    title="@toivonens"
-                    target="_blank"></a>
-                </li>
-                <li class="menu-vert__item">
-                    <a class="link social-ico__ico social-ico__ico_type_github" href="https://github.com/varya" target="_blank"></a>
-                </li>
-                <li class="menu-vert__item">
-                    <a class="link social-ico__ico social-ico__ico_type_facebook" href="http://www.facebook.com/varvara.stepanova.9" target="_blank"></a>
-                </li>
-                <li class="menu-vert__item">
-                    <a class="link social-ico__ico social-ico__ico_type_linkedin" href="http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b" target="_blank"></a>
-                </li>
-            </ul>
-        </aside>
-    </div>
-    <div class="footer__outer">
-        <footer class="footer">
-            <div class="footer__left">
-            </div>
-            <div class="footer__center">
-                <a class="link  link_text  link_wrapper" href="http://varya.me/ru/">
-                    © 2016
-                    <span class="link__inner">Варя Степанова</span>.
-                </a>
-                <a class="link  link_wrapper  link_twitter"
-                    href="https://twitter.com/toivonens"
-                    title="@toivonens">
-                    <img alt="Twitter" class="ico" src="http://favicon.yandex.net/favicon/twitter.com" title="Twitter"/>
-                    <span class="link__inner">Читайте меня в Твиттере</span>!
-                </a>
-            </div>
-            <div class="footer__right">
-            </div>
-        </footer>
-    </div>
-    <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter20478625 = new Ya.Metrika({id:20478625, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/20478625" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
-    <script src="http://yandex.st/jquery/1.7.2/jquery.min.js"></script>
-    <script src="/desktop.bundles/index/index.min.js" async defer></script>
-</body>
+        <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter20478625 = new Ya.Metrika({id:20478625, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/20478625" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+        <script src="/assets/page-e1b09cefff6a6bc21cd0.js"></script>
+<script src="/assets/post-e1b09cefff6a6bc21cd0.js"></script>
+<script src="/assets/index-e1b09cefff6a6bc21cd0.js"></script>
+<script src="http://localhost:35729/livereload.js"></script>
+    </body>
 </html>
+

@@ -1,114 +1,78 @@
-<!DOCTYPE html>
-<html class="page page_ru" lang="ru">
-<head>
-    <meta charset="utf-8"/>
-    <title>Стайл гайд для самых маленьких</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-    <link  rel="stylesheet" href="/desktop.bundles/index/index.min.css" />
-    <script>
-    (function(d, s, l, r) {
-    if (typeof(s) !== 'undefined' && l.getItem('varya.me.fonts')) {
-        r = [
-            '<style>',
-            l.getItem('varya.me.fonts'),
-            '</style>'
-        ];
-        document.write(r.join(''));
-    }
+<!doctype html>
+<html class='no-js' lang=ru>
+    <head>
+        <title>Стайл гайд для самых маленьких</title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
+        <script src="/assets/loader-e1b09cefff6a6bc21cd0.js"></script>
+<link rel="stylesheet" href="/assets/page-e1b09cefff6a6bc21cd0.css"/>
+<script src="/assets/head-e1b09cefff6a6bc21cd0.js"></script>
+        <meta content="Стайл гайд для самых маленьких" property="og:title"/>
+        <meta content="{{desc}}" property="og:description"/>
+        <meta content="/ru/posts/sc5-styleguide-for-smallers/" property="og:url"/>
+        <meta content="{{thumb}}" property="og:image"/>
+        <meta property="og:locale" content="ru_RU"/>
+        <meta property="og:site_name" content="var ya;"/>
+        <meta property="og:type" content="article"/>
+        <meta property="article:author" content="https://www.facebook.com/toivonens"/>
+        <script>
+            (function(d, s, l, r) {
+            if (typeof(s) !== 'undefined' && l.getItem('varya.me.fonts')) {
+                r = [
+                    '<style>',
+                    l.getItem('varya.me.fonts'),
+                    '</style>'
+                ];
+                document.write(r.join(''));
+            }
 
-    })(document, Storage, localStorage);
-  </script>
-  <meta content="Стайл гайд для самых маленьких" property="og:title"/><meta content="http://varya.me/ru/posts/sc5-styleguide-for-smallers/" property="og:url"/><meta property="og:site_name" content="var ya;"/><meta property="og:type" content="article"/><meta property="og:locale" content="ru_RU"/> <meta property="article:author" content="https://www.facebook.com/toivonens"/>
-</head>
-<body class="page page__body">
-    <header class="header">
-        <div class="header__left candies i-bem"
-            data-bem='{ "candies" : { "size" : { "max" : 28, "min" : 12 }, "reverse" : true } }'></div>
-        <div class="header__center">
-            <logo class="logo"><span class="logo__dots">···</span><b class="var">var</b>·<b class="ya">ya</b>;<b class="cursor"></b></logo>
-        </div>
-        <div class="header__right candies i-bem"
-            data-bem='{ "candies" : { "size" : { "max" : 28, "min" : 12 } } }'></div>
-    </header>
-    <div class="layout">
-        <section class="main">
-            <ul class="languages">
-            
-                <li class="languages__lang">
-                    
-                    <a href="/en/posts/sc5-styleguide-for-smallers">
-                        en
-                    </a>
-                    
-                </li>
-                
-                <li class="languages__lang">
-                    
-                        ru
-                    
-                </li>
-                
-            </ul>
-            <div class="article" role="main">
-    <div class="article__body box__body">
-        <h1 class="article__header">
-            Стайл гайд для самых маленьких
-        </h1>
-    </div>
-    <div class="article__text box__island">
-        <script type="text/javascript" src="//yandex.st/share/share.js"
-        charset="utf-8"></script>
-        <div class="share yashare-auto-init" data-yashareL10n="{{ lang }}"
-            data-yashareQuickServices="twitter,facebook,gplus,vkontakte" data-yashareTheme="counter"
-        ></div>
-        <span class="article__details author vcard">
-            Опубликовано
-            18th August 2015
-        </span>
-        <p>В этом году у меня было несколько презентаций про <a href="http://styleguide.sc5.io/">SC5 Style Guide</a>, в которых
+            })(document, Storage, localStorage);
+        </script>
+    </head>
+    <body class="page">
+        <div id='contents'><div><header class="style__header___7cFNF"><div class="style__left___1nLlV" id="Header-Left"></div><div class="style__center___265v6"><logo class="style__logo___2yXgh">⋅⋅⋅<b class="style__var___11qBW">var</b>⋅<b class="style__ya___8D8Xm">ya</b>;<b class="style__cursor___2aaLd"></b></logo></div><div class="style__right___1RRr2" id="Header-Right"></div></header><div class="style__layout___2Ynks"><section class="style__main___1PTuI"><ul class="style__switcher___2YMLp"><li class="style__lang___kggY_"><a href="/en/posts/sc5-styleguide-for-smallers/" class="style__link___1ZFL2">en</a></li><li class="style__lang___kggY_">ru</li></ul><div class="style__article___2FW-a" role="main"><div class="style__body___XvMI0"><h1 class="style__header___ADINy">Стайл гайд для самых маленьких</h1></div><div class="style__text___1aEP8"><div class="style__share___2UNWm"><script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script><span class="yashare-auto-init" data-yashareQuickServices="twitter,facebook,gplus,vkontakte" data-yashareL10n="ru" data-yashareTheme="counter"></span></div><span class="style__details___ZaSIa author vcard">Опубликовано 8/18/2015</span><div><p>В этом году у меня было несколько презентаций про <a href="http://styleguide.sc5.io/">SC5 Style Guide</a>, в которых
 я делилась опытом использования инструмента на проектах одного их наших клиентов — мобильного оператора Elisa.
 Учитывая, что Elisa — огромная компания с массой вебсайтов, на которых нужно поддерживать единый стиль, не
 удивительно, что SC5 Style Guide как инструмент там очень полезен. Но как насчет небольших проектов? Стоит ли для них
 делать стайл гайды? Я сама не знала ответ на этот вопрос и захотела поэкспериментировать. В качестве подопытного
-сайта взяла собственный блог.</p>
-<excerpt/>
-
+сайта взяла собственный блог.
+<excerpt/></p>
 <p>Живой стайл гайд моего блога выглядит вот так: <a href="http://varya.me/styleguide">varya.me/styleguide</a>. Вы можете видеть
 весь интерфейс, разделенный на блоки, каждый из которых подразумевает самостоятельный компонент. Я до сих пор не
 смотрела на интерфейс своего блога в таком ключе, и это заставляет меня даже пересмотреть CSS-архитектуру проекта. Но
 давайте обо всём по порядку.</p>
-<h2 id="-sc5-style-guide">Настройка SC5 Style Guide</h2>
+<h2>Настройка SC5 Style Guide</h2>
 <p>Всё начинается с установки пакета</p>
-<pre class="highlight"><code class="hljs q">npm install --<span class="hljs-built_in">save</span>-<span class="hljs-built_in">dev</span> sc5-styleguide
-</code></pre><p>После этого я смогла сгенерировать веб-сайт стайл гайда. Для этого понадобилась
+<pre><code>npm install --save-dev sc5-styleguide
+</code></pre>
+<p>После этого я смогла сгенерировать веб-сайт стайл гайда. Для этого понадобилась
 <a href="https://github.com/varya/varya.github.com/blob/af38b1fb0bd6e5a1b043d002ad5dbf107f17e6c1/Gulpfile.js">парочка gulp тасков</a>.</p>
 <p>Мне нужно было немного отступить от конфигурации, которая предлагается в документации, чтобы решить свои задачи. Напишу
 об этом подробно.</p>
-<h3 id="-approot-">Использование параметра <code>appRoot</code></h3>
+<h3>Использование параметра <code>appRoot</code></h3>
 <p>Мой стайл гайд находится не в корне домена, а в папке, которая называется <code>styleguide</code>. Об этом нужно сообщить
 инструменту, чтобы сгенерированное им приложение использовало верные ссылки:</p>
-<pre class="highlight"><code class="hljs javascript">gulp.task(<span class="hljs-string">"styleguide:generate"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+<pre><code class="language-js">gulp.task(&quot;styleguide:generate&quot;, function() {
 
-  <span class="hljs-keyword">return</span> gulp.src([<span class="hljs-string">"desktop.blocks/**/*.css"</span>])
+  return gulp.src([&quot;desktop.blocks/**/*.css&quot;])
     .pipe(styleguide.generate({
-      title: <span class="hljs-string">"Varya.me Styleguide"</span>,
-      appRoot: <span class="hljs-string">'/styleguide'</span>,
+      title: &quot;Varya.me Styleguide&quot;,
+      appRoot: '/styleguide',
       ...
 </code></pre>
-<h3 id="-javascript">Подключение JavaScript</h3>
+<h3>Подключение JavaScript</h3>
 <p>В качестве значения параметра <code>extraHead</code> можно перечислить все, что нужно подключить к странице. У меня для некоторых
 компонент требуется JavaScript. Конечно, не обязательно делать так, чтобы он работал, можно просто делать стайл гайд
 только на базе CSS. Но мне хотелось, чтобы компоненты в документации выглядели бы абсолютно так же как в блоге. И
 благодаря <code>extraHead</code> я могу указать, какой JavaScript файл нужен.</p>
-<pre class="highlight"><code class="hljs javascript">gulp.task(<span class="hljs-string">"styleguide:generate"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+<pre><code class="language-js">gulp.task(&quot;styleguide:generate&quot;, function() {
 
-  <span class="hljs-keyword">return</span> gulp.src([<span class="hljs-string">"desktop.blocks/**/*.css"</span>])
+  return gulp.src([&quot;desktop.blocks/**/*.css&quot;])
     .pipe(styleguide.generate({
-      title: <span class="hljs-string">"Varya.me Styleguide"</span>,
+      title: &quot;Varya.me Styleguide&quot;,
       ...
       extraHead: [
-        <span class="hljs-string">'&lt;script src="http://yandex.st/jquery/1.7.2/jquery.min.js"&gt;&lt;/script&gt;'</span>,
-        <span class="hljs-string">'&lt;script src="/desktop.bundles/index/index.min.js"&gt;&lt;/script&gt;'</span>,
+        '&lt;script src=&quot;http://yandex.st/jquery/1.7.2/jquery.min.js&quot;&gt;&lt;/script&gt;',
+        '&lt;script src=&quot;/desktop.bundles/index/index.min.js&quot;&gt;&lt;/script&gt;',
         ...
       ]
     ...
@@ -121,18 +85,19 @@
 каждый раз, когда компонент перересовывается. Я сделала инициализацию компонент на это событие, то есть сразу после того
 как они появляются на странице. Такая инициализация нужна только на сайте стайл гайда, поэтому этот код не включается
 в общую сборку и подключается к стайл гайду как дополнительный файл.</p>
-<pre class="highlight"><code class="hljs r">gulp.task(<span class="hljs-string">"styleguide:generate"</span>, <span class="hljs-keyword">function</span>() {
+<pre><code>gulp.task(&quot;styleguide:generate&quot;, function() {
 
-  <span class="hljs-keyword">return</span> gulp.src([<span class="hljs-string">"desktop.blocks/**/*.css"</span>])
+  return gulp.src([&quot;desktop.blocks/**/*.css&quot;])
     .pipe(styleguide.generate({
-      title: <span class="hljs-string">"Varya.me Styleguide"</span>,
-      <span class="hljs-keyword">...</span>
+      title: &quot;Varya.me Styleguide&quot;,
+      ...
       extraHead: [
-        <span class="hljs-keyword">...</span>
-        <span class="hljs-string">'&lt;script src="/styleguide/i-bem__init_styleguide.js"&gt;&lt;/script&gt;'</span>
+        ...
+        '&lt;script src=&quot;/styleguide/i-bem__init_styleguide.js&quot;&gt;&lt;/script&gt;'
       ]
-    <span class="hljs-keyword">...</span>
-</code></pre><p>Вы можете посмотреть, как работают компоненты с JavaScript на примере блока, который показывает список репозиториев
+    ...
+</code></pre>
+<p>Вы можете посмотреть, как работают компоненты с JavaScript на примере блока, который показывает список репозиториев
 на GitHub после того как сделает запрос в GitHub API:
 <a href="http://varya.me/styleguide/#/section/4.3">varya.me/styleguide/#/section/4.3</a>. Или на странице блока с кружочками,
 которые генерируются случайным образом: <a href="http://varya.me/styleguide/#/section/5.1">varya.me/styleguide/#/section/5.1</a>.</p>
@@ -143,40 +108,41 @@
 эту инкапсуляцию можно предотвратить. Так что у меня компоненты просто вставляются в HTML-код сайта как есть. Что
 касается возможности перезаписать стили сайта, этого не случится. Я использую БЭМ, поэтому все компоненты уже
 &quot;инкапсулированы&quot; на уровне методологии.</p>
-<h3 id="-">Стайл гайд как статическая страница</h3>
+<h3>Стайл гайд как статическая страница</h3>
 <p>Для режима разработки у SC5 Style Guide запускается сервер, который разруливает все пути в корневой каталог, откуда и
 раздаётся сгененированный SPA-сайт. Если вы хотите пользоваться результатом в своём сервере, о такой маршрутизации
 придется позаботиться самостоятельно. Но в моём случае сайт располагается на GitHub Pages, это статический хостинг и там
 никакой маршрутизации не предусмотрено. Однако на этот случай есть настройка <code>disableHtml5Mode: true</code>. Она говорит
 генератору, что в приложении должны быть старые добрые ссылки с решеткой <code>#</code>. Так что всё работает.</p>
-<h2 id="-">Документирование компонент</h2>
+<h2>Документирование компонент</h2>
 <p>Ещё до внедрения стайл гайда, у меня весь CSS был написан по БЭМ, то есть с компонентым подходом. Для стайл гайда нужно
 было только задать компонентам структуру и задокументировать блоки при помощи KSS.</p>
-<h3 id="-">Структурирование кода</h3>
+<h3>Структурирование кода</h3>
 <p>Оказалось, что файловая структура, которую предлагает БЭМ, не самое лучшее решение для разработки живого стайлгайда. На
 файловой системе все компоненты представлены длинным плоским списком:</p>
-<pre class="highlight"><code class="hljs r">desktop.blocks/
+<pre><code>desktop.blocks/
 ├── article
 ├── articles-list
 ├── box
-├── <span class="hljs-keyword">...</span>
+├── ...
 └── text
-</code></pre><p><a href="https://github.com/varya/varya.github.com/tree/af38b1fb0bd6e5a1b043d002ad5dbf107f17e6c1/desktop.blocks">github/varya/varya.github.com/desktop-blocks</a></p>
+</code></pre>
+<p><a href="https://github.com/varya/varya.github.com/tree/af38b1fb0bd6e5a1b043d002ad5dbf107f17e6c1/desktop.blocks">github/varya/varya.github.com/desktop-blocks</a></p>
 <p>То есть маленькие атомарные компоненты никак не отличаются от блоков для структуры страницы (таких как Header или
 Footer), от блоков из сайдбара или от CSS для сторонних виджетов. Разумеется, плоская структура более удобна для
 сборщиков, но с точки зрения разработки нужна какая-то каталогизация.</p>
 <p>Для этого я сделала файл <code>overview.css</code>, в котором нет никакого активного CSS, но он помогает мне организовать блоки.
 У меня там 5 секций, и в каждой относящиеся к ней компоненты:</p>
-<pre class="highlight"><code class="hljs r">/*
+<pre><code>/*
 Atoms
 
-Styleguide <span class="hljs-number">1</span>
+Styleguide 1
 
 styleguide:ignore:start
 
-@import url(<span class="hljs-string">"logo/logo.css"</span>); // <span class="hljs-number">1.1</span>
-@import url(<span class="hljs-string">"text/text.css"</span>); // <span class="hljs-number">1.2</span>
-<span class="hljs-keyword">...</span>
+@import url(&quot;logo/logo.css&quot;); // 1.1
+@import url(&quot;text/text.css&quot;); // 1.2
+...
 
 styleguide:ignore:end
 */
@@ -184,16 +150,17 @@ styleguide:ignore:end
 /*
 Main blocks
 
-Styleguide <span class="hljs-number">2</span>
+Styleguide 2
 
 styleguide:ignore:start
 
-@import url(<span class="hljs-string">"header/header.css"</span>); // <span class="hljs-number">2.1</span>
-<span class="hljs-keyword">...</span>
+@import url(&quot;header/header.css&quot;); // 2.1
+...
 
 styleguide:ignore:end
 */
-</code></pre><p><a href="https://github.com/varya/varya.github.com/blob/af38b1fb0bd6e5a1b043d002ad5dbf107f17e6c1/desktop.blocks/overview.css">github/varya/varya.github.com/desktop-blocks/overview.css</a></p>
+</code></pre>
+<p><a href="https://github.com/varya/varya.github.com/blob/af38b1fb0bd6e5a1b043d002ad5dbf107f17e6c1/desktop.blocks/overview.css">github/varya/varya.github.com/desktop-blocks/overview.css</a></p>
 <p>По сути в файле кроме комментариев ничего нет. А в комментариях — описание каждой секции. Также перечислены
 файлы блоков, имеющие к ней отношение. Это удобно для навигации по коду. В этом перечислении я использовала <code>@import</code>
 (просто потому что могу).</p>
@@ -201,28 +168,28 @@ styleguide:ignore:end
 <code>styleguide:ignore:end</code>. Ими можно обернуть любой кусок CSS (SASS или LESS) кода и таким образом сказать генератору SC5
 Style Guide, что этот кусок нужно проигнорировать.</p>
 <p>Я игнорирую свои списки блоков, потому что они никак не влияют на код. Но описания секций остаются.</p>
-<h3 id="-">Описание блоков</h3>
+<h3>Описание блоков</h3>
 <p>Все остальное легко. Перед каждым компонентом я размещаю комментарий с KSS описанием. Например, один из простых блоков,
 Logo:</p>
-<pre class="highlight"><code class="hljs css"><span class="hljs-comment">/*
+<pre><code class="language-css">/*
 
 Logo
 
 markup:
-&lt;logo class="logo"&gt;···&lt;b class="var"&gt;var&lt;/b&gt;·&lt;b class="ya"&gt;ya&lt;/b&gt;;&lt;b class="cursor"&gt;&lt;/b&gt;&lt;/logo&gt;
+&lt;logo class=&quot;logo&quot;&gt;···&lt;b class=&quot;var&quot;&gt;var&lt;/b&gt;·&lt;b class=&quot;ya&quot;&gt;ya&lt;/b&gt;;&lt;b class=&quot;cursor&quot;&gt;&lt;/b&gt;&lt;/logo&gt;
 
 Styleguide 1.1
 
-*/</span>
-<span class="hljs-class">.logo</span>
-<span class="hljs-rules">{
-<span class="hljs-rule"><span class="hljs-attribute">...
-</span></span></span></code></pre>
+*/
+.logo
+{
+...
+</code></pre>
 <p><a href="https://github.com/varya/varya.github.com/blob/af38b1fb0bd6e5a1b043d002ad5dbf107f17e6c1/desktop.blocks/logo/logo.css">github/varya/varya.github.com/desktop-blocks/logo/logo.css</a></p>
 <p>See it rendered: <a href="http://varya.me/styleguide/#/section/1.1">varya.me/styleguide/#/section/1.1</a></p>
 <p>В некоторых компонентах использованы дополнительные возможности. Например, социальные иконки — это один и тот же блок
 с разными модификаторыми. Такое можно задокументировать одним махом:</p>
-<pre class="highlight"><code class="hljs css"><span class="hljs-comment">/*
+<pre><code class="language-css">/*
 Social icon
 
 .social-ico__ico_type_rss         - RSS
@@ -232,38 +199,38 @@ Social icon
 .social-ico__ico_type_linkedin    - LinkedIn
 
 markup:
-&lt;a class="link social-ico__ico {$modifiers}" href="#" title="Icon title"&gt;&lt;/a&gt;
+&lt;a class=&quot;link social-ico__ico {$modifiers}&quot; href=&quot;#&quot; title=&quot;Icon title&quot;&gt;&lt;/a&gt;
 
 Styleguide 1.5.1
-*/</span>
+*/
 
-<span class="hljs-class">.social-ico__ico</span>
-<span class="hljs-rules">{
-<span class="hljs-rule"><span class="hljs-attribute">...
-</span></span></span></code></pre>
+.social-ico__ico
+{
+...
+</code></pre>
 <p><a href="https://github.com/varya/varya.github.com/blob/af38b1fb0bd6e5a1b043d002ad5dbf107f17e6c1/desktop.blocks/social-ico/social-ico.css#L49">github/varya/varya.github.com/desktop-blocks/social-ico/social-ico.css</a></p>
 <p>В документации компоненты прорисованны по отдельности для каждого модификатора:
 <a href="http://varya.me/styleguide/#/section/1.5.1">varya.me/styleguide/#/section/1.5.1</a></p>
 <p>Для сложносоставных компоненты, которые используют внутри себя другие, я использовала ключевой тег <code>&lt;sg-insert&gt;</code>.
 Он вставляет вместо себя код компонента с соответствующим номером.</p>
-<pre class="highlight"><code class="hljs css"><span class="hljs-comment">/*
+<pre><code class="language-css">/*
 Sidebar
 markup:
-&lt;nav class="sidebar"&gt;
+&lt;nav class=&quot;sidebar&quot;&gt;
   &lt;sg-insert&gt;4.2&lt;/sg-insert&gt;
   &lt;sg-insert&gt;4.3&lt;/sg-insert&gt;
 &lt;/nav&gt;
 Styleguide 4.1
-*/</span>
+*/
 
-<span class="hljs-class">.sidebar</span>
-<span class="hljs-rules">{
-<span class="hljs-rule"><span class="hljs-attribute">...
-</span></span></span></code></pre>
+.sidebar
+{
+...
+</code></pre>
 <p><a href="https://github.com/varya/varya.github.com/blob/af38b1fb0bd6e5a1b043d002ad5dbf107f17e6c1/desktop.blocks/sidebar/sidebar.css">github/varya/varya.github.com/desktop-blocks/sidebar/sidebar.css</a></p>
 <p>Благодаря этому документация в коде приемлемого размера, а на сайте все раскрывается в полном виде:
 <a href="http://varya.me/styleguide/#/section/4.1">varya.me/styleguide/#/section/4.1</a></p>
-<h2 id="style-guide-driven-development">Style-Guide-Driven Development</h2>
+<h2>Style-Guide-Driven Development</h2>
 <p>Если в получившемся стайл гайде в поле для поиска вы наберете &quot;logo&quot;, то увидите все компоненты, который используют
 логотип! Поиск проводится по всему коду. Точно так же можно поискать компоненты, в разметке которых используется <code>&lt;em&gt;</code>.
 Или в чьих стилях есть <code>font:</code>.</p>
@@ -286,155 +253,36 @@ Styleguide 4.1
 В стайл гайде блок отрисован отдельно, и мне теперь видно, что он свёрстан неидеально.</p>
 <p>Конечно, такие открытия подразумевают скорый рефакторинг :-)</p>
 <p>И в довершение нужно сказать, что эксперимент не закончен. Есть и другие открытия для новых постов.</p>
+</div></div></div><div class="style__comments___3emEu"><div class="style__body___2Pjpr"><h4 class="style__header___8JJlc">Комментарии</h4></div><div class="style__island___6Bc3W"><div><div id="disqus_thread"></div><script>
+    (function(){
+        window.disqus_shortname = 'varya';
+        window.disqus_developer = '1';
+        window.disqus_url = 'http://varya.me//ru/posts/sc5-styleguide-for-smallers';
+        window.disqus_identifier = 'posts-sc5-styleguide-for-smallers-index-ru';
+        window.disqus_title = 'Стайл гайд для самых маленьких';
+        if ( window.DISQUS ) {
+            return DISQUS.reset({
+                reload: true,
+                config: function () {
+                    this.page.identifier = window.disqus_identifier;
+                    this.page.url = window.disqus_url;
+                    this.page.title = window.disqus_title;
+                }
+            });
+        }
+        else {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }
+    })();
+</script></div></div></div><div class="style__related___3zKIm"><div class="style__body___2uz87"><h4 class="style__header___1WzCe">Кстати</h4></div><div class="style__island___1W8YU"><a href="https://github.com/varya/varya.github.com/issues/new?title=Feedback for Стайл гайд для самых маленьких">Создайте для меня issue на GitHub</a>, если вы заметили ошибку или хотите дополнить статью. Или вы можете <a href="https://github.com/varya/varya.github.com/edit/develop/content/posts/sc5-styleguide-for-smallers/index_ru.md">отредактировать пост самостоятельно и послать мне патч</a>.</div></div></section><nav class="style__sidebar___2nkwz"><ul class="style__menu___-uZzl"><h3 class="style__title___3mAfQ">На этом сайте</h3><li class="style__item___2LuN-"><a href="/ru/posts/" class="style__link___1ZFL2">Тех блог</a></li><li class="style__item___2LuN-"><a href="/ru/content/" class="style__link___1ZFL2">Статьи и презентации</a></li><li class="style__item___2LuN-"><a href="/ru/" class="style__link___1ZFL2">Обо мне</a></li><li class="style__item___2LuN-"><a href="/ru/life/" class="style__link___1ZFL2">Про жизнь</a></li></ul><div id="GitHub"></div></nav><aside class="style__prompt___1WAf7"><ul class="style__socialIco___14rtL"><li class="style__item___24Oaa"><ul class="style__feeds___lx7IA"><li class="style__item___24Oaa"><a class="style__rssText___1S0Bk" href="/en/feed.xml" title="New on Varya.me in English">en</a></li><li class="style__item___24Oaa"><a class="style__rssText___1S0Bk" href="/ru/feed.xml" title="Новые записи на Varya.me">ru</a></li></ul><a class="style__rss___2lUOQ style__ico___1PWaR" href="/feed.xml" title="New on Varya.me"></a></li><li class="style__item___24Oaa"><a class="style__twitter___3GPQl style__ico___1PWaR" href="https://twitter.com/varya_en" title="@varya_en" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__github___2GmrH style__ico___1PWaR" href="https://github.com/varya" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__facebook___2SOVV style__ico___1PWaR" href="http://www.facebook.com/varvara.stepanova.9" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__linkedin___2NaTD style__ico___1PWaR" href="http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b" target="_blank"></a></li></ul></aside></div><div class="style__outer___1U8mi"><footer class="style__footer___2MbLi"><div class="style__left___2vtHv"></div><div class="style__center___1Ffk8"><a href="http://varya.me">© 2017Varya Stepanova</a> <a href="https://twitter.com/varya_en" title="@varya_en"><img alt="Twitter" src="http://favicon.yandex.net/favicon/twitter.com" title="Twitter"/> Follow me on Twitter!</a></div><div class="style__right___H7yIL"></div></footer></div></div></div>
 
-    </div>
-    <div class="comments">
-        <div class="comments__box box__body">
-            <h4 class="comments__header">
-                Обсуждение
-            </h4>
-        </div>
-        <div class="comments__body box__island">
-            
-              
-                  <div id="disqus_thread"></div>
-<script>
-	(function(){
-		window.disqus_shortname = 'varya';
-		window.disqus_developer = '1';
-		window.disqus_url = 'http://varya.me//ru/posts/sc5-styleguide-for-smallers';
-		window.disqus_identifier = 'posts-sc5-styleguide-for-smallers-index-ru';
-		window.disqus_title = 'Стайл гайд для самых маленьких';
-		if ( window.DISQUS ) {
-			return DISQUS.reset({
-				reload: true,
-				config: function () {
-					this.page.identifier = window.disqus_identifier;
-					this.page.url = window.disqus_url;
-					this.page.title = window.disqus_title;
-				}
-			});
-		}
-		else {
-		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		}
-	})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-              
-            
-        </div>
-    </div>
-    <div class="related">
-        <div class="related__body box__body">
-            <h4 class="related__header">
-                Кстати
-            </h4>
-        </div>
-        <div class="related__text box__island">
-                <a href="https://github.com/varya/varya.github.com/issues/new?title=Feedback for Стайл гайд для самых маленьких">
-                Создайте для меня issue на GitHub</a>, если вы заметили ошибку или хотите дополнить статью.
-                Или вы можете
-                <a href="https://github.com/varya/varya.github.com/edit/develop/src/documents/posts/sc5-styleguide-for-smallers/index_ru.html.md">отредактировать пост самостоятельно и послать мне патч</a>.
-        </div>
-    </div>
-</div>
-        </section>
-        <nav class="sidebar">
-        <ul class="menu-vert">
-            <h3 class="menu-vert__title box__title">
-                На этом сайте
-            </h3>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/ru/posts">
-                        Тех блог
-                    </a>
-                </li>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/ru/content">
-                        Статьи и презентации
-                    </a>
-                </li>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/ru">
-                        Обо мне
-                    </a>
-                </li>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/ru/life">
-                        Про жизнь
-                    </a>
-                </li>
-            
-            </ul>
-            <div class="github i-bem box github_not-ready"
-                data-bem='{ "github" : { "user" : "varya" } }'>
-                <div class="github__header box__title">
-                  Репозитории
-                </div>
-                <ul class="github__body"></ul>
-            </div>
-        </nav>
-        <aside class="prompting">
-            <ul class="social-ico menu-vert">
-                <li class="menu-vert__item">
-                    <ul class="social-ico__text menu-vert">
-                        <li class="menu-vert__item">
-                            <a class="link social-ico__rss-text" href="/en/feed.xml" title="New on Varya.me in English">en</a>
-                        </li>
-                        <li class="menu-vert__item">
-                            <a class="link social-ico__rss-text" href="/ru/feed.xml" title="Новые записи на Varya.me">ru</a>
-                        </li>
-                    </ul>
-                    <a class="link social-ico__ico social-ico__ico_type_rss" href="/feed.xml" title="New on Varya.me"></a>
-                </li>
-                <li class="menu-vert__item">
-                <a class="link social-ico__ico social-ico__ico_type_twitter"
-                    href="https://twitter.com/toivonens"
-                    title="@toivonens"
-                    target="_blank"></a>
-                </li>
-                <li class="menu-vert__item">
-                    <a class="link social-ico__ico social-ico__ico_type_github" href="https://github.com/varya" target="_blank"></a>
-                </li>
-                <li class="menu-vert__item">
-                    <a class="link social-ico__ico social-ico__ico_type_facebook" href="http://www.facebook.com/varvara.stepanova.9" target="_blank"></a>
-                </li>
-                <li class="menu-vert__item">
-                    <a class="link social-ico__ico social-ico__ico_type_linkedin" href="http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b" target="_blank"></a>
-                </li>
-            </ul>
-        </aside>
-    </div>
-    <div class="footer__outer">
-        <footer class="footer">
-            <div class="footer__left">
-            </div>
-            <div class="footer__center">
-                <a class="link  link_text  link_wrapper" href="http://varya.me/ru/">
-                    © 2016
-                    <span class="link__inner">Варя Степанова</span>.
-                </a>
-                <a class="link  link_wrapper  link_twitter"
-                    href="https://twitter.com/toivonens"
-                    title="@toivonens">
-                    <img alt="Twitter" class="ico" src="http://favicon.yandex.net/favicon/twitter.com" title="Twitter"/>
-                    <span class="link__inner">Читайте меня в Твиттере</span>!
-                </a>
-            </div>
-            <div class="footer__right">
-            </div>
-        </footer>
-    </div>
-    <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter20478625 = new Ya.Metrika({id:20478625, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/20478625" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
-    <script src="http://yandex.st/jquery/1.7.2/jquery.min.js"></script>
-    <script src="/desktop.bundles/index/index.min.js" async defer></script>
-</body>
+        <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter20478625 = new Ya.Metrika({id:20478625, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/20478625" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+        <script src="/assets/page-e1b09cefff6a6bc21cd0.js"></script>
+<script src="/assets/post-e1b09cefff6a6bc21cd0.js"></script>
+<script src="/assets/index-e1b09cefff6a6bc21cd0.js"></script>
+<script src="http://localhost:35729/livereload.js"></script>
+    </body>
 </html>
+

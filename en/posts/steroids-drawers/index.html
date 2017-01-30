@@ -1,76 +1,39 @@
-<!DOCTYPE html>
-<html class="page page_en" lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <title>Using side drawers in mobile apps on Steroids.js</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-    <link  rel="stylesheet" href="/desktop.bundles/index/index.min.css" />
-    <script>
-    (function(d, s, l, r) {
-    if (typeof(s) !== 'undefined' && l.getItem('varya.me.fonts')) {
-        r = [
-            '<style>',
-            l.getItem('varya.me.fonts'),
-            '</style>'
-        ];
-        document.write(r.join(''));
-    }
+<!doctype html>
+<html class='no-js' lang=en>
+    <head>
+        <title>Using side drawers in mobile apps on Steroids.js</title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
+        <script src="/assets/loader-e1b09cefff6a6bc21cd0.js"></script>
+<link rel="stylesheet" href="/assets/page-e1b09cefff6a6bc21cd0.css"/>
+<script src="/assets/head-e1b09cefff6a6bc21cd0.js"></script>
+        <meta content="Using side drawers in mobile apps on Steroids.js" property="og:title"/>
+        <meta content="{{desc}}" property="og:description"/>
+        <meta content="/en/posts/steroids-drawers/" property="og:url"/>
+        <meta content="{{thumb}}" property="og:image"/>
+        <meta property="og:locale" content="en_US"/>
+        <meta property="og:site_name" content="var ya;"/>
+        <meta property="og:type" content="article"/>
+        <meta property="article:author" content="https://www.facebook.com/toivonens"/>
+        <script>
+            (function(d, s, l, r) {
+            if (typeof(s) !== 'undefined' && l.getItem('varya.me.fonts')) {
+                r = [
+                    '<style>',
+                    l.getItem('varya.me.fonts'),
+                    '</style>'
+                ];
+                document.write(r.join(''));
+            }
 
-    })(document, Storage, localStorage);
-  </script>
-  <meta content="Using side drawers in mobile apps on Steroids.js" property="og:title"/><meta content="http://varya.me/en/posts/steroids-drawers/" property="og:url"/><meta property="og:site_name" content="var ya;"/><meta property="og:type" content="article"/><meta property="og:locale" content="en_US"/> <meta property="article:author" content="https://www.facebook.com/toivonens"/>
-</head>
-<body class="page page__body">
-    <header class="header">
-        <div class="header__left candies i-bem"
-            data-bem='{ "candies" : { "size" : { "max" : 28, "min" : 12 }, "reverse" : true } }'></div>
-        <div class="header__center">
-            <logo class="logo"><span class="logo__dots">···</span><b class="var">var</b>·<b class="ya">ya</b>;<b class="cursor"></b></logo>
-        </div>
-        <div class="header__right candies i-bem"
-            data-bem='{ "candies" : { "size" : { "max" : 28, "min" : 12 } } }'></div>
-    </header>
-    <div class="layout">
-        <section class="main">
-            <ul class="languages">
-            
-                <li class="languages__lang">
-                    
-                        en
-                    
-                </li>
-                
-                <li class="languages__lang">
-                    
-                    <a href="/ru/">
-                        ru
-                    </a>
-                    
-                </li>
-                
-            </ul>
-            <div class="article" role="main">
-    <div class="article__body box__body">
-        <h1 class="article__header">
-            Using side drawers in mobile apps on Steroids.js
-        </h1>
-    </div>
-    <div class="article__text box__island">
-        <script type="text/javascript" src="//yandex.st/share/share.js"
-        charset="utf-8"></script>
-        <div class="share yashare-auto-init" data-yashareL10n="{{ lang }}"
-            data-yashareQuickServices="twitter,facebook,gplus" data-yashareTheme="counter"
-        ></div>
-        <span class="article__details author vcard">
-            Published on
-            9th June 2014
-        </span>
-        <p>As a mobile apps user you may be already familiar to drawers.
+            })(document, Storage, localStorage);
+        </script>
+    </head>
+    <body class="page">
+        <div id='contents'><div><header class="style__header___7cFNF"><div class="style__left___1nLlV" id="Header-Left"></div><div class="style__center___265v6"><logo class="style__logo___2yXgh">⋅⋅⋅<b class="style__var___11qBW">var</b>⋅<b class="style__ya___8D8Xm">ya</b>;<b class="style__cursor___2aaLd"></b></logo></div><div class="style__right___1RRr2" id="Header-Right"></div></header><div class="style__layout___2Ynks"><section class="style__main___1PTuI"><ul class="style__switcher___2YMLp"><li class="style__lang___kggY_">en</li><li class="style__lang___kggY_"><a href="/ru/" class="style__link___1ZFL2">ru</a></li></ul><div class="style__article___2FW-a" role="main"><div class="style__body___XvMI0"><h1 class="style__header___ADINy">Using side drawers in mobile apps on Steroids.js</h1></div><div class="style__text___1aEP8"><div class="style__share___2UNWm"><script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script><span class="yashare-auto-init" data-yashareQuickServices="twitter,facebook,gplus" data-yashareL10n="en" data-yashareTheme="counter"></span></div><span class="style__details___ZaSIa author vcard">Published on 6/9/2014</span><div><p>As a mobile apps user you may be already familiar to drawers.
 They are quite popular solution for a side menu. Using <code>Steroids</code>
 HTML5/JavaScript framework for hybrid mobile applications, you
-can bring such an interface solution into your product very easy.</p>
-<excerpt/>
-
+can bring such an interface solution into your product very easy.
+<excerpt/></p>
 <p>The usage of drawers explained here is demonstrated in the <a href="https://github.com/AppGyver/kitchensink">Steroids
 Kitchensink</a> open source application.
 This is now being developed set of most useful examples for Steroids.
@@ -88,18 +51,18 @@ Steroids</a></li>
 Steroids</a>.</p>
 <p>Once run the project you will see a page with a list of examples
 and a navigation bar.</p>
-<p><img class="article__image" src="http://img-fotki.yandex.ru/get/9652/14441195.32/0_8477d_3b6d66a5_L.png" width="282" height="500" border="0"/></p>
+<img class="article__image" src="http://img-fotki.yandex.ru/get/9652/14441195.32/0_8477d_3b6d66a5_L.png" width="282" height="500" border="0"/>
 <p>The button to teh left of a menu bar opens a side menu. But before we start to
-study side drawers let&#39;s look at how this button is shown.</p>
+study side drawers let's look at how this button is shown.</p>
 <p>The initial view is coded in <a href="https://github.com/AppGyver/kitchensink/blob/ceacb0ea80799b1d81454e2e966b553b807fbadc/app/views/example/index.html"><code>app/views/example/index.html</code></a>.
 This is an angular view with directives for the list and for the navigation bar.</p>
-<pre class="highlight"><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">ng-controller</span>=<span class="hljs-value">"IndexCtrl"</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-title">navigation-bar</span> <span class="hljs-attribute">title</span>=<span class="hljs-value">"Steroids Kitchensink"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-title">left-button</span> <span class="hljs-attribute">icon</span>=<span class="hljs-value">"/vendor/icons8/menu-32"</span>
-        <span class="hljs-attribute">onTap</span>=<span class="hljs-value">"showMenu()"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">left-button</span>&gt;</span>
-  <span class="hljs-tag">&lt;/<span class="hljs-title">navigation-bar</span>&gt;</span>
+<pre><code class="language-html">&lt;div ng-controller=&quot;IndexCtrl&quot;&gt;
+  &lt;navigation-bar title=&quot;Steroids Kitchensink&quot;&gt;
+    &lt;left-button icon=&quot;/vendor/icons8/menu-32&quot;
+        onTap=&quot;showMenu()&quot;&gt;&lt;/left-button&gt;
+  &lt;/navigation-bar&gt;
   ...
-<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+&lt;/div&gt;
 </code></pre>
 <p>The <code>navigation-bar</code> directive is custom and described in <a href="https://github.com/AppGyver/kitchensink/blob/ceacb0ea80799b1d81454e2e966b553b807fbadc/app/directives/navigationBar.coffee"><code>app/directives/navigationBar.coffee</code></a>.
 Using such a directive rather than <code>steroids.view.navigationBar</code> helpers at every page is
@@ -112,35 +75,35 @@ menu button which responds to the tapping with calling <code>showMenu</code> met
 the corresponding controller.</p>
 <p>This controller is coded in <a href="https://github.com/AppGyver/kitchensink/blob/ceacb0ea80799b1d81454e2e966b553b807fbadc/app/controllers/example.coffee"><code>app/controllers/example.coffee</code></a>.
 As you can see, the <code>showMenu</code> method is pretty short.</p>
-<pre class="highlight"><code class="hljs coffeescript">$scope.showMenu = <span class="hljs-function"><span class="hljs-params">()</span>-&gt;</span>
+<pre><code class="language-coffee">$scope.showMenu = ()-&gt;
   steroids.drawers.show {
-    <span class="hljs-attribute">edge</span>: steroids.screen.edges.LEFT
+    edge: steroids.screen.edges.LEFT
   }
 </code></pre>
 <p>It uses the drawers <code>show</code> method and slide the initial view to
 the right which uncovers the menu view.</p>
-<p>Of course, the code needs to know what is the view we mean by &#39;left&#39;.
+<p>Of course, the code needs to know what is the view we mean by 'left'.
 We have to provide it with such a knowledge declaring the list of drawers
 in the <a href="https://github.com/AppGyver/kitchensink/blob/ceacb0ea80799b1d81454e2e966b553b807fbadc/config/application.coffee#L39"><code>config/application.coffee</code></a>
 configuration file.</p>
-<pre class="highlight"><code class="hljs coffeescript">steroids.config.drawers =
-  <span class="hljs-attribute">left</span>:
-    <span class="hljs-attribute">id</span>: <span class="hljs-string">"sidemenu"</span>
-    <span class="hljs-attribute">location</span>: <span class="hljs-string">"http://localhost/views/sidemenu/index.html"</span>
-    <span class="hljs-attribute">showOnAppLoad</span>: <span class="hljs-literal">false</span>
-    <span class="hljs-attribute">widthOfDrawerInPixels</span>: <span class="hljs-number">250</span>
-  <span class="hljs-attribute">options</span>:
-    <span class="hljs-attribute">centerViewInteractionMode</span>: <span class="hljs-string">"Full"</span>
-    <span class="hljs-attribute">closeGestures</span>: [<span class="hljs-string">"PanNavBar"</span>, <span class="hljs-string">"PanCenterView"</span>, <span class="hljs-string">"TapCenterView"</span>]
-    <span class="hljs-attribute">openGestures</span>: [<span class="hljs-string">"PanNavBar"</span>, <span class="hljs-string">"PanCenterView"</span>]
-    <span class="hljs-attribute">showShadow</span>: <span class="hljs-literal">true</span>
-    <span class="hljs-attribute">stretchDrawer</span>: <span class="hljs-literal">true</span>
-    <span class="hljs-attribute">widthOfLayerInPixels</span>: <span class="hljs-number">0</span>
+<pre><code class="language-coffee">steroids.config.drawers =
+  left:
+    id: &quot;sidemenu&quot;
+    location: &quot;http://localhost/views/sidemenu/index.html&quot;
+    showOnAppLoad: false
+    widthOfDrawerInPixels: 250
+  options:
+    centerViewInteractionMode: &quot;Full&quot;
+    closeGestures: [&quot;PanNavBar&quot;, &quot;PanCenterView&quot;, &quot;TapCenterView&quot;]
+    openGestures: [&quot;PanNavBar&quot;, &quot;PanCenterView&quot;]
+    showShadow: true
+    stretchDrawer: true
+    widthOfLayerInPixels: 0
 </code></pre>
 <p>Here the menu view file and some parameters. You can learn about
 what they mean from a special tutorial about <a href="https://academy.appgyver.com/categories/3-user-interface-and-design/contents/98-configuring-drawers-on-app-load">configuring drawers</a>.</p>
 <p>This will make the sidemenu shown.</p>
-<p><img class="article__image" src="http://img-fotki.yandex.ru/get/9766/14441195.32/0_8477e_dbe7889e_L.png" width="282" height="500" border="0"/></p>
+<img class="article__image" src="http://img-fotki.yandex.ru/get/9766/14441195.32/0_8477e_dbe7889e_L.png" width="282" height="500" border="0"/>
 <p>To make it look like in the picture you need to provide a
 corresponding view with the list of menu items. Here it is defined
 in <a href="https://github.com/AppGyver/kitchensink/blob/ceacb0ea80799b1d81454e2e966b553b807fbadc/app/views/sidemenu/index.html"><code>app/views/sidemenu/index.html</code></a>.
@@ -155,15 +118,15 @@ we provide:</p>
 to study is the controller. It says to hide the opened drawer if you
 tap the currently active menu item. Opening other menu items goes
 differently; it replaces the current central view with some animation.</p>
-<pre class="highlight"><code class="hljs coffeescript"><span class="hljs-keyword">if</span> item.active
+<pre><code class="language-coffee">if item.active
   steroids.drawers.hide {}
-<span class="hljs-keyword">else</span>
-  webView = <span class="hljs-keyword">new</span> steroids.views.WebView {
-    <span class="hljs-attribute">id</span>: item.id,
-    <span class="hljs-attribute">location</span>: item.url
+else
+  webView = new steroids.views.WebView {
+    id: item.id,
+    location: item.url
   }
   steroids.drawers.hide {
-    <span class="hljs-attribute">center</span>: webView
+    center: webView
   }
 </code></pre>
 <p>Hiding the currently opened drawer with <code>steroids.drawers.hide</code> simply
@@ -172,167 +135,48 @@ gets back the previously shown central view.</p>
 with an additional <code>center</code> parameter to pass the needed view. This view has to be
 created in advance with <code>steroids.views.WebView</code>.</p>
 <p>Besides, such a view must be configured as preloaded in <a href="https://github.com/AppGyver/kitchensink/blob/ceacb0ea80799b1d81454e2e966b553b807fbadc/config/application.coffee#L31"><code>config/application.coffee</code></a>.</p>
-<pre class="highlight"><code class="hljs coffeescript">steroids.config.preloads = [
+<pre><code class="language-coffee">steroids.config.preloads = [
   {
-    <span class="hljs-attribute">id</span>: <span class="hljs-string">"settings"</span>
-    <span class="hljs-attribute">location</span>: <span class="hljs-string">"http://localhost/views/settings/index.html"</span>
+    id: &quot;settings&quot;
+    location: &quot;http://localhost/views/settings/index.html&quot;
   }
 ]
 </code></pre>
 <p>Thus, with tapping on the <em>Settings</em> menu item you will get the settings
 page shown.</p>
-<p><img class="article__image" src="http://img-fotki.yandex.ru/get/9667/14441195.32/0_8477f_2aafe347_L.png" width="282" height="500" border="0"/></p>
+<img class="article__image" src="http://img-fotki.yandex.ru/get/9667/14441195.32/0_8477f_2aafe347_L.png" width="282" height="500" border="0"/>
 <p>This page is empty yet. The upcoming posts will fill it in with something
 interesting. Stay tuned :-)</p>
+</div></div></div><div class="style__comments___3emEu"><div class="style__body___2Pjpr"><h4 class="style__header___8JJlc">Comments</h4></div><div class="style__island___6Bc3W"><div><div id="disqus_thread"></div><script>
+    (function(){
+        window.disqus_shortname = 'varya';
+        window.disqus_developer = '1';
+        window.disqus_url = 'http://varya.me//en/posts/steroids-drawers';
+        window.disqus_identifier = 'posts-steroids-drawers-index-en';
+        window.disqus_title = 'Using side drawers in mobile apps on Steroids.js';
+        if ( window.DISQUS ) {
+            return DISQUS.reset({
+                reload: true,
+                config: function () {
+                    this.page.identifier = window.disqus_identifier;
+                    this.page.url = window.disqus_url;
+                    this.page.title = window.disqus_title;
+                }
+            });
+        }
+        else {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }
+    })();
+</script></div></div></div><div class="style__related___3zKIm"><div class="style__body___2uz87"><h4 class="style__header___1WzCe">By the way</h4></div><div class="style__island___1W8YU"><a href="https://github.com/varya/varya.github.com/issues/new?title=Feedback for Using side drawers in mobile apps on Steroids.js">Create a GitHub issue for me</a> if you&#x27;ve spotted a typo or a mistake, or wish to add something on. Or you can <a href="https://github.com/varya/varya.github.com/edit/develop/content/posts/steroids-drawers/index_en.md">edit this post yourself and make me a patch</a>.</div></div></section><nav class="style__sidebar___2nkwz"><ul class="style__menu___-uZzl"><h3 class="style__title___3mAfQ">On this site</h3><li class="style__item___2LuN-"><a href="/en/posts/" class="style__link___1ZFL2">Tech Blog</a></li><li class="style__item___2LuN-"><a href="/en/content/" class="style__link___1ZFL2">Articles and talks</a></li><li class="style__item___2LuN-"><a href="/" class="style__link___1ZFL2">About me</a></li><li class="style__item___2LuN-"><a href="/en/life/" class="style__link___1ZFL2">My life</a></li></ul><div id="GitHub"></div></nav><aside class="style__prompt___1WAf7"><ul class="style__socialIco___14rtL"><li class="style__item___24Oaa"><ul class="style__feeds___lx7IA"><li class="style__item___24Oaa"><a class="style__rssText___1S0Bk" href="/en/feed.xml" title="New on Varya.me in English">en</a></li><li class="style__item___24Oaa"><a class="style__rssText___1S0Bk" href="/ru/feed.xml" title="Новые записи на Varya.me">ru</a></li></ul><a class="style__rss___2lUOQ style__ico___1PWaR" href="/feed.xml" title="New on Varya.me"></a></li><li class="style__item___24Oaa"><a class="style__twitter___3GPQl style__ico___1PWaR" href="https://twitter.com/varya_en" title="@varya_en" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__github___2GmrH style__ico___1PWaR" href="https://github.com/varya" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__facebook___2SOVV style__ico___1PWaR" href="http://www.facebook.com/varvara.stepanova.9" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__linkedin___2NaTD style__ico___1PWaR" href="http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b" target="_blank"></a></li></ul></aside></div><div class="style__outer___1U8mi"><footer class="style__footer___2MbLi"><div class="style__left___2vtHv"></div><div class="style__center___1Ffk8"><a href="http://varya.me">© 2017Varya Stepanova</a> <a href="https://twitter.com/varya_en" title="@varya_en"><img alt="Twitter" src="http://favicon.yandex.net/favicon/twitter.com" title="Twitter"/> Follow me on Twitter!</a></div><div class="style__right___H7yIL"></div></footer></div></div></div>
 
-    </div>
-    <div class="comments">
-        <div class="comments__box box__body">
-            <h4 class="comments__header">
-                Comments
-            </h4>
-        </div>
-        <div class="comments__body box__island">
-            
-              
-                  <div id="disqus_thread"></div>
-<script>
-	(function(){
-		window.disqus_shortname = 'varya';
-		window.disqus_developer = '1';
-		window.disqus_url = 'http://varya.me//en/posts/steroids-drawers';
-		window.disqus_identifier = 'posts-steroids-drawers-index-en';
-		window.disqus_title = 'Using side drawers in mobile apps on Steroids.js';
-		if ( window.DISQUS ) {
-			return DISQUS.reset({
-				reload: true,
-				config: function () {
-					this.page.identifier = window.disqus_identifier;
-					this.page.url = window.disqus_url;
-					this.page.title = window.disqus_title;
-				}
-			});
-		}
-		else {
-		  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		}
-	})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-              
-            
-        </div>
-    </div>
-    <div class="related">
-        <div class="related__body box__body">
-            <h4 class="related__header">
-                By the way
-            </h4>
-        </div>
-        <div class="related__text box__island">
-                <a href="https://github.com/varya/varya.github.com/issues/new?title=Feedback for Using side drawers in mobile apps on Steroids.js">
-                Create a GitHub issue for me</a> if you've spotted a typo or a mistake, or wish to add something on.
-                Or you can
-                <a href="https://github.com/varya/varya.github.com/edit/develop/src/documents/posts/steroids-drawers/index_en.html.md">edit this post yourself and make me a patch</a>.
-        </div>
-    </div>
-</div>
-        </section>
-        <nav class="sidebar">
-        <ul class="menu-vert">
-            <h3 class="menu-vert__title box__title">
-                On this site
-            </h3>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/en/posts">
-                        Tech Blog
-                    </a>
-                </li>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/en/content">
-                        Articles and talks
-                    </a>
-                </li>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/">
-                        About me
-                    </a>
-                </li>
-            
-                <li class="menu-vert__item ">
-                    <a class="link" href="/en/life">
-                        My life
-                    </a>
-                </li>
-            
-            </ul>
-            <div class="github i-bem box github_not-ready"
-                data-bem='{ "github" : { "user" : "varya" } }'>
-                <div class="github__header box__title">
-                  Last updated repos
-                </div>
-                <ul class="github__body"></ul>
-            </div>
-        </nav>
-        <aside class="prompting">
-            <ul class="social-ico menu-vert">
-                <li class="menu-vert__item">
-                    <ul class="social-ico__text menu-vert">
-                        <li class="menu-vert__item">
-                            <a class="link social-ico__rss-text" href="/en/feed.xml" title="New on Varya.me in English">en</a>
-                        </li>
-                        <li class="menu-vert__item">
-                            <a class="link social-ico__rss-text" href="/ru/feed.xml" title="Новые записи на Varya.me">ru</a>
-                        </li>
-                    </ul>
-                    <a class="link social-ico__ico social-ico__ico_type_rss" href="/feed.xml" title="New on Varya.me"></a>
-                </li>
-                <li class="menu-vert__item">
-                <a class="link social-ico__ico social-ico__ico_type_twitter"
-                    href="https://twitter.com/varya_en"
-                    title="@varya_en"
-                    target="_blank"></a>
-                </li>
-                <li class="menu-vert__item">
-                    <a class="link social-ico__ico social-ico__ico_type_github" href="https://github.com/varya" target="_blank"></a>
-                </li>
-                <li class="menu-vert__item">
-                    <a class="link social-ico__ico social-ico__ico_type_facebook" href="http://www.facebook.com/varvara.stepanova.9" target="_blank"></a>
-                </li>
-                <li class="menu-vert__item">
-                    <a class="link social-ico__ico social-ico__ico_type_linkedin" href="http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b" target="_blank"></a>
-                </li>
-            </ul>
-        </aside>
-    </div>
-    <div class="footer__outer">
-        <footer class="footer">
-            <div class="footer__left">
-            </div>
-            <div class="footer__center">
-                <a class="link  link_text  link_wrapper" href="http://varya.me/">
-                    © 2016
-                    <span class="link__inner">Varya Stepanova</span>.
-                </a>
-                <a class="link  link_wrapper  link_twitter"
-                    href="https://twitter.com/varya_en"
-                    title="@varya_en">
-                    <img alt="Twitter" class="ico" src="http://favicon.yandex.net/favicon/twitter.com" title="Twitter"/>
-                    <span class="link__inner">Follow me on twitter</span>!
-                </a>
-            </div>
-            <div class="footer__right">
-            </div>
-        </footer>
-    </div>
-    <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter20478625 = new Ya.Metrika({id:20478625, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/20478625" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
-    <script src="http://yandex.st/jquery/1.7.2/jquery.min.js"></script>
-    <script src="/desktop.bundles/index/index.min.js" async defer></script>
-</body>
+        <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter20478625 = new Ya.Metrika({id:20478625, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/20478625" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+        <script src="/assets/page-e1b09cefff6a6bc21cd0.js"></script>
+<script src="/assets/post-e1b09cefff6a6bc21cd0.js"></script>
+<script src="/assets/index-e1b09cefff6a6bc21cd0.js"></script>
+<script src="http://localhost:35729/livereload.js"></script>
+    </body>
 </html>
+
