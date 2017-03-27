@@ -1,24 +1,24 @@
 {
   "page": {
-    "js": "/assets/page-97306c28a780ea90e196.js",
-    "css": "/assets/page-97306c28a780ea90e196.css"
+    "js": "/assets/page-0e3944a1bd029f1e0f38.js",
+    "css": "/assets/page-0e3944a1bd029f1e0f38.css"
   },
   "styles": {
-    "js": "/assets/styles-97306c28a780ea90e196.js",
-    "css": "/assets/page-97306c28a780ea90e196.css"
+    "js": "/assets/styles-0e3944a1bd029f1e0f38.js",
+    "css": "/assets/page-0e3944a1bd029f1e0f38.css"
   },
   "head": {
-    "js": "/assets/head-97306c28a780ea90e196.js"
+    "js": "/assets/head-0e3944a1bd029f1e0f38.js"
   },
   "post": {
-    "js": "/assets/post-97306c28a780ea90e196.js",
-    "css": "/assets/page-97306c28a780ea90e196.css"
+    "js": "/assets/post-0e3944a1bd029f1e0f38.js",
+    "css": "/assets/page-0e3944a1bd029f1e0f38.css"
   },
   "index": {
-    "js": "/assets/index-97306c28a780ea90e196.js",
-    "css": "/assets/page-97306c28a780ea90e196.css"
+    "js": "/assets/index-0e3944a1bd029f1e0f38.js",
+    "css": "/assets/page-0e3944a1bd029f1e0f38.css"
   },
   "loader": {
-    "js": "/assets/loader-97306c28a780ea90e196.js"
+    "js": "/assets/loader-0e3944a1bd029f1e0f38.js"
   }
 }
