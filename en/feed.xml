@@ -1,4 +1,119 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>http://varya.me</link><generator>metalsmith-feed</generator><lastBuildDate>Thu, 04 Jan 2018 14:11:37 GMT</lastBuildDate><atom:link href="http://varya.me/en/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[What   makes   entrepreneurs   entrepreneurial?]]></title><description><![CDATA[<!doctype html>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>http://varya.me</link><generator>metalsmith-feed</generator><lastBuildDate>Thu, 11 Jan 2018 14:54:44 GMT</lastBuildDate><atom:link href="http://varya.me/en/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Aspect of in-company communication for innovation]]></title><description><![CDATA[<!doctype html>
+<html class='no-js' lang=en>
+    <head>
+        <title>Aspect of in-company communication for innovation</title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
+        <!-- assets-head -->
+        <meta content="Aspect of in-company communication for innovation" property="og:title"/>
+        <meta content="Company internal communication is a crucial aspect of forming innovation-friendly environment, in which employees can effectively apply their expertise and creativity for achieving business goals.
+" property="og:description"/>
+        <meta content="http://varya.me/en/posts/communication-culture/" property="og:url"/>
+        <meta content="http://varya.me/posts/communication-culture/thumb.png" property="og:image"/>
+        <meta property="og:locale" content="en_US"/>
+        <meta property="og:site_name" content="var ya;"/>
+        <meta property="og:type" content="article"/>
+        <meta property="article:author" content="https://www.facebook.com/toivonens"/>
+        <script>
+            (function(d, s, l, r) {
+            if (typeof(s) !== 'undefined' && l.getItem('varya.me.fonts')) {
+                r = [
+                    '<style>',
+                    l.getItem('varya.me.fonts'),
+                    '</style>'
+                ];
+                document.write(r.join(''));
+            }
+
+            })(document, Storage, localStorage);
+        </script>
+    </head>
+    <body class="page">
+        <div id='contents'><div><header class="style__header___7cFNF"><div class="style__left___1nLlV" id="Header-Left"></div><div class="style__center___265v6"><logo class="style__logo___2yXgh">⋅⋅⋅<b class="style__var___11qBW">var</b>⋅<b class="style__ya___8D8Xm">ya</b>;<b class="style__cursor___2aaLd"></b></logo></div><div class="style__right___1RRr2" id="Header-Right"></div></header><div class="style__layout___2Ynks"><section class="style__main___1PTuI"><ul class="style__switcher___2YMLp"><li class="style__lang___kggY_">en</li><li class="style__lang___kggY_"><a href="/ru/" class="style__link___1ZFL2">ru</a></li></ul><div class="style__article___2FW-a" role="main"><div class="style__body___XvMI0"><h1 class="style__header___ADINy">Aspect of in-company communication for innovation</h1></div><div class="style__text___1aEP8"><div class="style__share___2UNWm"><script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script><span class="yashare-auto-init" data-yashareQuickServices="twitter,facebook,gplus" data-yashareL10n="en" data-yashareTheme="counter"></span></div><span class="style__details___ZaSIa author vcard">Published on 1/11/2018</span><div><p>Company internal communication is a crucial aspect of forming innovation-friendly environment, in which employees can
+effectively apply their expertise and creativity for achieving business goals.</p>
+<p>Creative people need “emotional ownership” in the goals and objectives, which becomes even more important speaking about
+the corporate world where such people are not co-founders but employees. (Sarasvathy, 2008) Establishing right
+communicational practices very much contributes to developing this kind of ownership and makes innovation possible.</p>
+<excerpt/>
+<p><img src="/posts/communication-culture/communication.png" alt=""></p>
+<p>It is important to contribute to all aspects of internal company communication which are: transparency, constant
+documenting, openness to feedback, cross-departmental communication, external events.</p>
+<p>In the context of communication, transparency usually means availability of information regarding company vision, goals
+and project specific details. Transparency is crucial to internal communication because it breeds trust, accountability,
+and open dialogue. If the team feels as though they are being left in the dark on certain matters, they may be afraid to
+ask questions and share their thoughts on those matters. Not all information can be made available to everyone, of
+course, but maintaining at least some transparency can have tremendous effects on the harmony and rapport within the
+company. (Bovet, 2017 &amp; Rozen, 2016)</p>
+<p>Although company information transparency is more mindset rather than policy, it is possible to increase it by following
+some specific practices. According to many examples of success, information availability is much easier to achieve when
+practicing documenting. Active usage of documentation tools such as company wiki, tasks board, weekly mail lists etc
+makes it much easier to find information. (Milinovich, 2008) Information availability contributes to overall company
+environment because it is connected to emotional ownership and at the same time is a source for innovative practices.</p>
+<p>Often happens, that management has arguments against transparency as they are afraid to overwhelm the employees. In this
+sense, it is important to remember that lack of information is often underestimated. However, by using right tools and
+practices, it is possible to provide information upon request. For example, for weekly sharing about projects, it is
+possible to use mailing lists (open for any employee to join) rather than direct emails. Cross-company chat solutions
+like Slack, Flowdock or Microsoft Teams are even more flexible as they provide channels to join or not. (Bovet, 2017)
+The freedom this approach provides also develops employees’ awareness of how they are trusted in the company, which in
+turn translates into employees’ engagement.</p>
+<p>Another aspect of good communication practices is openness. Allowing people to step out into the open and talk about how
+they feel has both helped them bond and accept ownership over the company. (Milinovich, 2015) In most cases, in startup
+environment “karma” means more than an official title. Accordingly, in corporate organization, creative people should
+not feel being limited by their official position and speak openly. This applies to both giving feedback and sharing
+ideas. Speaking of feedback, it is needed to remember that getting feedback needs to be followed by actions. The best
+organizations are the ones that not only solicit constructive feedback but actually do something with it.
+(Milinovich, 2015)</p>
+<p>Unlike startups, corporate organizations tend to structure themselves. In many cases, these structures demonstrate
+strong vertical connections but lack of horizontal connections. Such structure is quite an obstacle to any innovation
+process. Taking this fact into account, internal communication should concentrate on building cross-departmental
+connections and other kinds of horizontal interactions. Company-wide conversations, whether they are organized as
+regular meetings and open forums or with a range of online communication tools, form special eco-system friendly to
+innovation initiatives and processes. Besides sharing information, horizontal connections ensure cross-departmental
+collaboration, which makes it possible for employees to act in uncertain environments like entrepreneurs do. (Rozen,
+2016 &amp; Sarasvathy, 2008)</p>
+<p>External events are also a crucial part of company communication strategy. They provide an opportunity to develop
+informal relationships and trust. Meeting outside the office changes the employees’ environment which reflects their
+perception of each other and their relationships. Combined with positive emotions such events bring, this contributes
+into their micro-environments which, in turn, form the whole company ecosystem.</p>
+<h3>References</h3>
+<p>Bovet C, (2017) <em>17 Internal Communications Best Practices for 2017</em><br/>
+<a href="https://blog.enplug.com/internal-communications-best-practices-2017">https://blog.enplug.com/internal-communications-best-practices-2017</a></p>
+<p>Milinovich J. (2015) <em>How Fast-Growing Startups Can Fix Internal Communication Before It Breaks</em><br/>
+<a href="http://firstround.com/review/How-Fast-Growing-Startups-Can-Fix-Internal-Communication-Before-It-Breaks/">http://firstround.com/review/How-Fast-Growing-Startups-Can-Fix-Internal-Communication-Before-It-Breaks/</a></p>
+<p>Rozen M. (2016) <em>How to Create a Company Culture of Communication</em><br/>
+<a href="https://www.huffingtonpost.com/michelle-rozen/how-to-create-a-company-c_b_11055992.html">https://www.huffingtonpost.com/michelle-rozen/how-to-create-a-company-c_b_11055992.html</a></p>
+<p>Sarasvathy, S. D. (2008) <em>What makes entrepreneurs entrepreneurial?</em><br/>
+<a href="http://www.effectuation.org/sites/default/files/research_papers/what-makes-entrepreneurs-entrepreneurial-sarasvathy_0.pdf">http://www.effectuation.org/sites/default/files/research_papers/what-makes-entrepreneurs-entrepreneurial-sarasvathy_0.pdf</a></p>
+</div></div></div><div class="style__comments___3emEu"><div class="style__body___2Pjpr"><h4 class="style__header___8JJlc">Comments</h4></div><div class="style__island___6Bc3W"><div><div id="disqus_thread"></div><script>
+    (function(){
+        window.disqus_shortname = 'varya';
+        window.disqus_developer = '1';
+        window.disqus_url = 'http://varya.me//en/posts/communication-culture';
+        window.disqus_identifier = 'posts-communication-culture-index-en';
+        window.disqus_title = 'Aspect of in-company communication for innovation';
+        if ( window.DISQUS ) {
+            return DISQUS.reset({
+                reload: true,
+                config: function () {
+                    this.page.identifier = window.disqus_identifier;
+                    this.page.url = window.disqus_url;
+                    this.page.title = window.disqus_title;
+                }
+            });
+        }
+        else {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        }
+    })();
+</script></div></div></div><div class="style__related___3zKIm"><div class="style__body___2uz87"><h4 class="style__header___1WzCe">By the way</h4></div><div class="style__island___1W8YU"><a href="https://github.com/varya/varya.github.com/issues/new?title=Feedback for Aspect of in-company communication for innovation">Create a GitHub issue for me</a> if you&#x27;ve spotted a typo or a mistake, or wish to add something on. Or you can <a href="https://github.com/varya/varya.github.com/edit/develop/content/posts/communication-culture/index_en.md">edit this post yourself and make me a patch</a>.</div></div></section><nav class="style__sidebar___2nkwz"><ul class="style__menu___-uZzl"><h3 class="style__title___3mAfQ">On this site</h3><li class="style__item___2LuN-"><a href="/en/posts/" class="style__link___1ZFL2">Tech Blog</a></li><li class="style__item___2LuN-"><a href="/en/content/" class="style__link___1ZFL2">Articles and talks</a></li><li class="style__item___2LuN-"><a href="/" class="style__link___1ZFL2">About me</a></li><li class="style__item___2LuN-"><a href="/en/life/" class="style__link___1ZFL2">My life</a></li></ul><div id="GitHub"></div></nav><aside class="style__prompt___1WAf7"><ul class="style__socialIco___14rtL"><li class="style__item___24Oaa"><ul class="style__feeds___lx7IA"><li class="style__item___24Oaa"><a class="style__rssText___1S0Bk" href="/en/feed.xml" title="New on Varya.me in English">en</a></li><li class="style__item___24Oaa"><a class="style__rssText___1S0Bk" href="/ru/feed.xml" title="Новые записи на Varya.me">ru</a></li></ul><a class="style__rss___2lUOQ style__ico___1PWaR" href="/feed.xml" title="New on Varya.me"></a></li><li class="style__item___24Oaa"><a class="style__twitter___3GPQl style__ico___1PWaR" href="https://twitter.com/varya_en" title="@varya_en" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__github___2GmrH style__ico___1PWaR" href="https://github.com/varya" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__facebook___2SOVV style__ico___1PWaR" href="http://www.facebook.com/varvara.stepanova.9" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__linkedin___2NaTD style__ico___1PWaR" href="http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b" target="_blank"></a></li></ul></aside></div><div class="style__outer___1U8mi"><footer class="style__footer___2MbLi"><div class="style__left___2vtHv"></div><div class="style__center___1Ffk8"><a href="http://varya.me">© 2018 Varya Stepanova</a> <a href="https://twitter.com/varya_en" title="@varya_en"><img alt="Twitter" class="ico" src="http://favicon.yandex.net/favicon/twitter.com" title="Twitter"/> Follow me on Twitter!</a></div><div class="style__right___H7yIL"></div></footer></div></div></div>
+
+        <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter20478625 = new Ya.Metrika({id:20478625, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/20478625" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+        <!-- assets-body -->
+    </body>
+</html>
+
+]]></description><link>http://varya.me/en/posts/communication-culture/</link><guid isPermaLink="true">http://varya.me/en/posts/communication-culture/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Thu, 11 Jan 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[What   makes   entrepreneurs   entrepreneurial?]]></title><description><![CDATA[<!doctype html>
 <html class='no-js' lang=en>
     <head>
         <title>What   makes   entrepreneurs   entrepreneurial?</title>
@@ -3251,143 +3366,4 @@ href="https://github.com/zenwalker/" target="_blank"></a></p>
     </body>
 </html>
 
-]]></description><link>http://varya.me/en/posts/beml-html-preprocessor/</link><guid isPermaLink="true">http://varya.me/en/posts/beml-html-preprocessor/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Wed, 09 Apr 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[Borschik helps with remote static assets]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
-    <head>
-        <title>Borschik helps with remote static assets</title>
-        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
-        <!-- assets-head -->
-        <meta content="Borschik helps with remote static assets" property="og:title"/>
-        <meta content="Borschik helps with remote static assets" property="og:description"/>
-        <meta content="http://varya.me/en/posts/borschik-static-assets/" property="og:url"/>
-        <meta content="{{thumb}}" property="og:image"/>
-        <meta property="og:locale" content="en_US"/>
-        <meta property="og:site_name" content="var ya;"/>
-        <meta property="og:type" content="article"/>
-        <meta property="article:author" content="https://www.facebook.com/toivonens"/>
-        <script>
-            (function(d, s, l, r) {
-            if (typeof(s) !== 'undefined' && l.getItem('varya.me.fonts')) {
-                r = [
-                    '<style>',
-                    l.getItem('varya.me.fonts'),
-                    '</style>'
-                ];
-                document.write(r.join(''));
-            }
-
-            })(document, Storage, localStorage);
-        </script>
-    </head>
-    <body class="page">
-        <div id='contents'><div><header class="style__header___7cFNF"><div class="style__left___1nLlV" id="Header-Left"></div><div class="style__center___265v6"><logo class="style__logo___2yXgh">⋅⋅⋅<b class="style__var___11qBW">var</b>⋅<b class="style__ya___8D8Xm">ya</b>;<b class="style__cursor___2aaLd"></b></logo></div><div class="style__right___1RRr2" id="Header-Right"></div></header><div class="style__layout___2Ynks"><section class="style__main___1PTuI"><ul class="style__switcher___2YMLp"><li class="style__lang___kggY_">en</li><li class="style__lang___kggY_"><a href="/ru/posts/borschik-static-assets/" class="style__link___1ZFL2">ru</a></li></ul><div class="style__article___2FW-a" role="main"><div class="style__body___XvMI0"><h1 class="style__header___ADINy">Borschik helps with remote static assets</h1></div><div class="style__text___1aEP8"><div class="style__share___2UNWm"><script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script><span class="yashare-auto-init" data-yashareQuickServices="twitter,facebook,gplus" data-yashareL10n="en" data-yashareTheme="counter"></span></div><span class="style__details___ZaSIa author vcard">Published on 3/10/2014</span><div><p>Last week I met the need to develop a web site which static assets have to be
-hosted on a different server and respond by different URLs than its HTML. This
-is the requirement to all the static files: stylesheets and JavaScript linked to
-the page as well as imges and fonts mentioned in HTML, CSS and JavaScript
-code.<excerpt/> However it is obvious that these resources should be local when developing.
-Thus, the challenge was to introduce a piece of magic which knows where we aim
-to host the statics and transforms all the relative paths into absolute ones
-according to it.</p>
-<p>The tools which helped me is called
-<a href="http://bem.info/tools/optimizers/borschik/">Borschik</a>. The name is funny.
-Besides it reffers to a famous Russian/Ukranian soup, it also alludes to a word
-&quot;сборщик&quot; [sborschik], and so might be translated as
-<strike>ass</strike>embler. &quot;Removing the ass part&quot; as one of my friends says.
-:-)</p>
-<center>
-<iframe src="//embed.gettyimages.com/embed/135591409?et=B_T3l-shrE-pr9-ELe_wJw&sig=5haG67PAzCxGourA96ZB7m9LwSket1v9PpvXEXNIkBM=" width="508" height="407" frameborder="0" scrolling="no"></iframe>
-</center>
-<p>In the <a href="https://github.com/varya/st-deliverer">varya/st-deliverer</a> public repository
-you can find a stub project illustrating the solution.</p>
-<h3>Project structure</h3>
-<p>As you will be able to see later <code>borschik</code> is very flexible. So you can use any
-project structure. In my project I store everything in
-<a href="b.com/varya/st-deliverer/tree/master/src">src folder</a>.
-When building I get HTML files in
-<a href="https://github.com/varya/st-deliverer/tree/gh-pages/dist/html">dist/html directory</a>.
-Check out the code and make sure that static files are linked from a different
-server by their absolute paths.</p>
-<pre><code class="language-html">&lt;html&gt;
-  &lt;head&gt;
-    &lt;title&gt;Deliver static assets with Borschik&lt;/title&gt;
-    &lt;link
-      rel=&quot;stylesheet&quot;
-      href=&quot;http://varya.github.io/stor.../styles.css&quot;/&gt;
-  &lt;/head&gt;
-  &lt;body
-    class=&quot;page&quot;
-    background=&quot;http://varya.github.io/stor.../grungy.jpg&quot;&gt;
-  ...
-</code></pre>
-<p><a href="http://varya.me/st-deliverer/dist/html/">Open in your browser</a> to enjoy my visual
-design and a tom-cat.</p>
-<h3>Bring borschik to your project</h3>
-<p>Borschik is an npm package. So, you can install it globally by runing</p>
-<pre><code class="language-bash">npm install -g borschik
-</code></pre>
-<p>I personally prefer local project dependencies, so my project has a
-<a href="https://github.com/varya/st-deliverer/blob/master/package.json">package.json</a>
-file:</p>
-<pre><code class="language-js">{
-  ...
-  &quot;dependencies&quot;: {
-    &quot;borschik&quot;: &quot;0.4.2&quot;
-  },
-  ...
-}
-</code></pre>
-<h3>Configuration</h3>
-<p>Before we start the magic transformation it is needed to instruct <code>borschik</code> what
-to transform and how to transform. The <a href="https://github.com/varya/st-deliverer/blob/master/.borschik">.borschik</a>
-configuration file serves for that.</p>
-<pre><code class="language-js">{
-  &quot;paths&quot; : {
-    &quot;src/img/&quot;: &quot;http://varya.github.io/stor.../st-deliverer/img/&quot;,
-    &quot;src/css/&quot;: &quot;http://varya.github.io/stor.../st-deliverer/css/&quot;,
-    &quot;src/font/&quot;: &quot;http://varya.github.io/storage/fonts/&quot;
-
-  }
-}
-</code></pre>
-<p>Note that you can tune different replacements for different paths. Here I tried
-to illustrate with the fonts.</p>
-<h3>Run the command</h3>
-<p>Run borschik over a file which contains links to local static assets, and you
-will get the transformation result. For example,</p>
-<pre><code class="language-bash">./node_modules/borschik/bin/borschik \
-  --input=src/css/styles.css
-</code></pre>
-<p>Fot the building process you will also need an <code>--output</code> flag to instruct
-<code>borschik</code> where to place the result.</p>
-<p>Borschik knows the syntax of web technologies. It will not touch the links
-mentioned in text, for example.</p>
-<h3>Build system</h3>
-<p>Now you can use <code>borschik</code> in your project build process. I simply wrote a
-<a href="https://github.com/varya/st-deliverer/blob/master/Makefile">Makefile</a> with a
-lot of help from <a href="https://github.com/alexeyten">@alexeyten</a> (tnx!).
-There is also a grunt plugin <a href="https://github.com/megatolya/grunt-borschik">megatolya/grunt-borschik</a>.<br/>
-Indeed, <code>borschik</code> is included into <a href="http://bem.info/tools/bem/bem-tools/">bem-tools</a>
-and <a href="https://github.com/enb-make/enb">enb</a> — the two competitive solutions for
-building the projects with BEM structure.</p>
-<h3>Result</h3>
-<p><a href="http://varya.me/st-deliverer/dist/html/">Check the cat again</a>. Still there?</p>
-<p>You also can learn about other features of <code>borschik</code> from the article:
-<a href="http://bem.info/articles/borschik/">http://bem.info/articles/borschik/</a>.</p>
-</div></div></div><div class="style__comments___3emEu"><div class="style__body___2Pjpr"><h4 class="style__header___8JJlc">Comments</h4></div><div class="style__island___6Bc3W"><div><div id="disqus_thread"></div><script>
-                      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-                      var disqus_shortname = 'varya'; // required: replace example with your forum shortname
-
-                      /* * * DON'T EDIT BELOW THIS LINE * * */
-                      (function() {
-                          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-                          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-                          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-                      })();
-                  </script></div></div></div><div class="style__related___3zKIm"><div class="style__body___2uz87"><h4 class="style__header___1WzCe">By the way</h4></div><div class="style__island___1W8YU"><a href="https://github.com/varya/varya.github.com/issues/new?title=Feedback for Borschik helps with remote static assets">Create a GitHub issue for me</a> if you&#x27;ve spotted a typo or a mistake, or wish to add something on. Or you can <a href="https://github.com/varya/varya.github.com/edit/develop/content/posts/borschik-static-assets/index_en.md">edit this post yourself and make me a patch</a>.</div></div></section><nav class="style__sidebar___2nkwz"><ul class="style__menu___-uZzl"><h3 class="style__title___3mAfQ">On this site</h3><li class="style__item___2LuN-"><a href="/en/posts/" class="style__link___1ZFL2">Tech Blog</a></li><li class="style__item___2LuN-"><a href="/en/content/" class="style__link___1ZFL2">Articles and talks</a></li><li class="style__item___2LuN-"><a href="/" class="style__link___1ZFL2">About me</a></li><li class="style__item___2LuN-"><a href="/en/life/" class="style__link___1ZFL2">My life</a></li></ul><div id="GitHub"></div></nav><aside class="style__prompt___1WAf7"><ul class="style__socialIco___14rtL"><li class="style__item___24Oaa"><ul class="style__feeds___lx7IA"><li class="style__item___24Oaa"><a class="style__rssText___1S0Bk" href="/en/feed.xml" title="New on Varya.me in English">en</a></li><li class="style__item___24Oaa"><a class="style__rssText___1S0Bk" href="/ru/feed.xml" title="Новые записи на Varya.me">ru</a></li></ul><a class="style__rss___2lUOQ style__ico___1PWaR" href="/feed.xml" title="New on Varya.me"></a></li><li class="style__item___24Oaa"><a class="style__twitter___3GPQl style__ico___1PWaR" href="https://twitter.com/varya_en" title="@varya_en" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__github___2GmrH style__ico___1PWaR" href="https://github.com/varya" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__facebook___2SOVV style__ico___1PWaR" href="http://www.facebook.com/varvara.stepanova.9" target="_blank"></a></li><li class="style__item___24Oaa"><a class="style__linkedin___2NaTD style__ico___1PWaR" href="http://www.linkedin.com/pub/varvara-stepanova/30/72a/96b" target="_blank"></a></li></ul></aside></div><div class="style__outer___1U8mi"><footer class="style__footer___2MbLi"><div class="style__left___2vtHv"></div><div class="style__center___1Ffk8"><a href="http://varya.me">© 2018 Varya Stepanova</a> <a href="https://twitter.com/varya_en" title="@varya_en"><img alt="Twitter" class="ico" src="http://favicon.yandex.net/favicon/twitter.com" title="Twitter"/> Follow me on Twitter!</a></div><div class="style__right___H7yIL"></div></footer></div></div></div>
-
-        <!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter20478625 = new Ya.Metrika({id:20478625, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/20478625" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
-        <!-- assets-body -->
-    </body>
-</html>
-
-]]></description><link>http://varya.me/en/posts/borschik-static-assets/</link><guid isPermaLink="true">http://varya.me/en/posts/borschik-static-assets/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Mon, 10 Mar 2014 00:00:00 GMT</pubDate></item></channel></rss>
+]]></description><link>http://varya.me/en/posts/beml-html-preprocessor/</link><guid isPermaLink="true">http://varya.me/en/posts/beml-html-preprocessor/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Wed, 09 Apr 2014 00:00:00 GMT</pubDate></item></channel></rss>
