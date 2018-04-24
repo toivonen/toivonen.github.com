@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>http://varya.me</link><generator>metalsmith-feed</generator><lastBuildDate>Tue, 17 Apr 2018 18:05:40 GMT</lastBuildDate><atom:link href="http://varya.me/en/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Aspect of in-company communication for innovation]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>http://varya.me</link><generator>metalsmith-feed</generator><lastBuildDate>Tue, 24 Apr 2018 14:10:12 GMT</lastBuildDate><atom:link href="http://varya.me/en/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Aspect of in-company communication for innovation]]></title><description><![CDATA[<!doctype html>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>Aspect of in-company communication for innovation</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -114,7 +114,7 @@ into their micro-environments which, in turn, form the whole company ecosystem.<
 </html>
 
 ]]></description><link>http://varya.me/en/posts/communication-culture/</link><guid isPermaLink="true">http://varya.me/en/posts/communication-culture/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Thu, 11 Jan 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[What   makes   entrepreneurs   entrepreneurial?]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>What   makes   entrepreneurs   entrepreneurial?</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -242,7 +242,7 @@ methods and principles both use to achieve success are basically the same.</p>
 </html>
 
 ]]></description><link>http://varya.me/en/posts/what-makes-entrepreneurs-entrepreneurial/</link><guid isPermaLink="true">http://varya.me/en/posts/what-makes-entrepreneurs-entrepreneurial/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Thu, 04 Jan 2018 00:00:00 GMT</pubDate></item><item><title><![CDATA[Simple yet promising structure for React/Redux project]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>Simple yet promising structure for React/Redux project</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -386,7 +386,7 @@ to cover the changes in the next posts.</p>
 </html>
 
 ]]></description><link>http://varya.me/en/posts/react-redux-simple-project/</link><guid isPermaLink="true">http://varya.me/en/posts/react-redux-simple-project/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Mon, 21 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Week 44, 2016]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>Week 44, 2016</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -501,7 +501,7 @@ different kinds of React components.</p>
 </html>
 
 ]]></description><link>http://varya.me/en/posts/week-44-2016/</link><guid isPermaLink="true">http://varya.me/en/posts/week-44-2016/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Tue, 08 Nov 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Living SC5 Styleguide, the next level]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>Living SC5 Styleguide, the next level</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -811,7 +811,7 @@ page</a>. If you want yours to appear here, please
 </html>
 
 ]]></description><link>http://varya.me/en/posts/sc5-style-guide-next-level/</link><guid isPermaLink="true">http://varya.me/en/posts/sc5-style-guide-next-level/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Mon, 23 May 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Simple React Angular project]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>Simple React Angular project</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -947,7 +947,7 @@ well as have more complex building process. But here is its starting point: <a h
 </html>
 
 ]]></description><link>http://varya.me/en/posts/react-angular-project/</link><guid isPermaLink="true">http://varya.me/en/posts/react-angular-project/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Thu, 19 May 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Materials for your React hackathon]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>Materials for your React hackathon</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -1145,7 +1145,7 @@ rocks! :-)</p>
 </html>
 
 ]]></description><link>http://varya.me/en/posts/react-hackathon-materials/</link><guid isPermaLink="true">http://varya.me/en/posts/react-hackathon-materials/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Sat, 16 Apr 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Visual diffs for the images in a git repo]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>Visual diffs for the images in a git repo</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -1260,7 +1260,7 @@ in a special file. Run <code>cat ~/.gitattributes</code> and paste the following
 </html>
 
 ]]></description><link>http://varya.me/en/posts/image-diffs-with-git/</link><guid isPermaLink="true">http://varya.me/en/posts/image-diffs-with-git/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Fri, 18 Mar 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Dealing atomically with icon fonts]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>Dealing atomically with icon fonts</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -1517,7 +1517,7 @@ been done :-)</p>
 </html>
 
 ]]></description><link>http://varya.me/en/posts/dealing-atomically-with-icon-fonts/</link><guid isPermaLink="true">http://varya.me/en/posts/dealing-atomically-with-icon-fonts/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Tue, 10 Nov 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Tag cloud of random sizes in pure CSS]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>Tag cloud of random sizes in pure CSS</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -1662,7 +1662,7 @@ to play arownd with the values and maybe use more than 3 sizes.</p>
 </html>
 
 ]]></description><link>http://varya.me/en/posts/pseudo-tag-cloud-css/</link><guid isPermaLink="true">http://varya.me/en/posts/pseudo-tag-cloud-css/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Mon, 02 Nov 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[An answer to the question which should not have been asked]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>An answer to the question which should not have been asked</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -1790,7 +1790,7 @@ tech/culture</a>.</p>
 </html>
 
 ]]></description><link>http://varya.me/en/posts/on-the-unicorn-law/</link><guid isPermaLink="true">http://varya.me/en/posts/on-the-unicorn-law/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Mon, 07 Sep 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Style-guide the smaller things]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>Style-guide the smaller things</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -2077,7 +2077,7 @@ posts. Stay tuned!</p>
 </html>
 
 ]]></description><link>http://varya.me/en/posts/sc5-styleguide-for-smallers/</link><guid isPermaLink="true">http://varya.me/en/posts/sc5-styleguide-for-smallers/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Thu, 30 Jul 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[JSCS in use]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>JSCS in use</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -2255,7 +2255,7 @@ man-hours.</p>
 </html>
 
 ]]></description><link>http://varya.me/en/posts/jscs-in-use/</link><guid isPermaLink="true">http://varya.me/en/posts/jscs-in-use/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Wed, 11 Feb 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Run on time (about Mac applications)]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>Run on time (about Mac applications)</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -2363,7 +2363,7 @@ separate calendar for such event and not to synchronize it with other devices.</
 </html>
 
 ]]></description><link>http://varya.me/en/posts/run-app-in-time-on-mac/</link><guid isPermaLink="true">http://varya.me/en/posts/run-app-in-time-on-mac/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Fri, 12 Sep 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[The so different frontend community and how we deal with it]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>The so different frontend community and how we deal with it</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -2485,7 +2485,7 @@ issues</a>.</li>
 </html>
 
 ]]></description><link>http://varya.me/en/posts/frontend-babel-alpha/</link><guid isPermaLink="true">http://varya.me/en/posts/frontend-babel-alpha/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Mon, 30 Jun 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[Using side drawers in mobile apps on Steroids.js]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>Using side drawers in mobile apps on Steroids.js</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -2662,7 +2662,7 @@ interesting. Stay tuned :-)</p>
 </html>
 
 ]]></description><link>http://varya.me/en/posts/steroids-drawers/</link><guid isPermaLink="true">http://varya.me/en/posts/steroids-drawers/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Mon, 09 Jun 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[Docpad with the taste of BEM]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>Docpad with the taste of BEM</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -2863,7 +2863,7 @@ and start :-)</p>
 </html>
 
 ]]></description><link>http://varya.me/en/posts/docpad-with-bem-taste/</link><guid isPermaLink="true">http://varya.me/en/posts/docpad-with-bem-taste/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Wed, 04 Jun 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[HTML5 mobile apps with native UI on Steroids]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>HTML5 mobile apps with native UI on Steroids</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -3169,7 +3169,7 @@ regarding Steroids soon :-)</p>
 </html>
 
 ]]></description><link>http://varya.me/en/posts/html5-mobile-app-width-native-ui/</link><guid isPermaLink="true">http://varya.me/en/posts/html5-mobile-app-width-native-ui/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Mon, 26 May 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[Switching to bem-core#v2]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>Switching to bem-core#v2</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -3241,7 +3241,7 @@ have a ready-made excuse to dive into refactoring.</p>
 </html>
 
 ]]></description><link>http://varya.me/en/posts/switching-to-bem-core-2/</link><guid isPermaLink="true">http://varya.me/en/posts/switching-to-bem-core-2/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Wed, 16 Apr 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[BEML - an HTML preprocessor for BEM]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=en>
+<html class='no-js' lang=en rtemplate="Post.js">
     <head>
         <title>BEML - an HTML preprocessor for BEM</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>

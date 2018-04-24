@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>http://varya.me/ru</link><generator>metalsmith-feed</generator><lastBuildDate>Tue, 17 Apr 2018 18:05:40 GMT</lastBuildDate><atom:link href="http://varya.me/ru/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Конференции ScotlandCSS и ScotlandJS. Организация]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=ru>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>http://varya.me/ru</link><generator>metalsmith-feed</generator><lastBuildDate>Tue, 24 Apr 2018 14:10:12 GMT</lastBuildDate><atom:link href="http://varya.me/ru/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Конференции ScotlandCSS и ScotlandJS. Организация]]></title><description><![CDATA[<!doctype html>
+<html class='no-js' lang=ru rtemplate="Post.js">
     <head>
         <title>Конференции ScotlandCSS и ScotlandJS. Организация</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -163,7 +163,7 @@
 </html>
 
 ]]></description><link>http://varya.me/ru/posts/scotland-css-and-js-2016/</link><guid isPermaLink="true">http://varya.me/ru/posts/scotland-css-and-js-2016/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Mon, 27 Jun 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Стайл гайд для самых маленьких]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=ru>
+<html class='no-js' lang=ru rtemplate="Post.js">
     <head>
         <title>Стайл гайд для самых маленьких</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -446,7 +446,7 @@ Styleguide 4.1
 </html>
 
 ]]></description><link>http://varya.me/ru/posts/sc5-styleguide-for-smallers/</link><guid isPermaLink="true">http://varya.me/ru/posts/sc5-styleguide-for-smallers/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Tue, 18 Aug 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[Использование JSCS]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=ru>
+<html class='no-js' lang=ru rtemplate="Post.js">
     <head>
         <title>Использование JSCS</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -624,7 +624,7 @@ JavaScript на вашем проекте. Этот файл помещаетс�
 </html>
 
 ]]></description><link>http://varya.me/ru/posts/jscs-in-use/</link><guid isPermaLink="true">http://varya.me/ru/posts/jscs-in-use/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Tue, 25 Nov 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[Запускать вовремя (о приложениях на Mac)]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=ru>
+<html class='no-js' lang=ru rtemplate="Post.js">
     <head>
         <title>Запускать вовремя (о приложениях на Mac)</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -730,7 +730,7 @@ title="" alt=""/></p>
 </html>
 
 ]]></description><link>http://varya.me/ru/posts/run-app-in-time-on-mac/</link><guid isPermaLink="true">http://varya.me/ru/posts/run-app-in-time-on-mac/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Wed, 10 Sep 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[Про дружбу народов во frontend сообществе]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=ru>
+<html class='no-js' lang=ru rtemplate="Post.js">
     <head>
         <title>Про дружбу народов во frontend сообществе</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -868,7 +868,7 @@ SmashingMagazine</a>.
 </html>
 
 ]]></description><link>http://varya.me/ru/posts/frontend-babel-alpha/</link><guid isPermaLink="true">http://varya.me/ru/posts/frontend-babel-alpha/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Mon, 30 Jun 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[Первая неделя Frontend Babel]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=ru>
+<html class='no-js' lang=ru rtemplate="Post.js">
     <head>
         <title>Первая неделя Frontend Babel</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -966,7 +966,7 @@ Extensions</a>» уже выглядел вот так:</p>
 </html>
 
 ]]></description><link>http://varya.me/ru/posts/frontend-babel-first-week/</link><guid isPermaLink="true">http://varya.me/ru/posts/frontend-babel-first-week/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Mon, 02 Jun 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[Мобильное приложение на HTML5 со штатным интерфейсом]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=ru>
+<html class='no-js' lang=ru rtemplate="Post.js">
     <head>
         <title>Мобильное приложение на HTML5 со штатным интерфейсом</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -1287,7 +1287,7 @@ steroids.view.navigationBar.update({
 </html>
 
 ]]></description><link>http://varya.me/ru/posts/html5-mobile-app-width-native-ui/</link><guid isPermaLink="true">http://varya.me/ru/posts/html5-mobile-app-width-native-ui/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Wed, 28 May 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[Мобильное приложение на Steroids]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=ru>
+<html class='no-js' lang=ru rtemplate="Post.js">
     <head>
         <title>Мобильное приложение на Steroids</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -1411,7 +1411,7 @@ Apps Gallery</a>. Только успевай с идеями: я вот
 </html>
 
 ]]></description><link>http://varya.me/ru/posts/first-steroids-app/</link><guid isPermaLink="true">http://varya.me/ru/posts/first-steroids-app/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Wed, 02 Apr 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[Локальная разработка и удаленный хостинг статики]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=ru>
+<html class='no-js' lang=ru rtemplate="Post.js">
     <head>
         <title>Локальная разработка и удаленный хостинг статики</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -1547,7 +1547,7 @@ Apps Gallery</a>. Только успевай с идеями: я вот
 </html>
 
 ]]></description><link>http://varya.me/ru/posts/borschik-static-assets/</link><guid isPermaLink="true">http://varya.me/ru/posts/borschik-static-assets/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Wed, 12 Mar 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[JavaScript в BEMJSON]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=ru>
+<html class='no-js' lang=ru rtemplate="Post.js">
     <head>
         <title>JavaScript в BEMJSON</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -1683,7 +1683,7 @@ code</a></p>
 </html>
 
 ]]></description><link>http://varya.me/ru/posts/javascript-in-bemjson/</link><guid isPermaLink="true">http://varya.me/ru/posts/javascript-in-bemjson/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Tue, 21 Jan 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[Блоки как кирпичи и бандлы как дома]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=ru>
+<html class='no-js' lang=ru rtemplate="Post.js">
     <head>
         <title>Блоки как кирпичи и бандлы как дома</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -1839,7 +1839,7 @@ stub</a>. Сама постоянно использую его,
 </html>
 
 ]]></description><link>http://varya.me/ru/posts/blocks-and-bundles/</link><guid isPermaLink="true">http://varya.me/ru/posts/blocks-and-bundles/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Wed, 15 Jan 2014 00:00:00 GMT</pubDate></item><item><title><![CDATA[Бложик на bem tools 1.0.0alpha]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=ru>
+<html class='no-js' lang=ru rtemplate="Post.js">
     <head>
         <title>Бложик на bem tools 1.0.0alpha</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -1955,7 +1955,7 @@ BEMHTML шаблонов, старый лаконичный синтаксис �
 </html>
 
 ]]></description><link>http://varya.me/ru/posts/bem-tools-100-alpha/</link><guid isPermaLink="true">http://varya.me/ru/posts/bem-tools-100-alpha/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Fri, 01 Nov 2013 00:00:00 GMT</pubDate></item><item><title><![CDATA[Упражнения для дикции]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=ru>
+<html class='no-js' lang=ru rtemplate="Post.js">
     <head>
         <title>Упражнения для дикции</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -2040,7 +2040,7 @@ BEMHTML шаблонов, старый лаконичный синтаксис �
 </html>
 
 ]]></description><link>http://varya.me/ru/posts/articulation-exercises/</link><guid isPermaLink="true">http://varya.me/ru/posts/articulation-exercises/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Sat, 01 Jun 2013 00:00:00 GMT</pubDate></item><item><title><![CDATA[Мой опыт изучения английского]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=ru>
+<html class='no-js' lang=ru rtemplate="Post.js">
     <head>
         <title>Мой опыт изучения английского</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -2360,7 +2360,7 @@ Grammar</a></li>
 </html>
 
 ]]></description><link>http://varya.me/ru/posts/learn-english/</link><guid isPermaLink="true">http://varya.me/ru/posts/learn-english/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Tue, 02 Apr 2013 00:00:00 GMT</pubDate></item><item><title><![CDATA[10 ошибок XSLT-программистов]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=ru>
+<html class='no-js' lang=ru rtemplate="Post.js">
     <head>
         <title>10 ошибок XSLT-программистов</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -2455,7 +2455,7 @@ XPath-выражении или значении атрибута match, вы д
 </html>
 
 ]]></description><link>http://varya.me/ru/posts/ten-xslt-mistakes/</link><guid isPermaLink="true">http://varya.me/ru/posts/ten-xslt-mistakes/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Thu, 12 Aug 2010 00:00:00 GMT</pubDate></item><item><title><![CDATA[Эффективное использование рекурсии в XSL]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=ru>
+<html class='no-js' lang=ru rtemplate="Post.js">
     <head>
         <title>Эффективное использование рекурсии в XSL</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -2848,7 +2848,7 @@ XSL-преобразований не может быть проигнориро
 </html>
 
 ]]></description><link>http://varya.me/ru/posts/xslt-recursion/</link><guid isPermaLink="true">http://varya.me/ru/posts/xslt-recursion/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Sat, 01 Aug 2009 00:00:00 GMT</pubDate></item><item><title><![CDATA[XSLT - результативные технологии программирования]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=ru>
+<html class='no-js' lang=ru rtemplate="Post.js">
     <head>
         <title>XSLT - результативные технологии программирования</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
@@ -3436,7 +3436,7 @@ HTML-документе, что делает файлы меньше и они �
 </html>
 
 ]]></description><link>http://varya.me/ru/posts/efficient_xslt_techniques/</link><guid isPermaLink="true">http://varya.me/ru/posts/efficient_xslt_techniques/</guid><category><![CDATA[frontend]]></category><category><![CDATA[ui]]></category><category><![CDATA[react]]></category><category><![CDATA[redux]]></category><category><![CDATA[javascript]]></category><category><![CDATA[js]]></category><pubDate>Sat, 25 Jul 2009 00:00:00 GMT</pubDate></item><item><title><![CDATA[Простые числа и XPath]]></title><description><![CDATA[<!doctype html>
-<html class='no-js' lang=ru>
+<html class='no-js' lang=ru rtemplate="Post.js">
     <head>
         <title>Простые числа и XPath</title>
         <link rel="icon" type="image/x-icon" href="/assets/favicon.ico"/>
