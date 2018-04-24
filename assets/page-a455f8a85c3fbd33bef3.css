@@ -1,0 +1,84 @@
+/*
+Candies
+
+markup:
+<div class="candies i-bem" data-bem='{ "candies" : { "size" : { "max" : 28, "min" : 12 }, "reverse" : true } }'>
+</div>
+
+Styleguide 5.1
+*/
+
+.style__item___Er6CH
+{
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+/*
+Link
+
+markup:
+<a class="link" href="http://google.com">Link</a>
+
+Styleguide 1.3
+*/
+
+.style__link___1ZFL2
+{
+    color: #3B8DBD;
+}
+/*
+ * Source: http://www.joepettersson.com/demo/jquery-github-widget/
+ */
+
+/*
+Github
+
+markup:
+<div class="github i-bem box github_not-ready"
+    data-bem='{ "github" : { "user" : "varya" } }'>
+    <div class="github__header box__title">
+      Last updated repos
+    </div>
+    <ul class="github__body"></ul>
+</div>
+
+Styleguide 4.3
+*/
+
+.style__github___ewe7q
+{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    .style__github___ewe7q
+    {
+        display: none;
+    }
+}
+
+.style__header___hm_lo
+{
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 0 0 .5em;
+    padding: 0;
+    color: #666;
+}
+
+.style__body___1gSAU {
+    font-size: .8em;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.style__repo___2nB2i
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
