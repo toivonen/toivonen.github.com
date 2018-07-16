@@ -49,8 +49,8 @@
       "path---en-life-life-in-finland-8-8f8b1439701d30e03cc3.js.map"
     ],
     "path---en-posts-on-the-unicorn-law": [
-      "path---en-posts-on-the-unicorn-law-c5677de08cc1adcb07f2.js",
-      "path---en-posts-on-the-unicorn-law-c5677de08cc1adcb07f2.js.map"
+      "path---en-posts-on-the-unicorn-law-7713f7b08197065ff542.js",
+      "path---en-posts-on-the-unicorn-law-7713f7b08197065ff542.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-016448ba189d09bf6fba.js",
@@ -65,8 +65,8 @@
       "path---ru-posts-xpath-prime-numbers-a846f327bd46de4a218f.js.map"
     ],
     "path---blog": [
-      "path---blog-f18138bca7154c77732b.js",
-      "path---blog-f18138bca7154c77732b.js.map"
+      "path---blog-45988f21334a0801dc33.js",
+      "path---blog-45988f21334a0801dc33.js.map"
     ],
     "path---ru-life-hello-from-the-netherlands": [
       "path---ru-life-hello-from-the-netherlands-b955f64834497fb22ee5.js",
@@ -111,10 +111,6 @@
     "path---ru-life-life-in-finland-8": [
       "path---ru-life-life-in-finland-8-0f3d385f94f596dceb7e.js",
       "path---ru-life-life-in-finland-8-0f3d385f94f596dceb7e.js.map"
-    ],
-    "path---blog-new-post": [
-      "path---blog-new-post-420f8ee15f5b18bbbfd0.js",
-      "path---blog-new-post-420f8ee15f5b18bbbfd0.js.map"
     ],
     "path---ru-life-life-in-finland-9": [
       "path---ru-life-life-in-finland-9-afde061878a8b34396ea.js",
@@ -233,8 +229,8 @@
       "path---en-life-life-in-finland-7-1eb7fe8f5d24055a1a0a.js.map"
     ],
     "path---posts": [
-      "path---posts-f18138bca7154c77732b.js",
-      "path---posts-f18138bca7154c77732b.js.map"
+      "path---posts-45988f21334a0801dc33.js",
+      "path---posts-45988f21334a0801dc33.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -385,17 +381,17 @@
       "path---ru-life-little-suomi-27-2017-e06bf4d6df8a990e7a4d.js.map"
     ],
     "path---ru-posts-jscs-in-use": [
-      "path---ru-posts-jscs-in-use-d8a2492bde5121ed605d.js",
-      "path---ru-posts-jscs-in-use-d8a2492bde5121ed605d.js.map"
+      "path---ru-posts-jscs-in-use-2b9b24b2cd3fc3b97d7e.js",
+      "path---ru-posts-jscs-in-use-2b9b24b2cd3fc3b97d7e.js.map"
     ],
     "path---ru-posts-ten-xslt-mistakes": [
       "path---ru-posts-ten-xslt-mistakes-ef5f4ece253d25f286ab.js",
       "path---ru-posts-ten-xslt-mistakes-ef5f4ece253d25f286ab.js.map"
     ],
     "app": [
-      "app-9396fce422e4480affbb.js",
+      "app-59c1d9c5e97d351e164a.js",
       "build-js-styles.css",
-      "app-9396fce422e4480affbb.js.map",
+      "app-59c1d9c5e97d351e164a.js.map",
       "build-js-styles.css.map"
     ],
     "path---ru-life-life-in-finland-6": [

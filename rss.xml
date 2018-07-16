@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Varya.me — design and development]]></title><description><![CDATA[Varya.me — design and development]]></description><link>http://varya.me/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 16 Jul 2018 20:31:17 GMT</lastBuildDate><item><title><![CDATA[Бложик на bem tools 1.0.0alpha]]></title><description><![CDATA[[bem tools](http://bem.info/tools/bem/) &mdash; пакет для сборки проекта с
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Varya.me — design and development]]></title><description><![CDATA[Varya.me — design and development]]></description><link>http://varya.me/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 16 Jul 2018 20:34:00 GMT</lastBuildDate><item><title><![CDATA[Бложик на bem tools 1.0.0alpha]]></title><description><![CDATA[[bem tools](http://bem.info/tools/bem/) &mdash; пакет для сборки проекта с
 БЭМ-структурой развивается семимильными шагами. На подходе версия 1.0.0. Точнее,
 уже сейчас её можно использовать как alpha. Я попробовала на блоге, и уже этот
 текст отображается со статикой, собранной `bem tools 1.0.0`.]]></description><link>http://varya.me/ru/posts/bem-tools-100-alpha/</link><guid isPermaLink="false">http://varya.me/ru/posts/bem-tools-100-alpha/</guid><content:encoded>&lt;p&gt;&lt;a href=&quot;http://bem.info/tools/bem/&quot;&gt;bem tools&lt;/a&gt; — пакет для сборки проекта с
@@ -3956,93 +3956,7 @@ JavaScript на вашем проекте. Этот файл помещаетс�
 тысячи человекочасов.&lt;/p&gt;
 &lt;h2&gt;А также&lt;/h2&gt;
 &lt;p&gt;Возможно, вас также заинтересует &lt;a href=&quot;http://habrahabr.ru/post/220229/&quot;&gt;рассказ автора JSCS&lt;/a&gt; и мои
-&lt;a href=&quot;http://varya.me/jscs-talk/&quot;&gt;слайды&lt;/a&gt; от доклада на эту тему.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[I am new post]]></title><description><![CDATA[Company internal communication is a crucial aspect of forming innovation-friendly environment, in which employees can
-effectively apply…]]></description><link>http://varya.me/blog/new-post/</link><guid isPermaLink="false">http://varya.me/blog/new-post/</guid><content:encoded>&lt;p&gt;Company internal communication is a crucial aspect of forming innovation-friendly environment, in which employees can
-effectively apply their expertise and creativity for achieving business goals.&lt;/p&gt;
-&lt;p&gt;Creative people need “emotional ownership” in the goals and objectives, which becomes even more important speaking about
-the corporate world where such people are not co-founders but employees. (Sarasvathy, 2008) Establishing right
-communicational practices very much contributes to developing this kind of ownership and makes innovation possible.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/communication-7ec71c9379f9a5af40e97eb85beb96c8-be609.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 750px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 60.53333333333334%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAADE0lEQVQozzWS62tbdRjH8y/4D4gI4pv5QnB7UUEZCjoRBH2lYwpDVARXGR0KYwytFNzEtnY32xUXl5VesiSnycmluZ2cSy4nTXJyWXJyW9NudW6g/8LHJym++PE7/M7zfJ/v5fGUDh5wdNoU5d591JHjYu05pNtJnL8GOIddCgddqXGpH/ZpPhlSlrrifgNbemzp/R/Hkx81GR9r1Jg8dJ6OcB73CTdMQpUIer9Gpl8n3wqiu5qAjeg+28d8KAOdONbAwRy1pP8IZwI4ZlcVFunerrDpk+tV8dthkp1d1KbJZj5OOO8lUosJKxdjUCc9+aeTKviIOCniTQ1zTwCtvQYZASrstVjJ+ol3SqiNDN7sMko9Q9hS2Q4u4zejxLoV0rUc21aMaLvEzR0f/sSaDFIJlBUMwfDoQ4d4q0ispRERmfqgKdN01Ep4InfbTuHduI7fUMgNG8TLcYJWmFDTYlXAFFNF6zkEqhr6sIbHeFif+BX0LxOzE2S7BTKtLI3GXWIPbBmWJ+tW5LtIyNEJWX9y3wyQ6VZleF2ATQINA38tK77W8Ryl1SEuAaSsVaxqkuLhgG0nSbhpUBQZnb9H0lybpK8Ji5wEMfZ9bJchCrP5GKZYVXjUxmNLUeWgiWZNE1XfxeppBEo+FtfPsKbfoCqpViSo3ccuCbfEd/4lZjYXSXQK2M+G6Oo99E/eITc3Q/7QHafcknRq7KQ/Q/Efw2htsCHJnZ9/hfmtr0Sa2FHelB3tcD23xRs/f8nHK5dItQXw3wOyq78Qfvk5Ut9/QeHpEM94YQ03QShwnJ38LLZYoNg+Lv7+Ft70Va6snyVaucdtkbVihvh2Y57P7/xE9Z99rHYRq2UR+2CK5LnTFJ70BHC/TTT5KYH1FwXwMtnyFa7efZ8L16aY9X7I5dunCMj+/aj+wSXlFmfvzPL2r9+wuX4NY+kHMrfmiH/0Juprz2NoCh6zb6CEXp8wVIIniGnnmPOd5sLSCc4vvMpv978mUM8xs7XIqYVp3puf5qTcC0sXMYRV5OQx1KmXUI+/gB5d4z9u5POyUTes6gAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;communication&quot;
-        title=&quot;&quot;
-        src=&quot;/static/communication-7ec71c9379f9a5af40e97eb85beb96c8-be609.png&quot;
-        srcset=&quot;/static/communication-7ec71c9379f9a5af40e97eb85beb96c8-e50aa.png 200w,
-/static/communication-7ec71c9379f9a5af40e97eb85beb96c8-5a5fd.png 400w,
-/static/communication-7ec71c9379f9a5af40e97eb85beb96c8-be609.png 750w&quot;
-        sizes=&quot;(max-width: 750px) 100vw, 750px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;It is important to contribute to all aspects of internal company communication which are: transparency, constant
-documenting, openness to feedback, cross-departmental communication, external events.&lt;/p&gt;
-&lt;p&gt;In the context of communication, transparency usually means availability of information regarding company vision, goals
-and project specific details. Transparency is crucial to internal communication because it breeds trust, accountability,
-and open dialogue. If the team feels as though they are being left in the dark on certain matters, they may be afraid to
-ask questions and share their thoughts on those matters. Not all information can be made available to everyone, of
-course, but maintaining at least some transparency can have tremendous effects on the harmony and rapport within the
-company. (Bovet, 2017 &amp;#x26; Rozen, 2016)&lt;/p&gt;
-&lt;p&gt;Although company information transparency is more mindset rather than policy, it is possible to increase it by following
-some specific practices. According to many examples of success, information availability is much easier to achieve when
-practicing documenting. Active usage of documentation tools such as company wiki, tasks board, weekly mail lists etc
-makes it much easier to find information. (Milinovich, 2008) Information availability contributes to overall company
-environment because it is connected to emotional ownership and at the same time is a source for innovative practices.&lt;/p&gt;
-&lt;p&gt;Often happens, that management has arguments against transparency as they are afraid to overwhelm the employees. In this
-sense, it is important to remember that lack of information is often underestimated. However, by using right tools and
-practices, it is possible to provide information upon request. For example, for weekly sharing about projects, it is
-possible to use mailing lists (open for any employee to join) rather than direct emails. Cross-company chat solutions
-like Slack, Flowdock or Microsoft Teams are even more flexible as they provide channels to join or not. (Bovet, 2017)
-The freedom this approach provides also develops employees’ awareness of how they are trusted in the company, which in
-turn translates into employees’ engagement.&lt;/p&gt;
-&lt;p&gt;Another aspect of good communication practices is openness. Allowing people to step out into the open and talk about how
-they feel has both helped them bond and accept ownership over the company. (Milinovich, 2015) In most cases, in startup
-environment “karma” means more than an official title. Accordingly, in corporate organization, creative people should
-not feel being limited by their official position and speak openly. This applies to both giving feedback and sharing
-ideas. Speaking of feedback, it is needed to remember that getting feedback needs to be followed by actions. The best
-organizations are the ones that not only solicit constructive feedback but actually do something with it.
-(Milinovich, 2015)&lt;/p&gt;
-&lt;p&gt;Unlike startups, corporate organizations tend to structure themselves. In many cases, these structures demonstrate
-strong vertical connections but lack of horizontal connections. Such structure is quite an obstacle to any innovation
-process. Taking this fact into account, internal communication should concentrate on building cross-departmental
-connections and other kinds of horizontal interactions. Company-wide conversations, whether they are organized as
-regular meetings and open forums or with a range of online communication tools, form special eco-system friendly to
-innovation initiatives and processes. Besides sharing information, horizontal connections ensure cross-departmental
-collaboration, which makes it possible for employees to act in uncertain environments like entrepreneurs do. (Rozen,
-2016 &amp;#x26; Sarasvathy, 2008)&lt;/p&gt;
-&lt;p&gt;External events are also a crucial part of company communication strategy. They provide an opportunity to develop
-informal relationships and trust. Meeting outside the office changes the employees’ environment which reflects their
-perception of each other and their relationships. Combined with positive emotions such events bring, this contributes
-into their micro-environments which, in turn, form the whole company ecosystem.&lt;/p&gt;
-&lt;h3&gt;References&lt;/h3&gt;
-&lt;p&gt;Bovet C, (2017) &lt;em&gt;17 Internal Communications Best Practices for 2017&lt;/em&gt;&lt;br/&gt;
-&lt;a href=&quot;https://blog.enplug.com/internal-communications-best-practices-2017&quot;&gt;https://blog.enplug.com/internal-communications-best-practices-2017&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Milinovich J. (2015) &lt;em&gt;How Fast-Growing Startups Can Fix Internal Communication Before It Breaks&lt;/em&gt;&lt;br/&gt;
-&lt;a href=&quot;http://firstround.com/review/How-Fast-Growing-Startups-Can-Fix-Internal-Communication-Before-It-Breaks/&quot;&gt;http://firstround.com/review/How-Fast-Growing-Startups-Can-Fix-Internal-Communication-Before-It-Breaks/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Rozen M. (2016) &lt;em&gt;How to Create a Company Culture of Communication&lt;/em&gt;&lt;br/&gt;
-&lt;a href=&quot;https://www.huffingtonpost.com/michelle-rozen/how-to-create-a-company-c_b_11055992.html&quot;&gt;https://www.huffingtonpost.com/michelle-rozen/how-to-create-a-company-c&lt;em&gt;b&lt;/em&gt;11055992.html&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Sarasvathy, S. D. (2008) &lt;em&gt;What makes entrepreneurs entrepreneurial?&lt;/em&gt;&lt;br/&gt;
-&lt;a href=&quot;http://www.effectuation.org/sites/default/files/research_papers/what-makes-entrepreneurs-entrepreneurial-sarasvathy_0.pdf&quot;&gt;http://www.effectuation.org/sites/default/files/research&lt;em&gt;papers/what-makes-entrepreneurs-entrepreneurial-sarasvathy&lt;/em&gt;0.pdf&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[An answer to the question which should not have been asked]]></title><description><![CDATA[I never thought that I would write a post about diversity. But as the **unicorn law** says that being a woman in tech you
+&lt;a href=&quot;http://varya.me/jscs-talk/&quot;&gt;слайды&lt;/a&gt; от доклада на эту тему.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[An answer to the question which should not have been asked]]></title><description><![CDATA[I never thought that I would write a post about diversity. But as the **unicorn law** says that being a woman in tech you
 will be eventually speaking about women in tech, I do so now. However I'm doing this not because it is a strong will of
 mine. Something happened which makes me to respond.
 ]]></description><link>http://varya.me/en/posts/on-the-unicorn-law/</link><guid isPermaLink="false">http://varya.me/en/posts/on-the-unicorn-law/</guid><content:encoded>&lt;p&gt;I never thought that I would write a post about diversity. But as the &lt;strong&gt;unicorn law&lt;/strong&gt; says that being a woman in tech you
