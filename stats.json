@@ -53,8 +53,8 @@
       "path---en-posts-on-the-unicorn-law-f0a374f2b451e8536dd7.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-016448ba189d09bf6fba.js",
-      "component---src-pages-index-js-016448ba189d09bf6fba.js.map"
+      "component---src-pages-index-js-ebd73476c435ea82dbc1.js",
+      "component---src-pages-index-js-ebd73476c435ea82dbc1.js.map"
     ],
     "path---ru-life-life-in-finland-11": [
       "path---ru-life-life-in-finland-11-aecd48fed3a4120e8c3e.js",
@@ -65,8 +65,8 @@
       "path---ru-posts-xpath-prime-numbers-a846f327bd46de4a218f.js.map"
     ],
     "path---blog": [
-      "path---blog-45988f21334a0801dc33.js",
-      "path---blog-45988f21334a0801dc33.js.map"
+      "path---blog-d65fbe693627c5490f7e.js",
+      "path---blog-d65fbe693627c5490f7e.js.map"
     ],
     "path---ru-life-hello-from-the-netherlands": [
       "path---ru-life-hello-from-the-netherlands-017da18a50f01fffc20e.js",
@@ -100,9 +100,13 @@
       "path---ru-posts-blocks-and-bundles-06e00ec9fbf5d643c401.js",
       "path---ru-posts-blocks-and-bundles-06e00ec9fbf5d643c401.js.map"
     ],
+    "path---blog-design-systems-review": [
+      "path---blog-design-systems-review-2c6faa4e80d9d322664b.js",
+      "path---blog-design-systems-review-2c6faa4e80d9d322664b.js.map"
+    ],
     "path---ru-posts-xslt-recursion": [
-      "path---ru-posts-xslt-recursion-a9583fa9fbdb316588a1.js",
-      "path---ru-posts-xslt-recursion-a9583fa9fbdb316588a1.js.map"
+      "path---ru-posts-xslt-recursion-f5acd2eaac7f4ad82653.js",
+      "path---ru-posts-xslt-recursion-f5acd2eaac7f4ad82653.js.map"
     ],
     "path---ru-posts-borschik-static-assets": [
       "path---ru-posts-borschik-static-assets-932a88dfdf3944b33e0b.js",
@@ -173,8 +177,8 @@
       "path---en-posts-what-makes-entrepreneurs-entrepreneurial-85e6b6897e216f4ae3eb.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-e3bec23802c2e3fcac99.js",
-      "component---src-layouts-index-js-e3bec23802c2e3fcac99.js.map"
+      "component---src-layouts-index-js-bb7197d47cd32ef9eb5c.js",
+      "component---src-layouts-index-js-bb7197d47cd32ef9eb5c.js.map"
     ],
     "path---en-posts-communication-culture": [
       "path---en-posts-communication-culture-53325ffd320f83977894.js",
@@ -225,8 +229,8 @@
       "path---en-life-life-in-finland-7-1790d1dedb81a63ea0e6.js.map"
     ],
     "path---posts": [
-      "path---posts-45988f21334a0801dc33.js",
-      "path---posts-45988f21334a0801dc33.js.map"
+      "path---posts-d65fbe693627c5490f7e.js",
+      "path---posts-d65fbe693627c5490f7e.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -281,8 +285,8 @@
       "path---ru-posts-html-5-mobile-app-width-native-ui-8aa08ac02f8e63a40f47.js.map"
     ],
     "commons": [
-      "commons-a48f09ca2cfddcae8656.js",
-      "commons-a48f09ca2cfddcae8656.js.map"
+      "commons-aafbf6747e548958992b.js",
+      "commons-aafbf6747e548958992b.js.map"
     ],
     "path---ru-life-life-in-finland-3": [
       "path---ru-life-life-in-finland-3-227bb3fff458e982f25c.js",
@@ -333,8 +337,8 @@
       "path---en-posts-beml-html-preprocessor-22585c03544c053cfe0a.js.map"
     ],
     "component---src-templates-post-template-js": [
-      "component---src-templates-post-template-js-c7460998be92d2013d59.js",
-      "component---src-templates-post-template-js-c7460998be92d2013d59.js.map"
+      "component---src-templates-post-template-js-eb60c65badf053acdc09.js",
+      "component---src-templates-post-template-js-eb60c65badf053acdc09.js.map"
     ],
     "path---ru-life-christmas-2013-in-dusseldorf": [
       "path---ru-life-christmas-2013-in-dusseldorf-0aeca8af1faa786c79b1.js",
@@ -349,8 +353,8 @@
       "path---ru-life-dutch-and-german-taxes-7b0f40ce62cccd90893b.js.map"
     ],
     "component---src-pages-blog-js": [
-      "component---src-pages-blog-js-ce73c063101237f14ae5.js",
-      "component---src-pages-blog-js-ce73c063101237f14ae5.js.map"
+      "component---src-pages-blog-js-00748c291a1f71f5c8fd.js",
+      "component---src-pages-blog-js-00748c291a1f71f5c8fd.js.map"
     ],
     "path---ru-life-dutch-bureaucracy": [
       "path---ru-life-dutch-bureaucracy-eef94e3a7b899a23180a.js",
@@ -381,9 +385,9 @@
       "path---ru-posts-ten-xslt-mistakes-22abe603cf76492ee3c8.js.map"
     ],
     "app": [
-      "app-338a66f7a36fc333d9ec.js",
+      "app-ba99964e0a74a7f33abe.js",
       "build-js-styles.css",
-      "app-338a66f7a36fc333d9ec.js.map",
+      "app-ba99964e0a74a7f33abe.js.map",
       "build-js-styles.css.map"
     ],
     "path---ru-life-life-in-finland-6": [
@@ -391,8 +395,8 @@
       "path---ru-life-life-in-finland-6-4ec955a5b790ba463081.js.map"
     ],
     "component---src-templates-page-template-js": [
-      "component---src-templates-page-template-js-3e6cc75a999825306aa3.js",
-      "component---src-templates-page-template-js-3e6cc75a999825306aa3.js.map"
+      "component---src-templates-page-template-js-ef2203d34fcbd7553f2f.js",
+      "component---src-templates-page-template-js-ef2203d34fcbd7553f2f.js.map"
     ],
     "path---ru-life-maastricht": [
       "path---ru-life-maastricht-9c83c85e9d0f7bf7a072.js",
@@ -443,8 +447,8 @@
       "path---ru-posts-frontend-babel-alpha-d456a6aae3fbe8f0f651.js.map"
     ],
     "component---src-pages-posts-js": [
-      "component---src-pages-posts-js-21160ca4c1b6f97547cd.js",
-      "component---src-pages-posts-js-21160ca4c1b6f97547cd.js.map"
+      "component---src-pages-posts-js-628cf407d5af9826462f.js",
+      "component---src-pages-posts-js-628cf407d5af9826462f.js.map"
     ],
     "path---ru-life-life-in-finland-12": [
       "path---ru-life-life-in-finland-12-fd44479ede20424afeed.js",
