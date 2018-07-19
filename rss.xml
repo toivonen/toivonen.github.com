@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Varya.me — design and development]]></title><description><![CDATA[Varya.me — design and development]]></description><link>http://varya.me/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 19 Jul 2018 10:27:20 GMT</lastBuildDate><item><title><![CDATA[Упражнения для дикции]]></title><description><![CDATA[Этим упражнениям меня учили на моих первых курсах английского языка. Выглядит
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Varya.me — design and development]]></title><description><![CDATA[Varya.me — design and development]]></description><link>http://varya.me/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 19 Jul 2018 10:48:27 GMT</lastBuildDate><item><title><![CDATA[Упражнения для дикции]]></title><description><![CDATA[Этим упражнениям меня учили на моих первых курсах английского языка. Выглядит
 смешно, но оказыватся полезным.]]></description><link>http://varya.me/ru/issues/articulation-exercises/</link><guid isPermaLink="false">http://varya.me/ru/issues/articulation-exercises/</guid><content:encoded>&lt;p&gt;Этим упражнениям меня учили на моих первых курсах английского языка. Выглядит
 смешно, но оказыватся полезным.&lt;excerpt/&gt;&lt;/p&gt;
 &lt;h3&gt;Для губ&lt;/h3&gt;
@@ -6696,19 +6696,19 @@ Source: &lt;a href=&quot;https://product-unicorn.com/design-systems-style-guides
 Figure 3. Nate Baldwin (2016) Design System Schema.&lt;br/&gt;
 Source: &lt;a href=&quot;https://blog.producthive.org/anatomy-of-a-design-system-7a6b0677bf5&quot;&gt;https://blog.producthive.org/anatomy-of-a-design-system-7a6b0677bf5&lt;/a&gt; &lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;In many other source, authors do not provide schemas but operate the terms.
+&lt;p&gt;In many other sources, authors do not provide schemas but operate the terms.
 This article introduces these sub-concepts and their naming, summarize them to
 represent as building blocks of one bigger system and explain their
 contribution into the UI developing current problems.In many other source,
 authors do not provide schemas but operate the terms. This article introduces
 these sub-concepts and their naming, summarize them to represent as building
-blocks of one bigger system and explain their contribution into the UI
-developing current problems.&lt;/p&gt;
+blocks of one bigger system and explain their contribution into the modern problems
+of UI developing.&lt;/p&gt;
 &lt;h2&gt;2. Blocks of a design system&lt;/h2&gt;
 &lt;h3&gt;2.1 Component&lt;/h3&gt;
 &lt;p&gt;The &lt;em&gt;component&lt;/em&gt; is the most solid term of the design systems concept. It
 originates from the development field and has the most univocal meaning.
-Multiple authors define component from the implementation perspective, as
+Multiple authors define a component from the implementation perspective, as
 “portion of reusable code, serving as building blocks for the application
 interface” (Suarez, Anne, Sylor-Miller, Mounter, and Stanfield, 2017).
 Important to note that represented as pieces of code, components encapsulate a
@@ -6884,7 +6884,8 @@ Source: &lt;a href=&quot;http://carbondesignsystem.com/style/spacing&quot;&gt;ht
 &lt;p&gt;Some authors use the term “pattern” when speaking about components. However,
 they still face the need to distinguish solutions for repeatable UI elements
 and more general ones. One of such authors, Alla Kholmatova (2017) introduces
-functional patterns as “tangible building blocks of the interface” (Kholmatova, 2017) and perceptual patterns, which she does not define but provides examples
+&lt;em&gt;functional patterns&lt;/em&gt; as “tangible building blocks of the interface” (Kholmatova, 2017) and
+&lt;em&gt;perceptual patterns&lt;/em&gt;, which she does not define but provides examples
 such as “tone of voice, typography, color palette, layouts, illustrations and
 iconography styles, shapes and textures, spacing, imagery, interactions or
 animations, and all the specific ways in which those elements are combined and
@@ -6949,7 +6950,7 @@ standards, that can be assembled together to build any number of applications”
 libraries, based on the difference between component and pattern explained
 above. This way, a pattern library is “a subclass in the design system, this is
 the set of design patterns for use across a company” (Rutherford, 2017).&lt;/p&gt;
-&lt;p&gt;Similarly to that component libraries are collections of components, pattern
+&lt;p&gt;Similarly to  component libraries being collections of components, pattern
 libraries are collections of patterns. However, due to more abstract nature of
 patterns, it is harder to visualize such collections.&lt;/p&gt;
 &lt;p&gt;Ste Grainer (2017) gives a comprehensive explanation of pattern libraries
@@ -7014,7 +7015,7 @@ the existing ones.&lt;/p&gt;
 amateur fashion making them by analogy with the old ones. However, on the
 industry level, producing adequate design solutions requires special methods
 and tooling. In the design systems concept, the is a subclass serving for this
-purposes. It is called a visual language.&lt;/p&gt;
+purposes. It is called a &lt;em&gt;visual language&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;The following content forms visual language:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Design principles.&lt;br/&gt;
