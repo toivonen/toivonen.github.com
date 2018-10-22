@@ -49,8 +49,8 @@
       "path---ru-life-life-in-finland-7-eda2bded4f771c9eb28c.js.map"
     ],
     "path---design-systems": [
-      "path---design-systems-7e07996ebcbe0d13e982.js",
-      "path---design-systems-7e07996ebcbe0d13e982.js.map"
+      "path---design-systems-65c632731557367e4136.js",
+      "path---design-systems-65c632731557367e4136.js.map"
     ],
     "path---en-life-life-in-finland-8": [
       "path---en-life-life-in-finland-8-f593259da5a0b672096c.js",
@@ -101,8 +101,8 @@
       "path---ru-posts-javascript-in-bemjson-4d156d86dc52d814205a.js.map"
     ],
     "path---": [
-      "path----0fecd8754ee610e7a696.js",
-      "path----0fecd8754ee610e7a696.js.map"
+      "path----928a155207fc92c7dfb1.js",
+      "path----928a155207fc92c7dfb1.js.map"
     ],
     "path---ru-posts-blocks-and-bundles": [
       "path---ru-posts-blocks-and-bundles-92347d707543cee22b56.js",
@@ -185,8 +185,8 @@
       "path---en-posts-what-makes-entrepreneurs-entrepreneurial-1e946a3d9f41a26aace5.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-0fe08cc6522b0a14961d.js",
-      "component---src-layouts-index-js-0fe08cc6522b0a14961d.js.map"
+      "component---src-layouts-index-js-392154de6365cc8c02e8.js",
+      "component---src-layouts-index-js-392154de6365cc8c02e8.js.map"
     ],
     "path---en-posts-communication-culture": [
       "path---en-posts-communication-culture-07026311c493285bfa81.js",
@@ -401,9 +401,9 @@
       "path---ru-posts-ten-xslt-mistakes-4d4ac9cdb0b5683871f6.js.map"
     ],
     "app": [
-      "app-73588bdad344b3670d1b.js",
+      "app-5e4201cf2dc73f01592b.js",
       "build-js-styles.css",
-      "app-73588bdad344b3670d1b.js.map",
+      "app-5e4201cf2dc73f01592b.js.map",
       "build-js-styles.css.map"
     ],
     "path---ru-life-life-in-finland-6": [
