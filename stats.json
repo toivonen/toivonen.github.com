@@ -16,10 +16,6 @@
       "path---ru-life-life-in-finland-10-9760cf5342eb858f5bbf.js",
       "path---ru-life-life-in-finland-10-9760cf5342eb858f5bbf.js.map"
     ],
-    "path---help-to-fit-furniture-index-ru": [
-      "path---help-to-fit-furniture-index-ru-721cbc4828f866174e32.js",
-      "path---help-to-fit-furniture-index-ru-721cbc4828f866174e32.js.map"
-    ],
     "path---en-posts-html-5-mobile-app-width-native-ui": [
       "path---en-posts-html-5-mobile-app-width-native-ui-2eb7fd740b48e3499a43.js",
       "path---en-posts-html-5-mobile-app-width-native-ui-2eb7fd740b48e3499a43.js.map"
@@ -124,6 +120,10 @@
       "path---ru-life-life-in-finland-8-1b80465b227bc084ca5c.js",
       "path---ru-life-life-in-finland-8-1b80465b227bc084ca5c.js.map"
     ],
+    "path---blog-help-to-fit-furniture-index-ru": [
+      "path---blog-help-to-fit-furniture-index-ru-a28dfda11a6a8d410a4f.js",
+      "path---blog-help-to-fit-furniture-index-ru-a28dfda11a6a8d410a4f.js.map"
+    ],
     "path---ru-life-life-in-finland-9": [
       "path---ru-life-life-in-finland-9-8d59042c2f9acb39ea43.js",
       "path---ru-life-life-in-finland-9-8d59042c2f9acb39ea43.js.map"
@@ -205,8 +205,8 @@
       "path---ru-life-changing-driving-licence-in-the-netherlands-a3636116b6489c8c2f94.js.map"
     ],
     "path---ru-life-getting-mvv-visa": [
-      "path---ru-life-getting-mvv-visa-6c92ba2ce88118e651c9.js",
-      "path---ru-life-getting-mvv-visa-6c92ba2ce88118e651c9.js.map"
+      "path---ru-life-getting-mvv-visa-a13e9c55439176cf63bb.js",
+      "path---ru-life-getting-mvv-visa-a13e9c55439176cf63bb.js.map"
     ],
     "path---en-life-life-in-finland-3": [
       "path---en-life-life-in-finland-3-501b75e3d52672a6b607.js",
@@ -277,8 +277,8 @@
       "path---en-posts-week-44-2016-7182bca175d0ea2d0c8f.js.map"
     ],
     "path---ru-life-herengracht-apartment": [
-      "path---ru-life-herengracht-apartment-99773ccdc4538ab033ab.js",
-      "path---ru-life-herengracht-apartment-99773ccdc4538ab033ab.js.map"
+      "path---ru-life-herengracht-apartment-e2af173616ad381992b8.js",
+      "path---ru-life-herengracht-apartment-e2af173616ad381992b8.js.map"
     ],
     "path---en-life-home-finance": [
       "path---en-life-home-finance-f84b504e3ae7527a6eac.js",
@@ -401,9 +401,9 @@
       "path---ru-posts-ten-xslt-mistakes-84482a0875f458398095.js.map"
     ],
     "app": [
-      "app-05ef4ca798501dd5076f.js",
+      "app-7fdfe876938692800315.js",
       "build-js-styles.css",
-      "app-05ef4ca798501dd5076f.js.map",
+      "app-7fdfe876938692800315.js.map",
       "build-js-styles.css.map"
     ],
     "path---ru-life-life-in-finland-6": [
@@ -491,8 +491,8 @@
       "path---ru-posts-frontend-babel-first-week-83a5cebd08619d7ab508.js.map"
     ],
     "path---ru-life-todo-list-when-moving-abroad": [
-      "path---ru-life-todo-list-when-moving-abroad-1236f1c36093e39783b4.js",
-      "path---ru-life-todo-list-when-moving-abroad-1236f1c36093e39783b4.js.map"
+      "path---ru-life-todo-list-when-moving-abroad-d040824eb8ceaa3748fe.js",
+      "path---ru-life-todo-list-when-moving-abroad-d040824eb8ceaa3748fe.js.map"
     ],
     "path---en-posts-javascript-in-bemjson": [
       "path---en-posts-javascript-in-bemjson-74080508ba02e3d9483b.js",
