@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Varya.me — design and development]]></title><description><![CDATA[Varya.me — design and development]]></description><link>http://varya.me/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 25 Apr 2019 12:39:40 GMT</lastBuildDate><item><title><![CDATA[Бложик на bem tools 1.0.0alpha]]></title><description><![CDATA[[bem tools](http://bem.info/tools/bem/) &mdash; пакет для сборки проекта с
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Varya.me — design and development]]></title><description><![CDATA[Varya.me — design and development]]></description><link>http://varya.me/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 29 Apr 2019 12:46:30 GMT</lastBuildDate><item><title><![CDATA[Бложик на bem tools 1.0.0alpha]]></title><description><![CDATA[[bem tools](http://bem.info/tools/bem/) &mdash; пакет для сборки проекта с
 БЭМ-структурой развивается семимильными шагами. На подходе версия 1.0.0. Точнее,
 уже сейчас её можно использовать как alpha. Я попробовала на блоге, и уже этот
 текст отображается со статикой, собранной `bem tools 1.0.0`.]]></description><link>http://varya.me/ru/posts/bem-tools-100-alpha/</link><guid isPermaLink="false">http://varya.me/ru/posts/bem-tools-100-alpha/</guid><content:encoded>&lt;p&gt;&lt;a href=&quot;http://bem.info/tools/bem/&quot;&gt;bem tools&lt;/a&gt; — пакет для сборки проекта с
@@ -7345,4 +7345,98 @@ evolution in the case of electric vehicles. Research Policy, Elsevier, 2014, 43 
 &lt;p&gt;Massa, L., Tucci, C., &amp;#x26; Afuah, A. (2016). A critical assessment of business model research. Academy of Management
 Annals, annals-2014.&lt;/p&gt;
 &lt;p&gt;Osterwalder, A. (2005) Clarifying Business Models: Origins, Present, and Future of the Concept. Communications of the
-Association for Information Systems (Volume 16, 2005) 1-25.&lt;/p&gt;</content:encoded></item></channel></rss>
+Association for Information Systems (Volume 16, 2005) 1-25.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How business platforms can create new value?]]></title><description><![CDATA[
+From the economic perspective, platforms are “special kinds of markets that play the role of facilitators of exchange
+between different types of consumers that could not otherwise transact with each other”. *(Gawer, 2014)*
+
+In most cases, there are two types of consumers operating on the platform in two different contexts: “a business side
+(B2B), which very often is the business customer (they pay for a service) and an end-user side (B2C) who is the consumer
+of the service, and who may or may not pay for the service”. *(Muzellec, Ronteau, and Lambkin, 2015)* For example, this
+pattern is very common for the modern Internet platforms.
+
+]]></description><link>http://varya.me/blog/platforms-create-value/</link><guid isPermaLink="false">http://varya.me/blog/platforms-create-value/</guid><content:encoded>&lt;p&gt;From the economic perspective, platforms are “special kinds of markets that play the role of facilitators of exchange
+between different types of consumers that could not otherwise transact with each other”. &lt;em&gt;(Gawer, 2014)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In most cases, there are two types of consumers operating on the platform in two different contexts: “a business side
+(B2B), which very often is the business customer (they pay for a service) and an end-user side (B2C) who is the consumer
+of the service, and who may or may not pay for the service”. &lt;em&gt;(Muzellec, Ronteau, and Lambkin, 2015)&lt;/em&gt; For example, this
+pattern is very common for the modern Internet platforms.&lt;/p&gt;
+&lt;excerpt/&gt;
+&lt;div class=&quot;small&quot; markdown=&quot;1&quot;&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/thumb-f3bdc81a44f394dc5004c97db3dce13a-39cad.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.66666666666666%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBP/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAGcLipzDB//xAAWEAEBAQAAAAAAAAAAAAAAAAACAAH/2gAIAQEAAQUCWyWWyUVbl//EABYRAAMAAAAAAAAAAAAAAAAAAAECEP/aAAgBAwEBPwFRP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/AWf/xAAYEAADAQEAAAAAAAAAAAAAAAAAECEBUf/aAAgBAQAGPwI6VXF//8QAGRAAAwEBAQAAAAAAAAAAAAAAAAERIUFx/9oACAEBAAE/Ic34b6q4hm3W0dDXF0TT/9oADAMBAAIAAwAAABDr3//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPxAFX//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/EHP/xAAeEAEAAgEEAwAAAAAAAAAAAAABABEhMUFRYYHB8P/aAAgBAQABPxAQvmWDoZ2IO+71LEXky6evcAqjhemOHmObaeZ//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;thumb&quot;
+        title=&quot;&quot;
+        src=&quot;/static/thumb-f3bdc81a44f394dc5004c97db3dce13a-78f2b.jpg&quot;
+        srcset=&quot;/static/thumb-f3bdc81a44f394dc5004c97db3dce13a-dce19.jpg 200w,
+/static/thumb-f3bdc81a44f394dc5004c97db3dce13a-c1413.jpg 400w,
+/static/thumb-f3bdc81a44f394dc5004c97db3dce13a-78f2b.jpg 800w,
+/static/thumb-f3bdc81a44f394dc5004c97db3dce13a-ab4c4.jpg 1200w,
+/static/thumb-f3bdc81a44f394dc5004c97db3dce13a-bc99b.jpg 1600w,
+/static/thumb-f3bdc81a44f394dc5004c97db3dce13a-34a60.jpg 2400w,
+/static/thumb-f3bdc81a44f394dc5004c97db3dce13a-39cad.jpg 5184w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;br/&gt;
+Image source:
+&lt;a href=&quot;http://www.acc-group.co.uk/cloud-computing-businesses-taking-business-applications-cloud/&quot;&gt;http://www.acc-group.co.uk/cloud-computing-businesses-taking-business-applications-cloud/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The innovative impact of the platforms is done in the forms of “governance” and “structure”. Platforms innovate “by
+linking activities in novel ways” and “by changing one or more parties that perform any of the activities” &lt;em&gt;(Amit and
+Zott, 2012)&lt;/em&gt;. These changes contribute to developing new business models, which results in the value creation. But the
+important attribute of the platforms is the mechanisms for creating this value.&lt;/p&gt;
+&lt;p&gt;Even though the platforms form value proposition for the both (or more) sides, their key feature is that they do not
+purely create that value themselves. Instead, they provide the environment for these sides (or at least one of them) to
+contribute and co-create the value. However, without platform existence this value does not appear either. Thus,
+“platforms fundamentally create value by acting as conduits between two (or more) categories of consumers who would not
+have been able to connect or transact without the platform” &lt;em&gt;(Gawer, 2014)&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Almost any Internet service can be given as an example to demonstrate the platforms. AirBNB operates on hospitality
+domain linking guests and accommodation providers. Unlike other aggregators, it is targeted not to the hotels but to
+ordinary people providing their homes for temporary renting. This way, AirBNB links two sides, which previously never
+acted on the same area, and propose a new value — an experience of “living like a local” for the guests and flexible and
+easy way or earning for the homeowners. This illustrates how “each side generally derives positive externalities from
+the participation of members on the other side” &lt;em&gt;(Muzellec, Ronteau, and Lambkin, 2015)&lt;/em&gt;. Even though AirBNB faced some
+legal challenges in many cities, in general, they have changed the industry patterns and have developed a new market.&lt;/p&gt;
+&lt;p&gt;Another aspect of the platforms is that besides being innovative themselves, they also provide opportunities for further
+innovations for their actors. This is mostly applicable to social networks like Facebook and Twitter. Having developed
+the right environment for their end users, they do not guide them towards any direction. Instead, the options what
+exactly to do is completely up to the people whereas the platforms only provide opportunities and tools. As a result,
+these platforms grew into whole eco-systems. Users’ activity on Facebook led to a major of groups (forums) and finally
+turned the social network into a knowledge bank. Driven by network effect, the Facebook content groups now provide more
+information than regular websites on a specific topic. In turn, this content attracts more and more users, who are very
+interesting for the advertisers. Being a platform, Facebook did not actively participate in this value creation.
+Moreover, it did not even rule the groups where end users contribute. Platform’s openness made it for the users to
+create the environment and later operate in the very same environment. Thus, Facebook offers a platform for value
+co-creation and also the opportunity to co-create the platform itself. Such “domino” attribute in the value creation
+aspect makes Facebook role even stronger. As we have already evidenced its affection onto the news market, the
+disruptive effects to the others are yet coming.&lt;/p&gt;
+&lt;p&gt;Both AirBNB and Facebook are game-changers. As the platforms, they are complex modular systems mostly providing
+opportunities. In the platforms, the value creation is made by the parties involved whereas the role of the platform is
+to provide the environment and ensure the linking. &lt;/p&gt;
+&lt;h3 id=&quot;references&quot;&gt;&lt;a href=&quot;#references&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;References&lt;/h3&gt;
+&lt;p&gt;Amit, R., &amp;#x26; Zott, C. (2012). Creating value through business model innovation. MIT Sloan Management Review, 53(3), 4.&lt;/p&gt;
+&lt;p&gt;Gawer, A. (2014). Bridging differing perspectives on technological platforms: Toward an integrative framework. Research Policy, 43(7), 1239-1249.&lt;/p&gt;
+&lt;p&gt;Muzellec, L. &amp;#x26; Ronteau, S &amp;#x26; Lambkin, M. (2015) Two-sided Internet Platforms: A Business Model Lifecycle Perspective.
+Industrial Marketing Management, 45 2015, pp.139-150. Available at: &lt;a href=&quot;http://hdl.handle.net/10197/5630&quot;&gt;http://hdl.handle.net/10197/5630&lt;/a&gt;
+DOI: 10.1016/j.indmarman.2015.02.012&lt;/p&gt;</content:encoded></item></channel></rss>
