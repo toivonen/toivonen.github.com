@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Varya.me — design and development]]></title><description><![CDATA[Varya.me — design and development]]></description><link>http://varya.me/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Feb 2020 20:19:22 GMT</lastBuildDate><item><title><![CDATA[Упражнения для дикции]]></title><description><![CDATA[Этим упражнениям меня учили на моих первых курсах английского языка. Выглядит
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Varya.me — design and development]]></title><description><![CDATA[Varya.me — design and development]]></description><link>http://varya.me/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 04 Feb 2020 20:23:36 GMT</lastBuildDate><item><title><![CDATA[Упражнения для дикции]]></title><description><![CDATA[Этим упражнениям меня учили на моих первых курсах английского языка. Выглядит
 смешно, но оказыватся полезным.]]></description><link>http://varya.me/ru/posts/articulation-exercises/</link><guid isPermaLink="false">http://varya.me/ru/posts/articulation-exercises/</guid><content:encoded>&lt;p&gt;Этим упражнениям меня учили на моих первых курсах английского языка. Выглядит
 смешно, но оказыватся полезным.&lt;excerpt/&gt;&lt;/p&gt;
 &lt;h3 id=&quot;для-губ&quot;&gt;&lt;a href=&quot;#%D0%B4%D0%BB%D1%8F-%D0%B3%D1%83%D0%B1&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Для губ&lt;/h3&gt;
@@ -1849,75 +1849,7 @@ code&lt;/a&gt;&lt;/p&gt;
 результат первого слоя шаблонов (таких как BEMTREE или priv.js) — там вы можете
 произвести столько BEMJSON, сколько требуется. Но на первом этапе разработки,
 когда делается статическая страница, трюки с JavaScript в BEMJSON помогут
-избежат копипаста.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Checking your JIRA hypothesis]]></title><description><![CDATA[
-It may happen that default JIRA project settings or board does not fully respond the needs of your project, similarly to how it was for the project I am currently working at. Our team once realised that we would benefit from custom issue types which we use for filtering and organising our Kanban board. However, "realised" is maybe not 100% suitable word since initially that was more kind of *hypothesis* which we could prove or not. Simply speaking, we must try before we know.
-
-]]></description><link>http://varya.me/blog/jira-hypothesis/</link><guid isPermaLink="false">http://varya.me/blog/jira-hypothesis/</guid><content:encoded>&lt;p&gt;It may happen that default JIRA project settings or board does not fully respond the needs of your project, similarly to how it was for the project I am currently working at. Our team once realised that we would benefit from custom issue types which we use for filtering and organising our Kanban board. However, “realised” is maybe not 100% suitable word since initially that was more kind of &lt;em&gt;hypothesis&lt;/em&gt; which we could prove or not. Simply speaking, we must try before we know.&lt;/p&gt;
-&lt;excerpt/&gt;
-&lt;div class=&quot;small&quot; markdown=&quot;1&quot;&gt;
-&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/thumb-a10988efa89a4c1aba55dad5515ad06d-11fc1.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 66.66%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwACBP/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAFMoYDXRG3/xAAaEAACAwEBAAAAAAAAAAAAAAABAgADERIh/9oACAEBAAEFAmLTWlVh5zb1ByrxP//EABgRAQEAAwAAAAAAAAAAAAAAAAEAAhFR/9oACAEDAQE/ActjA8v/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEUH/2gAIAQIBAT8BxX//xAAbEAACAwEBAQAAAAAAAAAAAAAAAQIRMVEhgf/aAAgBAQAGPwJ+yrtlqTZ96TV4bjMP/8QAGxABAQEBAAMBAAAAAAAAAAAAAREAITFRcaH/2gAIAQEAAT8hrmx5iXx3XuAr19pwi4P1rKRx8Zg0Kt3/2gAMAwEAAgADAAAAEI8f/8QAGhEBAAIDAQAAAAAAAAAAAAAAAQARQYHwkf/aAAgBAwEBPxAlHNd5UEAjtz//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEx/9oACAECAQE/EANMje3/xAAbEAEBAQEBAAMAAAAAAAAAAAABEQAhYXGh8P/aAAgBAQABPxC6QuzJHsPrJaAiFPhMUhsvYcOR18nrC0tyBij8XJDqS/vN/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;thumb&quot;
-        title=&quot;&quot;
-        src=&quot;/static/thumb-a10988efa89a4c1aba55dad5515ad06d-78f2b.jpg&quot;
-        srcset=&quot;/static/thumb-a10988efa89a4c1aba55dad5515ad06d-dce19.jpg 200w,
-/static/thumb-a10988efa89a4c1aba55dad5515ad06d-c1413.jpg 400w,
-/static/thumb-a10988efa89a4c1aba55dad5515ad06d-78f2b.jpg 800w,
-/static/thumb-a10988efa89a4c1aba55dad5515ad06d-ab4c4.jpg 1200w,
-/static/thumb-a10988efa89a4c1aba55dad5515ad06d-bc99b.jpg 1600w,
-/static/thumb-a10988efa89a4c1aba55dad5515ad06d-34a60.jpg 2400w,
-/static/thumb-a10988efa89a4c1aba55dad5515ad06d-11fc1.jpg 5000w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;br/&gt;
-Image source:
-&lt;a href=&quot;https://www.freepik.com/free-photos-vectors/business&quot;&gt;https://www.freepik.com/free-photos-vectors/business&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;JIRA is a very much customisable tool and introdusing suitable issue types should not be any problem. However, the is always a “but”. Often happens, especially in large organizations, that project managers do not have necessary admin rights to change such settings but they need to make a request to those who have, say IT support or even special JIRA administrators. In this case, it is better to be sure when asking for changes. This was exactly our case. So, we should have somehow prototype the settings we want, try them out and decide if we want to request them.&lt;/p&gt;
-&lt;p&gt;The case I am describing needed custom issue types, filters based on those types and a Kanban board with swimlanes filtered by the types. The prototyping meant that the filters and swimlanes would be done by some other properties but assiming that they are future-to-be issue types. Usually, project managers and often other team members have no restrictions to managing the project JIRA components and adding new ones. This was out case as well.&lt;/p&gt;
-&lt;p&gt;So, the way out would be to use components instead of issue types, try out the hypothesis and then decide. But as components were already in use for representing … actual components, this could have made a mess. Unless there is a way to separate components from &lt;em&gt;components&lt;/em&gt;. And this can be done in conventional mode by using prefixes.&lt;/p&gt;
-&lt;p&gt;Initially, the components we had were as the following:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Header&lt;/li&gt;
-&lt;li&gt;Footer&lt;/li&gt;
-&lt;li&gt;Form elements&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We kept them but renamed given them a prefix &lt;code class=&quot;language-text&quot;&gt;§&lt;/code&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;§ Header&lt;/li&gt;
-&lt;li&gt;§ Footer&lt;/li&gt;
-&lt;li&gt;§ Form elements&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Future-to-be issue types were also implemented as issue components but with a different prefix:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;# Research&lt;/li&gt;
-&lt;li&gt;# Development&lt;/li&gt;
-&lt;li&gt;# Education&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Voilà! Good enough for marking all the issues accrodingly, making filters and board(s) and trying out for a sprint or two. As the components can be changed any time, their final list can also be formed while experiment goes. After a while, we had &lt;em&gt;certain request&lt;/em&gt; about the needed issue types for our JIRA administrators. And we were &lt;em&gt;fully certain&lt;/em&gt; that we are asking about something we were going to use for a long time.&lt;/p&gt;
-&lt;p&gt;PS: Lately, we continued use such prefixes for groupping our components. But that’s different story.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JSCS in use]]></title><description><![CDATA[This time I would like to share my experience of keeping a codestyle in one of my working projects. This is about a new
+избежат копипаста.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JSCS in use]]></title><description><![CDATA[This time I would like to share my experience of keeping a codestyle in one of my working projects. This is about a new
 tool called **JSCS** which we have recently chosen with the team and now are very pleased with the result.
 ]]></description><link>http://varya.me/en/posts/jscs-in-use/</link><guid isPermaLink="false">http://varya.me/en/posts/jscs-in-use/</guid><content:encoded>&lt;p&gt;This time I would like to share my experience of keeping a codestyle in one of my working projects. This is about a new
 tool called &lt;strong&gt;JSCS&lt;/strong&gt; which we have recently chosen with the team and now are very pleased with the result.
@@ -7507,4 +7439,72 @@ XSL-преобразований не может быть проигнориро
 &lt;h2 id=&quot;заключение&quot;&gt;&lt;a href=&quot;#%D0%B7%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5&quot; aria-hidden class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Заключение&lt;/h2&gt;
 &lt;p&gt;Как только вы поняли рекурсию, декларативный стиль программирования на XSLT будет не препятствием, а эффективным путем расширения возможностей преобразования XML. Остаётся единственный вопрос - какой тип рекурсии лучший для каждой отдельно взятой ситуации.&lt;/p&gt;
 &lt;p&gt;Вообще, задачи, работающие для малых объёмов данных, не требуют применения какой-либо из этих оптимизационных техник. Хотя, если малость объёма данных не гарантирована, выбор ограничен технологией, используемой в преобразовании. Если ваш XSLT-процессор распознаёт Tail Recursion, то лучше всего использовать этот способ. Если вы не можете убедиться, что преобразовательня технология умеет распознавать Tail Recursion, то наиболее предпочтительна комбинированная техника. Пороговое значение обычно лежит в диапазоне от 5 до 30 в зависимости от задачи.&lt;/p&gt;
-&lt;p&gt;Поначалу рекурсия может быть трудной для понимания идеей, но её полезность и элегантность становятся яснее по мере использования.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;Поначалу рекурсия может быть трудной для понимания идеей, но её полезность и элегантность становятся яснее по мере использования.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Checking your JIRA hypothesis]]></title><description><![CDATA[
+It may happen that default JIRA project settings or board does not fully respond the needs of your project, similarly to how it was for the project I am currently working at. Our team once realised that we would benefit from custom issue types which we use for filtering and organising our Kanban board. However, "realised" is maybe not 100% suitable word since initially that was more kind of *hypothesis* which we could prove or not. Simply speaking, we must try before we know.
+
+]]></description><link>http://varya.me/blog/jira-hypothesis/</link><guid isPermaLink="false">http://varya.me/blog/jira-hypothesis/</guid><content:encoded>&lt;p&gt;It may happen that default JIRA project settings or board does not fully respond the needs of your project, similarly to how it was for the project I am currently working at. Our team once realised that we would benefit from custom issue types which we use for filtering and organising our Kanban board. However, “realised” is maybe not 100% suitable word since initially that was more kind of &lt;em&gt;hypothesis&lt;/em&gt; which we could prove or not. Simply speaking, we must try before we know.&lt;/p&gt;
+&lt;excerpt/&gt;
+&lt;div class=&quot;small&quot; markdown=&quot;1&quot;&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/thumb-a10988efa89a4c1aba55dad5515ad06d-11fc1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.66%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwACBP/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAFMoYDXRG3/xAAaEAACAwEBAAAAAAAAAAAAAAABAgADERIh/9oACAEBAAEFAmLTWlVh5zb1ByrxP//EABgRAQEAAwAAAAAAAAAAAAAAAAEAAhFR/9oACAEDAQE/ActjA8v/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEUH/2gAIAQIBAT8BxX//xAAbEAACAwEBAQAAAAAAAAAAAAAAAQIRMVEhgf/aAAgBAQAGPwJ+yrtlqTZ96TV4bjMP/8QAGxABAQEBAAMBAAAAAAAAAAAAAREAITFRcaH/2gAIAQEAAT8hrmx5iXx3XuAr19pwi4P1rKRx8Zg0Kt3/2gAMAwEAAgADAAAAEI8f/8QAGhEBAAIDAQAAAAAAAAAAAAAAAQARQYHwkf/aAAgBAwEBPxAlHNd5UEAjtz//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEx/9oACAECAQE/EANMje3/xAAbEAEBAQEBAAMAAAAAAAAAAAABEQAhYXGh8P/aAAgBAQABPxC6QuzJHsPrJaAiFPhMUhsvYcOR18nrC0tyBij8XJDqS/vN/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;thumb&quot;
+        title=&quot;&quot;
+        src=&quot;/static/thumb-a10988efa89a4c1aba55dad5515ad06d-78f2b.jpg&quot;
+        srcset=&quot;/static/thumb-a10988efa89a4c1aba55dad5515ad06d-dce19.jpg 200w,
+/static/thumb-a10988efa89a4c1aba55dad5515ad06d-c1413.jpg 400w,
+/static/thumb-a10988efa89a4c1aba55dad5515ad06d-78f2b.jpg 800w,
+/static/thumb-a10988efa89a4c1aba55dad5515ad06d-ab4c4.jpg 1200w,
+/static/thumb-a10988efa89a4c1aba55dad5515ad06d-bc99b.jpg 1600w,
+/static/thumb-a10988efa89a4c1aba55dad5515ad06d-34a60.jpg 2400w,
+/static/thumb-a10988efa89a4c1aba55dad5515ad06d-11fc1.jpg 5000w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;br/&gt;
+Image source:
+&lt;a href=&quot;https://www.freepik.com/free-photos-vectors/business&quot;&gt;https://www.freepik.com/free-photos-vectors/business&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;JIRA is a very much customisable tool and introducing suitable issue types should not be any problem. However, the is always a “but”. Often happens, especially in large organizations, that project managers do not have necessary admin rights to change such settings but they need to make a request to those who have, say IT support or even special JIRA administrators. In this case, it is better to be sure when asking for changes. This was exactly our case. So, we should have somehow prototype the settings we want, try them out and decide if we want to request them.&lt;/p&gt;
+&lt;p&gt;The case I am describing needed custom issue types, filters based on those types and a Kanban board with swimlanes filtered by the types. The prototyping meant that the filters and swimlanes would be done by some other properties but assuming that they are future-to-be issue types. Usually, project managers and often other team members have no restrictions to managing the project JIRA components and adding new ones. This was out case as well.&lt;/p&gt;
+&lt;p&gt;So, the way out would be to use components instead of issue types, try out the hypothesis and then decide. But as components were already in use for representing … actual components, this could have made a mess. Unless there is a way to separate components from &lt;em&gt;components&lt;/em&gt;. And this can be done in conventional mode by using prefixes.&lt;/p&gt;
+&lt;p&gt;Initially, the components we had were as the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Header&lt;/li&gt;
+&lt;li&gt;Footer&lt;/li&gt;
+&lt;li&gt;Form elements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We kept them but renamed given them a prefix &lt;code class=&quot;language-text&quot;&gt;§&lt;/code&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;§ Header&lt;/li&gt;
+&lt;li&gt;§ Footer&lt;/li&gt;
+&lt;li&gt;§ Form elements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Future-to-be issue types were also implemented as issue components but with a different prefix:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;# Research&lt;/li&gt;
+&lt;li&gt;# Development&lt;/li&gt;
+&lt;li&gt;# Education&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Voilà! Good enough for marking all the issues accordingly, making filters and board(s) and trying out for a sprint or two. As the components can be changed any time, their final list can also be formed while experiment goes. After a while, we had &lt;em&gt;certain request&lt;/em&gt; about the needed issue types for our JIRA administrators. And we were &lt;em&gt;fully certain&lt;/em&gt; that we are asking about something we were going to use for a long time.&lt;/p&gt;
+&lt;p&gt;PS: Lately, we continued use such prefixes for grouping our components. But that’s different story.&lt;/p&gt;</content:encoded></item></channel></rss>

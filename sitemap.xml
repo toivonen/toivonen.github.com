@@ -18,7 +18,6 @@
 <url> <loc>http://varya.me//en/posts/image-diffs-with-git/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me//en/posts/javascript-in-bemjson/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me//ru/posts/javascript-in-bemjson/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>http://varya.me//blog/jira-hypothesis/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me//en/posts/jscs-in-use/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me//en/posts/patterned-triangle/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me//blog/platforms-create-value/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -50,6 +49,7 @@
 <url> <loc>http://varya.me//ru/posts/efficient_xslt_techniques/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me//ru/posts/learn-english/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me//ru/posts/xslt-recursion/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://varya.me//blog/jira-hypothesis/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me//ru/life/changing-driving-licence-in-the-netherlands/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me//ru/life/christmas-2013-in-dusseldorf/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me//ru/life/dutch-and-german-taxes/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
