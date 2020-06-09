@@ -1,1 +1,1 @@
-{"componentChunkName":"component---content-pages-2-articles-and-talks-index-md","path":"/2--articles-and-talks/","result":{"pageContext":{"frontmatter":{"title":"Articles and talks","menuTitle":"Articles and talks"}}}}
+{"componentChunkName":"component---content-pages-2-articles-and-talks-index-md","path":"/2--articles-and-talks/","result":{"pageContext":{"frontmatter":{"title":"Articles and talks","menuTitle":"Articles and talks","layout":"./src/components/Page/Page--base.js"}}}}
