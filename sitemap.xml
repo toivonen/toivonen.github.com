@@ -9,10 +9,12 @@
 <url> <loc>http://varya.me/blog/jira-hypothesis/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/blog/platforms-create-value/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/blog/business-models-innovation/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://varya.me/blog/maintaining-design-systems-with-proper-user-research/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/blog/testpost/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/blog/design-systems-review/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/en/posts/communication-culture/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/en/posts/what-makes-entrepreneurs-entrepreneurial/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://varya.me/blog/to-bem-or-not-to-bem/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/en/posts/react-redux-simple-project/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/en/posts/week-44-2016/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/en/posts/sc5-style-guide-next-level/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -23,6 +25,7 @@
 <url> <loc>http://varya.me/en/posts/pseudo-tag-cloud-css/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/en/posts/on-the-unicorn-law/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/en/posts/sc5-styleguide-for-smallers/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://varya.me/blog/bem-faq/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/en/posts/jscs-in-use/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/en/posts/run-app-in-time-on-mac/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/en/posts/frontend-babel-alpha/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -39,6 +42,10 @@
 <url> <loc>http://varya.me/en/posts/best-way-to-hide/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/en/posts/javascript-component-solutions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/en/posts/patterned-triangle/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://varya.me/blog/new-frontend-methodology-bem/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://varya.me/blog/tutorial-javascript-components/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://varya.me/blog/quick-start-bem-stack/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://varya.me/blog/automating-style-guide-driven-development/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/ru/posts/scotland-css-and-js-2016/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/ru/posts/sc5-styleguide-for-smallers/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/ru/posts/jscs-in-use/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -137,6 +144,7 @@
 <url> <loc>http://varya.me/blog/5/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/blog/6/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/blog/7/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://varya.me/blog/8/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/blog/storybook/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/blog/webpack/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://varya.me/blog/design-systems/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
