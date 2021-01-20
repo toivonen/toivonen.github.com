@@ -77,8 +77,8 @@
 <url> <loc>https://varya.me/ru/life/life-in-finland-8/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/en/life/life-in-finland-7/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/ru/life/life-in-finland-7/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://varya.me/en/life/life-in-finland-6/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/ru/life/life-in-finland-6/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://varya.me/en/life/life-in-finland-6/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/en/life/life-in-finland-5/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/ru/life/life-in-finland-5/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/en/life/life-in-finland-4/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -133,9 +133,9 @@
 <url> <loc>https://varya.me/projects/huhtamaki/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/projects/lego-project/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/projects/bem-project/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://varya.me/design-systems/pattern-journey/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/design-systems/what-is-a-design-system/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/design-systems/team-process-workshop/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://varya.me/design-systems/pattern-journey/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/design-systems/hands-on-workshop/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/design-systems/design-systems-101/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
