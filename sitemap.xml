@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://varya.me/blog/raising-new-devs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/blog/designers-developers-linkedin-study/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/blog/design-tokens-and-components/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/blog/release-to-npm-with-github-actions/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -66,26 +67,26 @@
 <url> <loc>https://varya.me/ru/posts/xslt-recursion/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/ru/posts/efficient_xslt_techniques/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/ru/posts/xpath-prime-numbers/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://varya.me/ru/life/life-in-finland-12/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/en/life/life-in-finland-12/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://varya.me/ru/life/life-in-finland-11/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://varya.me/ru/life/life-in-finland-12/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/en/life/life-in-finland-11/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://varya.me/ru/life/life-in-finland-10/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://varya.me/ru/life/life-in-finland-11/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/en/life/life-in-finland-10/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://varya.me/ru/life/life-in-finland-10/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/en/life/life-in-finland-9/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/ru/life/life-in-finland-9/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/en/life/life-in-finland-8/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/ru/life/life-in-finland-8/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://varya.me/ru/life/life-in-finland-7/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/en/life/life-in-finland-7/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://varya.me/ru/life/life-in-finland-6/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://varya.me/ru/life/life-in-finland-7/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/en/life/life-in-finland-6/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://varya.me/ru/life/life-in-finland-6/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/en/life/life-in-finland-5/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/ru/life/life-in-finland-5/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://varya.me/en/life/life-in-finland-4/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/ru/life/life-in-finland-4/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://varya.me/ru/life/life-in-finland-3/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://varya.me/en/life/life-in-finland-4/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/en/life/life-in-finland-3/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://varya.me/ru/life/life-in-finland-3/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/ru/life/little-suomi-29-2017/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/ru/life/little-suomi-27-2017/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/en/life/little-suomi-29-2017/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -129,8 +130,8 @@
 <url> <loc>https://varya.me/projects/elisa-renewal/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/projects/react-finland-2020-workshop/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/projects/business-finland/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://varya.me/projects/hands-on-design-system-workshop/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/projects/elisa-design-system-v1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://varya.me/projects/hands-on-design-system-workshop/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/projects/huhtamaki/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/projects/lego-project/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/projects/bem-project/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -147,6 +148,7 @@
 <url> <loc>https://varya.me/blog/6/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/blog/7/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/blog/8/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://varya.me/blog/9/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/blog/storybook/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/blog/webpack/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://varya.me/blog/design-systems/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
